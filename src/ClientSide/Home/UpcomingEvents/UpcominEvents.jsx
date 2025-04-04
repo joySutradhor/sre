@@ -1,5 +1,7 @@
 import { upcommingEvents } from '../../../constant/dummyJson'
-import Upcommingcards from './upcommingcards'
+import Upcommingcards from './upcommingcards.jsx'
+
+
 
 const UpcominEvents = () => {
   return (
