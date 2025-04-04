@@ -1,0 +1,656 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .delay-1s {
+    animation-delay: 1s;
+  }
+}
+
+@font-face {
+  font-family: "Gucina";
+  src: url("/fonts/Gucina-Regular.woff") format("woff2");
+  /* url("/path-to-your-font/Gucina.woff") format("woff"); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* lexend-regular - latin */
+@font-face {
+  /* font-display: swap;  */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/lexend-v23-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+@layer components {
+  /* In your global CSS file (e.g., index.css) */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend";
+    background-color: #010101; /* Optional for redundancy */
+  }
+
+  .custom-confirm-btn {
+    @apply text-black  ; 
+  }
+  
+  .custom-ok-btn {
+    @apply text-black bg-[#FFD300] ; 
+  }
+
+
+  .sectionGap {
+    @apply mt-[60px] px-[30px]
+     md:mt-[80px] md:px-[32px]
+     lg:px-[60px] lg:mt-[80px]
+     xl:px-[100px] xl:mt-[100px]
+     2xl:px-[150px] 2xl:mt-[250px];
+  }
+
+  .sectionPadding {
+    @apply pt-[60px] px-[30px] pb-[60px]
+     md:pt-[80px] md:px-[32px]  md:pb-[80px]
+     lg:px-[60px] lg:pt-[80px] lg:pb-[80px]
+     xl:px-[100px] xl:pt-[100px] xl:pb-[100px]
+     2xl:px-[150px] 2xl:pt-[100px] 2xl:pb-[100px];
+  }
+
+  .section {
+    @apply pt-[60px]  
+     md:pt-[80px] 
+      lg:pt-[80px] 
+      xl:pt-[100px] 
+      2xl:pt-[100px];
+    /* xl:pb-[100px] lg:pb-[80px] md:pb-[80px] pb-[60px] 2xl:pb-[100px]; */
+  }
+
+  .navbarLeftRightSpace {
+    @apply px-[28px] py-[12px] 
+    /* -------- */
+    md:py-[25px] md:px-[50px];
+  }
+
+  .headerLogo {
+    @apply h-[22px]
+    
+    /* ====== */
+    md:h-[30px]
+    /* ==== */
+    lg:h-[35px]
+    /* ==== */
+    xl:h-[55px]
+    2xl:h-[55px];
+  }
+
+  .mobileMenuParent {
+    @apply pt-[25px] text-[14px]   
+    /* ======== */
+    md:pt-[30px] md:text-[16px]
+    /* ======== */
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:gap-x-[20px]
+    /* ======== */
+    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:gap-x-[30x]
+    2xl:pt-[0px] 2xl:text-[18px] 2xl:flex 2xl:list-none 2xl:text-black 2xl:gap-x-[45px]
+    /* ============ */
+    font-lexend font-medium w-full;
+  }
+
+  .subTitle {
+    @apply 2xl:text-[30px] 2xl:leading-[39px] 
+
+    font-bold font-gucina;
+  }
+
+  .para {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    text-[5px] leading-[10px] 
+
+    font-normal font-lexend;
+  }
+
+  .buttonPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    text-[8px] leading-[12px]
+
+    font-semibold;
+  }
+
+  .hoverbuttonPara {
+    @apply 2xl:text-[12px] 2xl:leading-[18px] 
+    px-[30px] py-[6px]
+
+    font-medium font-lexend;
+  }
+
+  .title {
+    @apply 2xl:text-[50px] 2xl:leading-[65px] 
+    xl:text-[50px] xl:leading-[65px] 
+    /* lg:text-[50px] lg:leading-[65px]  */
+
+    font-bold font-lexend;
+  }
+  .formTitle {
+    @apply 2xl:text-[35px] 2xl:leading-[65px] 
+    xl:text-[30px] xl:leading-[50px] 
+    lg:text-[25px] lg:leading-[50px] 
+
+    font-bold font-gucina;
+  }
+
+  .joinClanPara {
+    @apply 2xl:text-[20px] 2xl:leading-[23px] 
+    xl:text-[20px] xl:leading-[23px] 
+    lg:text-[20px] lg:leading-[23px] 
+    md:text-[20px] md:leading-[23px] 
+    text-[12px] leading-[13px] 
+    
+    font-gucina font-bold;
+  }
+  .FaqPara {
+    @apply 2xl:text-[25px] 2xl:leading-[40px] 
+    xl:text-[18px] xl:leading-[25px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[18px] md:leading-[27px] 
+    text-[12px] leading-[18px]
+
+    font-normal font-lexend;
+  }
+  .joinClanSubPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[21px] 
+
+    font-medium font-lexend;
+  }
+  .benefitPara {
+    @apply 2xl:text-[16px] 2xl:leading-[24px] 
+    xl:text-[16px] xl:leading-[24px] 
+    lg:text-[16px] lg:leading-[24px] 
+    md:text-[16px] md:leading-[24px] 
+    text-[16px] leading-[21px] 
+
+    font-normal font-lexend;
+  }
+
+  .curriculumPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[18px] md:leading-[27px] 
+    text-[18px] leading-[27px] 
+
+    font-normal font-lexend;
+  }
+
+  .customPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[12px] leading-[16px] 
+
+    font-medium font-lexend;
+  }
+
+  .HomeBannerPara {
+    @apply 2xl:text-base 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[21px] 
+
+    font-medium font-lexend;
+  }
+
+  .HomeAboutPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[21px]
+
+    font-normal font-lexend;
+  }
+
+  .paraZ {
+    @apply text-[14px] leading-[21px]
+
+    font-normal font-lexend;
+  }
+
+  .joinClanHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px] 2xl:px-[0px]
+    xl:text-[70px] xl:leading-[80px] xl:px-[0px]
+    lg:text-[70px] lg:leading-[80px] lg:px-[0px]
+    md:text-[70px] md:leading-[80px] md:px-[0px]
+    text-[16px] leading-[18px] px-[30px]
+    
+    font-gucina font-bold;
+  }
+
+  .joinHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px] 2xl:px-[0px]
+    xl:text-[70px] xl:leading-[80px] xl:px-[0px]
+    lg:text-[70px] lg:leading-[80px] lg:px-[0px]
+    md:text-[70px] md:leading-[80px] md:px-[0px]
+    text-[16px] leading-[18px] px-[30px]
+    
+    font-gucina font-bold;
+  }
+
+  .AboutCardHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[70px] lg:leading-[80px]
+    md:text-[70px] md:leading-[80px]
+    text-[20px] leading-[23px]
+    
+    font-gucina font-bold;
+  }
+  .FaqFreHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[50px] lg:leading-[80px]
+    md:text-[40px] md:leading-[80px]
+    text-[20px] leading-[23px]
+    
+    font-gucina font-bold;
+  }
+  .faqPara {
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 
+    xl:text-[14px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px] 
+    md:text-[14px] md:leading-[21px]
+text-[10px] leading-[15px]
+    font-normal font-lexend;
+  }
+
+  .faqActionHead {
+    @apply 2xl:text-[55px] 2xl:leading-[50px] 
+    xl:text-[50px] xl:leading-[50px] 
+    lg:text-[40px] lg:leading-[50px]
+    md:text-[40px] md:leading-[50px] 
+    text-[20px]  leading-[34px]
+
+    font-bold font-gucina;
+  }
+
+  .largeScreenMenu {
+    @apply lg:px-[60px] lg:pt-[20px] 
+    /* ========= */ 
+    xl:px-[100px] xl:pt-[25px] 
+    /* ========= */
+    2xl:px-[150px] 2xl:pt-[25px] 
+    /* ========= */
+    flex justify-between items-center;
+  }
+
+  .homeLargeAppoinMent {
+    @apply text-[14px] leading-[21px]  py-[3px] px-[100px]
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-lexend   rounded-[50px];
+  }
+
+  .verifyAppoinMent {
+    @apply text-[18px] leading-[21px]  py-[8px] px-[10px]
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-gucina   rounded-[50px];
+  }
+
+  .JoinButton {
+    @apply text-[10px] leading-[21px]  py-[3px] px-[10px]
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-gucina   rounded-[50px];
+  }
+
+  .AboutHome {
+    @apply text-[10px] leading-[16px]  py-[5px] px-[10px] 
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-gucina   rounded-[20px];
+  }
+
+  .heroSecSubHead {
+    @apply md:text-[20px] md:leading-[20px]
+    text-[12px] leading-[12px]
+    font-lexend font-medium;
+  }
+
+  .heroHead {
+    @apply lg:text-7xl lg:leading-[80px] xl:tracking-[5px]
+    md:text-[60px] md:leading-[70px]
+    text-[26px] leading-[30px]
+    font-gucina font-bold;
+  }
+
+  .aboutBtn {
+    @apply text-[20px] leading-[30px]
+    
+    font-medium font-gucina;
+  }
+
+  .AboutUsHead {
+    @apply 2xl:text-[40px] 2xl:leading-[40px]
+    xl:text-[40px] xl:leading-[40px] 
+    lg:text-[30px] lg:leading-[40px]
+    md:text-[30px] md:leading-[80px]
+    text-[20px] leading-[23px]
+    font-gucina font-bold;
+  }
+
+  .popularCategoryHead {
+    @apply 2xl:text-[60px] 2xl:leading-[80px] 
+    xl:text-[50px] xl:leading-[70px] 
+    lg:text-[40px] lg:leading-[60px]
+    md:text-[30px] md:leading-[40px] 
+    text-[25px]  leading-[34px]
+    font-bold font-gucina;
+  }
+  .popularCategoryPara {
+    @apply 2xl:text-[12px] 2xl:leading-[21px] 
+    xl:text-[12px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px]
+    md:text-[14px] md:leading-[21px] 
+    text-[14px] leading-[21px] 
+
+    font-normal font-lexend;
+  }
+  .CourseUi {
+    @apply 2xl:text-[12px] 2xl:leading-[21px] 
+    xl:text-[12px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px]
+    md:text-[14px] md:leading-[21px] 
+    text-[14px] leading-[16px] 
+
+    font-normal font-lexend;
+  }
+
+  .allCoursesBtn {
+    @apply px-[16px] py-[8px]
+    text-[18px] leading-[20px] 
+     
+    font-lexend rounded-[20px] font-semibold;
+  }
+
+  .upcomingEvent {
+    @apply text-[14px] leading-[16.1px] 
+    font-lexend font-semibold;
+  }
+
+  .upcomingHead {
+    @apply text-[30px] leading-[34.5px] 
+    font-gucina font-bold;
+  }
+
+  .upcomingPara {
+    @apply text-[14px] leading-[21px] 
+    font-gucina font-normal;
+  }
+  .comingSoon {
+    @apply text-[20px] leading-[21px] 
+    font-gucina font-normal;
+  }
+
+  .upcomingTitle {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[70px] lg:leading-[80px]
+    md:text-[70px] md:leading-[80px]
+    text-[20px] leading-[23px]
+    
+    font-gucina font-bold;
+  }
+
+  .upComingSubTitle {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[21px] 
+
+    font-medium font-lexend;
+  }
+
+  .NeedHelpHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[50px] lg:leading-[80px]
+    md:text-[40px] md:leading-[80px]
+    
+    font-gucina font-bold;
+  }
+
+  .needHelpPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+
+    font-medium font-lexend;
+  }
+
+  .NeedHelpbuttonPara {
+    @apply xl:text-[18px] xl:leading-[27px] 
+    text-[12px] leading-[20px] 
+
+     font-lexend;
+  }
+
+  .footerTopImg {
+    @apply h-[57px] w-[57px] lg:h-[65px] lg:w-[65px] xl:h-[80px] xl:w-[80px]
+    /* ======= */
+    2xl:h-[171px] 2xl:w-[171px];
+  }
+
+  .footerTopTitle {
+    @apply text-[20px] leading-[27px]
+    /* ======== */
+    xs:text-[16px] xs:leading-[27px]
+    /* ami */
+    /* ======= */ 
+    /* === */
+    md:text-[22px] lg:text-[19px] xl:text-[25px] 2xl:text-[48px] 2xl:leading-[50px]
+    /* =========== */
+    font-gucina font-bold;
+  }
+
+  .footerTopSubParent {
+    @apply pt-[25px] px-[25px] pb-[25px] space-x-[20px]
+    /* ========== */
+    md:pt-[50px] md:px-[50px] md:pb-[40px] md:space-x-[20px]
+    /* ========== */
+    lg:pt-[40px] lg:px-[40px] lg:pb-[40px] lg:space-x-[30px]
+    /* ========== */
+    xl:pt-[80px] xl:px-[80px] xl:pb-[80px] xl:space-x-[40px]
+    /* ======== */
+    flex justify-center items-center;
+  }
+
+  .footerTopBtn {
+    @apply text-[14px] leading-[24px] py-[4px] px-[17px] md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[18px] lg:text-[16px] lg:leading-[28px] lg:py-[8px] lg:px-[20px] xl:text-[16px] xl:leading-[28px] xl:py-[8px] xl:px-[20px] 2xl:text-[18px] 2xl:leading-[28px] 2xl:py-[24px] 2xl:px-[28px]
+    /* ============= */
+    font-gucina font-medium text-white bg-[#7EA254] rounded-full;
+  }
+
+  .footerTopnumber {
+    @apply text-[20px] leading-[24px] pt-[15px] pb-[25px]
+    /* ============= */
+    font-gucina font-bold text-[#7EA254];
+  }
+
+  .footerLogoparent {
+    @apply h-[55px] w-[207px];
+  }
+
+  .footerSocailIcon {
+    @apply text-[20px] md:text-[25px];
+  }
+
+  .footerMenuText {
+    @apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-gucina font-bold text-white;
+  }
+
+  .footerHeaderLogoText {
+    @apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-gucina font-normal text-white;
+  }
+
+  .footerMenuTextTitle {
+    @apply text-[20px] leading-[30px]  pb-[15px] 
+    md:text-[20px] md:leading-[30px]  
+    /* ========== */
+    lg:text-[20px] lg:leading-[30px]   
+    /* ========== */
+    xl:text-[20px] xl:leading-[30px]   
+    /* ========== */
+    2xl:text-[20px] 2xl:leading-[30px] 
+    /* ========== */
+
+    md:pb-[20px] lg:pb-[20px] xl:pb-[20px] 2xl:pb-[20px]
+    /* ========== */
+    font-gucina font-bold text-white;
+  }
+
+  .copyWritePara {
+    @apply 2xl:text-[16px] 2xl:leading-[27px] 
+    xl:text-[14px] xl:leading-[27px] 
+    lg:text-[14px] lg:leading-[27px] 
+    md:text-[12px] md:leading-[27px] 
+
+    font-[300px] font-lexend;
+  }
+
+  .testimonialSub {
+    @apply lg:text-[20px] lg:leading-[23px] 
+    text-[14px] leading-[21px] 
+    font-gucina font-bold;
+  }
+  .testimonialTitle {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[70px] lg:leading-[80px]
+    md:text-[70px] md:leading-[80px]
+    text-[20px] leading-[21px]
+    
+    font-gucina font-bold;
+  }
+
+  .aboutPageHero {
+    @apply 2xl:text-[40px] 2xl:leading-[60px]
+    xl:text-[24px] xl:leading-[30px] 
+    lg:text-[20px] lg:leading-[55px]
+    large:text-[30px] large:leading-[30px] 
+    md:text-[20px] md:leading-[65px]
+    text-[20px] leading-[26px]
+    
+    font-gucina font-bold;
+  }
+  .benefitHead {
+    @apply 2xl:text-[30px] 2xl:leading-[40px]
+    xl:text-[25px] xl:leading-[40px] 
+    lg:text-[25px] lg:leading-[40px]
+    large:text-[25px] large:leading-[40px] 
+    md:text-[30px] md:leading-[40px]
+    text-[25px] leading-[30px]
+    
+    font-gucina font-bold;
+  }
+  .courseDetailsPara {
+    @apply 2xl:text-[28px] 2xl:leading-[42px]
+    xl:text-[24px] xl:leading-[42px] 
+    lg:text-[20px] lg:leading-[42px]
+    large:text-[30px] large:leading-[30px] 
+    md:text-[20px] md:leading-[27px]
+    text-[20px] leading-[26px]
+    
+    font-gucina font-bold;
+  }
+
+  .BannerHead {
+    @apply 2xl:text-[80px] 2xl:leading-[90px] 
+    xl:text-[50px] xl:leading-[65px] 
+    lg:text-[40px] lg:leading-[55px]
+    md:text-[50px] md:leading-[65px]
+    text-[30px] leading-[40px]
+    
+    font-gucina font-extrabold;
+  }
+
+  .BannerPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[12px] 
+
+    font-medium font-lexend;
+  }
+
+  .BorderGlobal {
+    @apply md:border-b-4 border-b-2 ;
+  }
+
+  .menuHead {
+    @apply text-[20px] leading-[30px] font-semibold font-lexend;
+  }
+  .menuPara {
+    @apply text-[16px] leading-[24px] font-normal font-lexend;
+  }
+}
