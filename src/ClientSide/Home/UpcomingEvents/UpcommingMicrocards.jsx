@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { SlCalender } from "react-icons/sl";
 
 
-const Upcommingcards = ({ category, time, title, img, duration, location , slug }) => {
+const UpcommingMicrocards = ({ category, time, title, img, duration, location , slug }) => {
   return (
     <div className='p-5 grid  items-center gap-10  bg-white   rounded-[16px] '>
       <div className='relative w-full h-[150px] lg:h-[30vh] 2xl:h-[30vh] flex items-center overflow-hidden'>
@@ -59,4 +59,4 @@ const Upcommingcards = ({ category, time, title, img, duration, location , slug 
   )
 }
 
-export default Upcommingcards
+export default UpcommingMicrocards

@@ -1,5 +1,6 @@
 import { upcommingEvents } from '../../../constant/dummyJson'
-import Upcommingcards from './upcommingcards.jsx'
+import UpcommingMicrocards from './UpcommingMicrocards'
+
 
 
 
@@ -27,7 +28,7 @@ const UpcominEvents = () => {
 
       <div className=' mt-[35px] md:mt-[75px] grid md:grid-cols-2 xl:grid-cols-3  gap-5'>
         {upcommingEvents.map(webinar => (
-          <Upcommingcards key={webinar.id} {...webinar} />
+          <UpcommingMicrocards key={webinar.id} {...webinar} />
         ))}
       </div>
     </div>
