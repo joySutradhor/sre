@@ -8,16 +8,19 @@ const UpcominEvents = () => {
   return (
     <div className='text-[#FFFFFF]  sectionGap mt-[50px] md:mt-0 group'>
       <div>
-        <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] text-center relative'>
+        <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] md:text-center relative'>
           Upcoming{' '}
-          <span className='text-white relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-0 after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
-            Micro Courses
+          <span className='hidden lg:block text-white  '>
+            Micro Courses  
+          </span>
+          <span className='lg:hidden block text-white  BorderGlobal  border-[#FFD300] relative inline-block lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
+             Micro Courses 
           </span>
         </h1>
 
         <p
-          className='joinClanSubPara  mb-[35px]  2xl:px-[150px] xl:px-[150px] 
-      md:px-[10px] px-[10px] text-center'
+          className='joinClanSubPara  mb-[35px]  lg:px-[5vw]
+      md:px-[10px]  md:text-center text-balance'
         >
           Our upcoming micro courses are designed to fit into your busy life
           while delivering real, hands-on knowledge. Perfect for anyone eager to

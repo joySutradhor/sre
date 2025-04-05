@@ -48,11 +48,11 @@ import AllCourses from "./AllCourses/AllCourses";
 import CustomSlider from "./HeroSection/HeroSectionTest";
 import NeedHelp from "./NeedHelp/NeedHelp";
 import OurCollaboration from "./OurCollaboration/OurCollaboration";
-import PopularCategories from "./PopularCategories/PopularCategories";
+// import PopularCategories from "./PopularCategories/PopularCategories";
 import Testimonial from "./Testimonial/Testimonial";
-import TrendingCourses from "./TrendingCourses/TrendingCourses";
+// import TrendingCourses from "./TrendingCourses/TrendingCourses";
 import UpcominEvents from "./UpcomingEvents/UpcominEvents";
-import Video from "./Video/Video";
+// import Video from "./Video/Video";
 import Balance from "./Balance/Balance";
 import Placement from "./Placement/Placement";
 
@@ -70,10 +70,10 @@ const Home = () => {
       {/* <PopularCategories></PopularCategories> */}
       {/* <TrendingCourses></TrendingCourses> */}
       <AllCourses></AllCourses>
-      <Video></Video>
+      {/* <Video></Video> */}
       <OurCollaboration></OurCollaboration>
       {/* <JoinOurClan></JoinOurClan> */}
-      <div className=" pt-[0px]  md:pt-[80px] xl:pt-[250px] ">
+      <div className=" pt-[60px]  md:pt-[80px] xl:pt-[250px] ">
         <UpcominEvents></UpcominEvents>
       </div>
       <Testimonial></Testimonial>

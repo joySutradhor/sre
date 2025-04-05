@@ -44,7 +44,7 @@ const Testimonial = () => {
             // backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
             backgroundImage: `url("assets/images/testimonial-bg.png")`
           }}
-          className='bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center opacity-40'
+          className='bg-no-repeat bg-center bg-cover w-full h-[750px] flex justify-center items-center opacity-40'
         ></div>
         {/* large */}
         <div className='hidden md:block '>
@@ -215,7 +215,7 @@ const Testimonial = () => {
 
         {/* phone */}
         <div className='md:hidden block'>
-          <div className=' sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between gap-x-[30px]'>
+          <div className=' sectionGap absolute inset-0 grid grid-cols-1  items-center justify-between gap-x-[30px]'>
             {/* text */}
 
             <div className=' text-center'>
@@ -225,13 +225,13 @@ const Testimonial = () => {
               <h1 className='popularCategoryHead text-[#FFFFFF]  '>
                 What students say
               </h1>
-              <div className='pt-[20px]'>
-                <p className='joinClanSubPara text-[#FFFFFF] '>
-                  `I Never Thought Learning Could Be This Fun! Studying feels so
+              <div className='pt-[20px] pb-10'>
+                <p className='joinClanSubPara text-[#FFFFFF] text-left '>
+                  I Never Thought Learning Could Be This Fun! Studying feels so
                   easy with all the hands-on activities and engaging quizzes.
                   This website made learning so much more fun, and I'm able to
                   track my progress step by step. It's like having a tutor in my
-                  pocket 24/7!`
+                  pocket 24/7!
                 </p>
                 <p className='joinClanSubPara text-[#FFFFFF] text-center pt-[10px]'>
                   {' '}

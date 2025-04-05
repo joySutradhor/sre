@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import OurCollaboration from "../Home/OurCollaboration/OurCollaboration";
 import Testimonial from "../Home/Testimonial/Testimonial";
-import Video from "../Home/Video/Video";
+// import Video from "../Home/Video/Video";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import AboutHero from "./AboutHero/AboutHero";
@@ -17,7 +17,7 @@ const AboutUsPage = () => {
 			<Navbar></Navbar>
 			<AboutHero></AboutHero>
 			<OnlineCourses></OnlineCourses>
-			<Video></Video>
+			{/* <Video></Video> */}
 			<Testimonial></Testimonial>
 			{/* <TestimonialAbout /> */}
 			<OurCollaboration></OurCollaboration>

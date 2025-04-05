@@ -1,4 +1,4 @@
-import FreeWebinar from "../../components/WhatsNew/FreeWebinar";
+// import FreeWebinar from "../../components/WhatsNew/FreeWebinar";
 import UpCmnTtle from "../../components/WhatsNew/UpCmnTtle";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
@@ -19,7 +19,7 @@ const WhatsNew = () => {
 				<UpcommingMicroEvents></UpcommingMicroEvents>
 			</div>
 
-			<FreeWebinar />
+			{/* <FreeWebinar /> */}
 
 			<Footer></Footer>
 		</div>

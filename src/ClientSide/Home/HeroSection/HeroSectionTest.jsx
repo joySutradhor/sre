@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import { LiaLinkedinIn } from 'react-icons/lia'
-import { MdArrowDownward } from 'react-icons/md'
+import { MdArrowDownward, MdArrowOutward } from 'react-icons/md'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
@@ -93,17 +93,17 @@ function CustomSlider () {
                       isMobileActive ? 'opacity-100' : 'opacity-0'
                     } transition-opacity ease-in-out duration-700`}
                   >
-                    <button className='py-3 px-5 font-lexend bg-[#FFD300] flex items-center gap-x-2  heroSecSubHead cursor-default text-black rounded-full heroSecSubHead my-4 w-40 sm:w-2/5'>
+                    <button className='py-2 px-5 font-lexend bg-[#FFD300] flex items-center gap-x-2   cursor-default text-black  text-sm font-medium rounded-full  my-2  '>
                       Welcome to eduden
                     </button>
-                    <h1 className='heroHead text-[#FFFFFF] w-[220px] sm:w-full mb-3'>
+                    <h1 className='heroHead text-[#FFFFFF]   mb-3'>
                       {slide.title}
                     </h1>
                     <p className='w-[220px] sm:w-full HomeBannerPara text-[#FFFFFF]'>
                       {slide.paragraph}
                     </p>
-                    <button className='homeLargeAppoinMent md:w-1/3 font-lexend my-4 px-[10px] py-[5px] text-[#010101] bg-[#FFD300] font-bold'>
-                      {slide.button}
+                    <button className='homeLargeAppoinMent flex gap-x-2 py-2 mb-2 px-5 text-black font-medium mt-4 font-lexend bg-[#FFD300] '>
+                      {slide.button} <span><GoArrowDownRight  className='text-xl' /></span>
                     </button>
                   </div>
                 </div>
@@ -148,9 +148,9 @@ function CustomSlider () {
                         {slide.paragraph}
                       </p>
                       <Link to="/about">
-                        <button className='homeLargeAppoinMent font-lexend my-10 px-[16px] py-[5px] flex items-center justify-between white/50 tracking-[5px] border'>
+                        <button className='homeLargeAppoinMent text-black font-lexend my-10 px-[16px] py-[5px] flex items-center justify-between bg-[#FFD300]   '>
                           {slide.button}{' '}
-                          <span className='text-3xl animate-pulse'>
+                          <span className='text-2xl animate-pulse'>
                             <GoArrowDownRight />
                           </span>
                         </button>

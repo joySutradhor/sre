@@ -3,17 +3,17 @@ import { FaLocationDot } from 'react-icons/fa6'
 const Balance = () => {
   return (
     <div className='sectionGap grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-[100px]'>
-      <div className='h-[300px] md:h-[400px] lg:h-[600px]  rounded-[8px]   relative flex justify-center items-center'>
+      <div className=' md:h-[400px] lg:h-[600px]  rounded-[8px]   relative flex justify-center items-center'>
         <div className='relative'>
           <img src='/map.png' alt='' className='w-full h-full object-cover' />
-          <div className='absolute top-[36%] left-[14%]'>
-            <FaLocationDot className='text-[#fff] text-xl md:text-xl animate-pulse  ' />
+          <div className='absolute top-[32%] left-[14%] md:top-[36%] md:left-[14%] lg:top-[32%] lg:left-[14%]'>
+            <FaLocationDot className='text-[#fff] text-sm md:text-xl animate-pulse  ' />
           </div>
-          <div className='absolute top-[48%] right-[30%]'>
-            <FaLocationDot className='text-[#fff] text-xl md:text-xl  animate-pulse ' />
+          <div className='absolute top-[45%] right-[29%] md:top-[48%] md:right-[30%] lg:top-[45%] lg:right-[29%]'>
+            <FaLocationDot className='text-[#fff] text-sm md:text-xl  animate-pulse ' />
           </div>
-          <div className='absolute top-[45%] right-[26.5%]'>
-            <FaLocationDot className='text-[#fff] text-xl md:text-xl   ' />
+          <div className='absolute top-[40%] right-[26.5%] md:top-[45%] md:right-[26.5%] lg:top-[40%] lg:right-[26.5%] xl:top-[42%] 2xl:top-[45%]'>
+            <FaLocationDot className='text-[#fff] text-sm  md:text-xl   ' />
           </div>
         </div>
       </div>

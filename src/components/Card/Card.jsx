@@ -22,7 +22,7 @@ const Card = ({
   return (
     <>
       <div
-        className={`cursor-pointer w-full sm:min-h-[740px]  sm:h-[740px] xl:h-[760px] bg-white rounded-[20px] flex flex-col gap-1  justify-between group  hover:bg-gradient-to-b from-[#FFD300]  to-[#FAB70A]  flex-grow-0 flex-shrink-0 transition-colors ease-in-out duration-500  box-borders ${
+        className={`cursor-pointer w-full h-full bg-white rounded-[20px] flex flex-col gap-1  justify-between group  hover:bg-gradient-to-b from-[#FFD300]  to-[#FAB70A]  flex-grow-0 flex-shrink-0 transition-colors ease-in-out duration-500  box-borders ${
           slider && 'h-full '
         }`}
         // onClick={() => navigate("/courseDetails")}
@@ -36,7 +36,7 @@ const Card = ({
             <img
               src={image}
               alt='picture'
-              className='w-full rounded-t-[20px] max-h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110 '
+              className='w-full rounded-t-[20px] max-h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover '
             />
             <div className='w-[60px] h-[60px] md:w-[102px] md:h-[102px] rounded-full bg-[#FAB70A] absolute bottom-0 flex items-center justify-center right-[35px] translate-y-1/2 font-bold text-black font-gucina text-[20px] md:text-[35px]'>
               {price}
@@ -44,10 +44,10 @@ const Card = ({
           </div>
           <div className='px-[14px] md:px-[25px] mt-10 md:mt-[68px]'>
             <div>
-              <div className='flex items-center justify-between gap-[10px] sm:gap-[30px] '>
-                <p className='w-[170px] h-[36px] flex justify-center items-center bg-[#FAB70A] text-[14px] leading-[16px] font-bold text-black rounded-[50px]'>
+              <div className='lg:flex items-center justify-between gap-[10px] sm:gap-[30px] '>
+                <button className='bg-[#FAB70A] text-[14px] py-2 px-5 font-medium text-black rounded-[50px] mb-2 lg:mb-auto'>
                   {category}
-                </p>
+                </button>
                 <div className='flex items-center gap-[4px] sm:gap-[8px]'>
                   <FaStar fill='#FF8A00' className='h-[16px] w-[16px]' />
                   <FaStar fill='#FF8A00' className='h-[16px] w-[16px]' />
@@ -61,7 +61,7 @@ const Card = ({
               <h3 className='font-gucina text-[20px] md:text-[30px] text-[#010101] font-bold'>
                 {title}
               </h3>
-              <p className='text-black text-[12px] md:text-[12px] mt-[6px] md:mt-[15px] font-lexend'>
+              <p className='joinClanSubPara text-black mt-[6px] md:mt-[15px] font-lexend'>
                 {description}
               </p>
             </div>

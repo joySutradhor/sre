@@ -14,8 +14,8 @@ const HeroSection = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: false,
+    autoplaySpeed: 30000,
     arrows: false
   }
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
 								</button> */}
 
                 <h1 className='heroHead  text-[#FFFFFF] max-w-[500px] pb-[5px]'>
-                  Where Learning Meets Imagination & Innovation!
+                  Where Learning Meets Imagination & Innovation! 
                 </h1>
 
                 <p className='max-w-[604px]  HomeBannerPara  text-[#FFFFFF]'>

@@ -5,10 +5,10 @@ import { MdEmail } from 'react-icons/md'
 const ContactCard = () => {
   return (
     <div className='sectionGap'>
-      <div className=' text-white grid grid-cols-1 lg:grid-cols-3 gap-[36px] items-center'>
+      <div className=' text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[36px] '>
         {/* Title */}
 
-        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px] pr-[57px]  h-auto lg:h-[290px]'>
+        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px] pr-[57px]  h-auto '>
           <div className='h-[60px] w-[60px] mb-[16px] bg-[#FFD300] rounded-full flex items-center justify-center'>
             <FaPhoneAlt size={27} className='text-black ' />
           </div>
@@ -19,7 +19,7 @@ const ContactCard = () => {
           </div>
         </div>
 
-        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px]  pr-[57px] h-auto lg:h-[290px]'>
+        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px]  pr-[57px] h-auto '>
           <div className='h-[60px] w-[60px] mb-[16px] bg-[#FFD300] rounded-full flex items-center justify-center'>
             <MdEmail size={27} className='text-black' />
           </div>
@@ -30,7 +30,7 @@ const ContactCard = () => {
           </div>
         </div>
 
-        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px] pr-[57px]  h-auto lg:h-[290px]'>
+        <div className='bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px] pr-[57px]  h-auto '>
           <div className='h-[60px] w-[60px] mb-[16px] bg-[#FFD300] rounded-full flex items-center justify-center'>
             <FaLocationDot size={27} className='text-black' />
           </div>

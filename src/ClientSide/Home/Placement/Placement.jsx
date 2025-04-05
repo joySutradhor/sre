@@ -20,26 +20,21 @@ function Placement () {
       <div className='grid lg:grid-cols-2 gap-[10vw] items-center relative group '>
         <div>
           <div className='flex '>
-            {/* <h1 className='testimonialSub mb-[20px]  flex items-center text-left  text-[#FFD300]'>
-              <span>
-                <HiOutlineMinusSmall />{' '}
-              </span>
-              Placement{' '}
-              <span>
-                <HiOutlineMinusSmall />{' '}
-              </span>
-            </h1> */}
           </div>
           <div className='space-y-5'>
-            <h1 className='popularCategoryHead mb-[35px]  text-white relative'>
+            <div className='md:flex md:justify-center'>
+            <h1 className='popularCategoryHead mb-[35px]  text-white relative '>
               {' '}
               Our Students in Leading
-              <span className='  text-white  after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-0 after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-[50%]'>
-                <br /> Global Roles
+              <span className='hidden lg:block text-white lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] lg:after:transition-all lg:after:duration-300 lg:group-hover:after:w-[50%]'>
+             Global Roles
+              </span>{' '}
+              <span className='lg:hidden block text-white BorderGlobal  border-[#FFD300] w-[80vw] md:w-[40vw] md:text-center '> Global Roles
               </span>{' '}
             </h1>
+            </div>
 
-            <p className='font-lexend text-white '>
+            <p className='joinClanSubPara text-white md:text-center lg:text-left text-left'>
               From creative design to cutting-edge technology, our students have
               secured prestigious roles in top multinational companies. As a
               Python <strong>Developer</strong> at <strong>Amazon</strong>  ,  <strong>UI/UX Designer</strong>  at <strong>VMware</strong> ,  <strong>Data
@@ -63,16 +58,16 @@ function Placement () {
             speed='15'
           >
             <div className='flex  gap-10 mr-8 cursor-pointer'>
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 size-20 md:size-24 lg:size-28  flex items-center justify-center'>
                 <img className='w-32 ' src={amazon} alt='amazon' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
-                <img className='w-32 ' src={vmware} alt='vmware' />
+              <div className='p-1 size-20 md:size-24 lg:size-28  flex items-center justify-center'>
+                <img className='w-32  ' src={vmware} alt='vmware' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
-                <img className='w-10 lg:w-16  ' src={ey} alt='ey' />
+              <div className='p-1 size-20 md:size-24 lg:size-28  flex items-center justify-center'>
+                <img className='w-10  ' src={ey} alt='ey' />
               </div>
             </div>
           </Marquee>
@@ -86,16 +81,16 @@ function Placement () {
             direction='right'
           >
             <div className='flex  gap-10 mr-8 cursor-pointer'>
-              <div className='p-1 size-28  flex items-center justify-center'>
-                <img className='w-32 ' src={ibm} alt='ibm' />
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
+                <img className='lg:w-32 w-16' src={ibm} alt='ibm' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
-                <img className='w-32 ' src={tcs} alt='tcs' />
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
+                <img className='lg:w-32  w-16' src={tcs} alt='tcs' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
-                <img className='w-32 ' src={cisco} alt='cisco' />
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
+                <img className='lg:w-32 w-16' src={cisco} alt='cisco' />
               </div>
             </div>
           </Marquee>
@@ -108,11 +103,11 @@ function Placement () {
             speed='15'
           >
             <div className='flex  gap-10 mr-8 cursor-pointer'>
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
                 <img className='w-32 ' src={ethicalden} alt='ethicalden' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
                 <img className='w-32 ' src={accenture} alt='accenture' />
               </div>
             </div>
@@ -127,15 +122,15 @@ function Placement () {
             direction='right'
           >
             <div className='flex  gap-10 mr-8 cursor-pointer'>
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
                 <img className='w-32 ' src={paloalto} alt='paloalto' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
                 <img className='w-10 lg:w-16' src={jio} alt='jio' />
               </div>
 
-              <div className='p-1 size-28  flex items-center justify-center'>
+              <div className='p-1 lg:size-28 size-20 md:size-24  flex items-center justify-center'>
                 <img className='w-32 ' src={deloitte} alt='deloitte' />
               </div>
             </div>

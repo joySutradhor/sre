@@ -35,9 +35,9 @@ const AllCourses = () => {
     setCategoriesList(updateCategory)
   }
   return (
-    <div className='sectionGap text-[#FFFFFF] group'>
+    <div className='sectionGap text-[#FFFFFF] '>
       <div>
-        <h1 className='testimonialSub mb-[20px]  flex items-center justify-center text-[#FFD300]'>
+        <h1 className='testimonialSub mb-[20px]  flex items-center md:justify-center text-[#FFD300]'>
           <span>
             <HiOutlineMinusSmall />{' '}
           </span>
@@ -46,9 +46,9 @@ const AllCourses = () => {
             <HiOutlineMinusSmall />{' '}
           </span>
         </h1>
-        <h1 className='popularCategoryHead mb-[35px] text-center '>
+        <h1 className='popularCategoryHead mb-[35px] md:text-center '>
           All{' '}
-          <span className='text-white relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-0 after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
+          <span className='BorderGlobal  border-[#FFD300]'>
             Courses
           </span>
         </h1>
