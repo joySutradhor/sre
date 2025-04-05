@@ -29,7 +29,7 @@ function Placement () {
               <span className='hidden lg:block text-white lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] lg:after:transition-all lg:after:duration-300 lg:group-hover:after:w-[50%]'>
              Global Roles
               </span>{' '}
-              <span className='lg:hidden block text-white BorderGlobal  border-[#FFD300] w-[80vw] md:w-[40vw] md:text-center '> Global Roles
+              <span className='lg:hidden block text-white BorderGlobal  border-[#FFD300] w-[70vw] md:w-[40vw] md:text-center '> Global Roles
               </span>{' '}
             </h1>
             </div>
