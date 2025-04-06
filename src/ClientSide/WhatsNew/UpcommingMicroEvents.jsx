@@ -21,7 +21,7 @@ const UpcommingMicroEvents = () => {
       md:px-[10px] px-[10px] text-center'
         >
           Well, because we’re not your grandma’s boring old school! At eduden,
-          we’re the rebels of education, the mavericks of learning, and the
+          we are the rebels of education, the mavericks of learning, and the
           champions of fun-filled knowledge. We’ll teach you how to slay dragons
           and code websites, all while cracking jokes and sipping on virtual
           coffee.
