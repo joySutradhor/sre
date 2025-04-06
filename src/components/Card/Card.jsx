@@ -71,8 +71,8 @@ const Card = ({
         {/* Content shown on hover */}
         <div className='px-[14px] md:px-[25px]  pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out'>
           <div>
-            <div className='flex items-center gap-[10px] sm:gap-[30px]'>
-              <p className='w-[170px] h-[36px] flex justify-center items-center bg-[#010101]  text-[14px]  leading-[16px] font-bold text-white rounded-[50px]'>
+            <div className='md:flex items-center gap-[10px] sm:gap-[30px]'>
+              <p className='w-[170px] h-[36px] flex justify-center items-center bg-[#010101]  text-[14px]  leading-[16px] font-bold text-white rounded-[50px] mb-2 md:mb-auto'>
                 {category}
               </p>
               <div className='flex items-center gap-[4px] sm:gap-[8px]'>
@@ -98,14 +98,14 @@ const Card = ({
               <TitleContainer
                 title={'Enroll Now'}
                 className={
-                  'px-[18px] py-2 bg-[#010101]  text-white rounded-[50px] text-nowrap cursor-pointer hover:scale-105 text-[14px] md:text-[20px]'
+                  'md:px-[18px] md:py-2 py-2 px-3 bg-[#010101]  text-white rounded-[50px] text-nowrap cursor-pointer hover:scale-105 text-[14px] md:text-[20px]'
                 }
                 handler={() => {}}
               />
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 200 60'
-                className='w-[54px] shrink-0 md:w-12 h-12  text-[#010101] transition-transform duration-500 ease-in-out hover:scale-125'
+                className='w-[30px] shrink-0 md:w-12 h-12  text-[#010101] transition-transform duration-500 ease-in-out hover:scale-125'
               >
                 <line
                   x1='0'
@@ -120,7 +120,7 @@ const Card = ({
               <TitleContainer
                 title={price}
                 className={
-                  'px-[20px] py-2 md:px-[25px] md:py-[13px]  rounded-[50px] bg-[#010101]  text-white text-[16px] font-gucina font-bold '
+                  'px-4 py-2 md:px-[25px] md:py-[13px]  rounded-[50px] bg-[#010101]  text-white text-[16px] font-gucina font-bold '
                 }
               />{' '}
             </div>

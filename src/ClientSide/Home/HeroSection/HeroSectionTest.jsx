@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaHome, FaInstagram } from 'react-icons/fa'
 import { LiaLinkedinIn } from 'react-icons/lia'
 import { MdArrowDownward, MdArrowOutward } from 'react-icons/md'
 import Slider from 'react-slick'
@@ -84,7 +84,7 @@ function CustomSlider () {
                 className='overflow-hidden flex justify-center items-center md:px-5 lg:px-5'
               >
                 <div
-                  className={`flex flex-col bg-cover bg-no-repeat bg-center justify-center rounded-lg lg:h-[60vh] w-full py-2 px-8 sm:px-[30px] lg:px-16`}
+                  className={`flex flex-col bg-cover bg-no-repeat bg-center justify-center rounded-lg h-[40vh] md:h-[50vh] lg:h-[60vh] w-full py-2 px-8 sm:px-[30px] lg:px-16`}
                   style={{ backgroundImage: `url(${slide.image})` }}
                 >
                   {/* Only display content of the active slide */}
@@ -93,8 +93,8 @@ function CustomSlider () {
                       isMobileActive ? 'opacity-100' : 'opacity-0'
                     } transition-opacity ease-in-out duration-700`}
                   >
-                    <button className='py-2 px-5 font-lexend bg-[#FFD300] flex items-center gap-x-2   cursor-default text-black  text-sm font-medium rounded-full  my-2  '>
-                      Welcome to eduden
+                    <button className='py-2 px-5 font-lexend bg-[#FFD300] flex items-center gap-x-2   cursor-default text-black  text-sm font-medium rounded-full  my-4  '>
+                     <FaHome/> Welcome to eduden
                     </button>
                     <h1 className='heroHead text-[#FFFFFF]   mb-3'>
                       {slide.title}
@@ -102,9 +102,9 @@ function CustomSlider () {
                     <p className='w-[220px] sm:w-full HomeBannerPara text-[#FFFFFF]'>
                       {slide.paragraph}
                     </p>
-                    <button className='homeLargeAppoinMent flex gap-x-2 py-2 mb-2 px-5 text-black font-medium mt-4 font-lexend bg-[#FFD300] '>
+                    {/* <button className='homeLargeAppoinMent flex gap-x-2 py-2 mb-2 px-5 text-black font-medium mt-4 font-lexend bg-[#FFD300] '>
                       {slide.button} <span><GoArrowDownRight  className='text-xl' /></span>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -176,14 +176,14 @@ function CustomSlider () {
 
                         {/* Social Icons */}
                         <div className='flex flex-col space-y-[10px] items-center'>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer'>
-                            <FaFacebook size={20} />
+                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                           <Link to="https://www.facebook.com/profile.php?id=61557983775555" target='_blank'> <FaFacebook size={20} /></Link>
                           </div>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer'>
-                            <FaInstagram size={20} />
+                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                            <Link to="https://www.instagram.com/at_eduden/" target='_blank'> <FaInstagram size={20} /></Link>
                           </div>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer'>
-                            <LiaLinkedinIn size={20} />
+                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                            <Link to="https://www.linkedin.com/company/edu-den/" target='_blank'> <LiaLinkedinIn size={20} /></Link>
                           </div>
                         </div>
                       </div>

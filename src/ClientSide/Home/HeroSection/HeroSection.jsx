@@ -47,9 +47,9 @@ const HeroSection = () => {
                   and conquering the digital realm with confidence.
                 </p>
               </div>
-              <button className='homeLargeAppoinMent mt-[20px] px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#FFD300] font-bold mb-[35px]'>
+              {/* <button className='homeLargeAppoinMent mt-[20px] px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#FFD300] font-bold mb-[35px]'>
                 Discover More
-              </button>
+              </button> */}
             </div>
           </div>
 

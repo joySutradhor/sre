@@ -40,7 +40,7 @@ const Footer = () => {
                   <SlSocialFacebook size={28} className='footerSocailIcon' />
                 </a>
                 <a
-                  href='https://www.instagram.com/at_eduden/?hl=en'
+                  href='https://www.instagram.com/at_eduden/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px]'
@@ -210,7 +210,7 @@ const Footer = () => {
                     href='https://www.facebook.com/profile.php?id=61557983775555'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px]'
+                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px] hover:scale-105 hover:bg-white hover:text-black transition-all duration-500 ease-in-out '
                   >
                     <SlSocialFacebook size={30} className='footerSocailIcon' />
                   </a>
@@ -218,7 +218,7 @@ const Footer = () => {
                     href='https://www.instagram.com/at_eduden/?hl=en'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px]'
+                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px] hover:scale-105 hover:bg-white hover:text-black transition-all duration-500 ease-in-out'
                   >
                     <FaInstagram size={30} className='footerSocailIcon' />
                   </a>
@@ -232,7 +232,7 @@ const Footer = () => {
                     href='https://www.linkedin.com/company/edu-den/'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px]'
+                    className='bg-[#FFD300] text-[#030303] px-[8px] rounded-full py-[8px] hover:scale-105 hover:bg-white hover:text-black transition-all duration-500 ease-in-out'
                   >
                     <CiLinkedin size={30} className='footerSocailIcon' />
                   </a>

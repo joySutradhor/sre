@@ -22,9 +22,13 @@ const OurCollaboration = () => {
           <HiOutlineMinusSmall />{' '}
         </span>
       </h1>
-      <h1 className='popularCategoryHead mb-8 md:mb-10  md:text-center'>
+      <h1 className='popularCategoryHead mb-8 md:mb-10  md:text-center block lg:hidden'>
         {' '}
         The Technology Behind  <span className='relative BorderGlobal  border-[#FFD300] text-white lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] lg:after:transition-all lg:after:duration-300 lg:group-hover:after:w-full'>Our Success </span>
+      </h1>
+      <h1 className='popularCategoryHead mb-8 md:mb-10  md:text-center lg:block hidden'>
+        {' '}
+        The Technology Behind  <span className='relative  text-white lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] lg:after:transition-all lg:after:duration-300 lg:group-hover:after:w-full'>Our Success </span>
       </h1>
       <p className='joinClanSubPara mb-10 lg:mb-20 md:text-center text-balance'>
       At eduden, we leverage cutting-edge technology to deliver seamless, interactive, and engaging learning experiences. From AI-powered learning tools to secure cloud-based platforms, our tech-driven approach ensures that students and educators stay ahead in the digital era. Explore how our innovation enhances education at eduden. 

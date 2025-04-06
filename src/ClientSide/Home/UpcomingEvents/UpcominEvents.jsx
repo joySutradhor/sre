@@ -8,12 +8,21 @@ const UpcominEvents = () => {
   return (
     <div className='text-[#FFFFFF]  sectionGap mt-[50px] md:mt-0 group'>
       <div>
-        <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] md:text-center relative'>
+        <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] md:text-center relative block lg:hidden'>
           Upcoming{' '}
-          <span className='hidden lg:block text-white  '>
+          <span className=' text-white  '>
             Micro Courses  
           </span>
-          <span className='lg:hidden block text-white  BorderGlobal  border-[#FFD300] relative inline-block lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
+          <span className=' text-white  BorderGlobal  border-[#FFD300] relative inline-block lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
+             Micro Courses 
+          </span>
+        </h1>
+        <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] md:text-center relative lg:block hidden'>
+          Upcoming{' '}
+          <span className=' text-white  '>
+            Micro Courses   {' '}
+          </span>
+          <span className=' text-white  relative inline-block lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:h-[4px] lg:after:w-0 lg:after:bg-[#FFD300] after:transition-all after:duration-300 group-hover:after:w-full'>
              Micro Courses 
           </span>
         </h1>

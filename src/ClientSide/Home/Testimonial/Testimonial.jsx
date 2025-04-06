@@ -176,7 +176,7 @@ const Testimonial = () => {
                     </div>
                     <div className='ml-[12px]'>
                       <p className='text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#FFD300]'>
-                        Nazmul Islam
+                        Rifat Islam
                       </p>
                       <p className='font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]'>
                         Graphics Designer
@@ -280,10 +280,10 @@ const Testimonial = () => {
                       />
                     </div>
                     <div className='ml-[12px]'>
-                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300]'>
+                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300] mb-1'>
                         Sarah Chowdhury
                       </p>
-                      <p className='font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]'>
+                      <p className='font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF] '>
                         UI/UX Designer
                       </p>
                     </div>
@@ -323,7 +323,7 @@ const Testimonial = () => {
                       />
                     </div>
                     <div className='ml-[12px]'>
-                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300] '>
+                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300] mb-1'>
                         Audry Roy
                       </p>
                       <p className='font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]'>
@@ -369,8 +369,8 @@ const Testimonial = () => {
                       />
                     </div>
                     <div className='ml-[12px]'>
-                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300] '>
-                        Nazmul Islam – Graphic Designer
+                      <p className='text-[16px] leading-[16px] font-bold font-gucina text-[#FFD300] mb-1 '>
+                        Rifat Islam
                       </p>
                       <p className='font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]'>
                         Graphic Designer
