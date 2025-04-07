@@ -90,25 +90,31 @@ const Footer = () => {
             <div className='text-white'>
               <h2 className='footerMenuTextTitle'>Learning platform</h2>
 
-              <p className='footerMenuText  flex flex-row items-center gap-x-[10px] pb-2'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <RiYoutubeFill size={10} className='footerSocailIcon' />
-                </div>
-                YouTube
-              </p>
+              <Link to="https://www.w3schools.com/" target="_blank">
+                <p className='footerMenuText  flex flex-row items-center gap-x-[10px] pb-2'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <RiYoutubeFill size={10} className='footerSocailIcon' />
+                  </div>
+                  YouTube
+                </p>
+              </Link>
 
-              <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <FaFacebookF size={10} className='footerSocailIcon' />
-                </div>
-                Facebook
-              </p>
-              <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <FaInstagram size={10} className='footerSocailIcon' />
-                </div>
-                Instagram
-              </p>
+              <Link to="https://www.w3schools.com/" target="_blank">
+                <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <FaFacebookF size={10} className='footerSocailIcon' />
+                  </div>
+                  Facebook
+                </p>
+              </Link>
+              <Link to="https://www.w3schools.com/" target="_blank">
+                <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <FaInstagram size={10} className='footerSocailIcon' />
+                  </div>
+                  Instagram
+                </p>
+              </Link>
             </div>
 
             <div className='text-white'>
@@ -271,25 +277,31 @@ const Footer = () => {
             <div className='text-white'>
               <h2 className='footerMenuTextTitle'>Learning platform</h2>
 
-              <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <RiYoutubeFill size={10} className='footerSocailIcon' />
-                </div>
-                YouTube
-              </p>
+              <Link>
+                <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <RiYoutubeFill size={10} className='footerSocailIcon' />
+                  </div>
+                  YouTube
+                </p>
+              </Link>
 
-              <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <FaFacebookF size={10} className='footerSocailIcon' />
-                </div>
-                Facebook
-              </p>
-              <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
-                <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
-                  <FaInstagram size={10} className='footerSocailIcon' />
-                </div>
-                Instagram
-              </p>
+              <Link>
+                <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <FaFacebookF size={10} className='footerSocailIcon' />
+                  </div>
+                  Facebook
+                </p>
+              </Link>
+              <Link>
+                <p className='footerMenuText flex flex-row items-center gap-x-[10px]'>
+                  <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
+                    <FaInstagram size={10} className='footerSocailIcon' />
+                  </div>
+                  Instagram
+                </p>
+              </Link>
             </div>
 
             <div className='text-white'>
@@ -310,7 +322,7 @@ const Footer = () => {
 
               <div className='md:pb-[10px]'>
                 <p className='text-[14px] leading-[21px] font-gucina font-bold text-white md:pb-[2px]'>
-                primary coaching centre:
+                  primary coaching centre:
                 </p>
                 <p className='text-[14px] leading-[21px] font-gucina font-bold text-white'>
                   Nokia Care Building, South Dumdum, Kolkata

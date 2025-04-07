@@ -15,8 +15,8 @@ const UpcommingMicrocards = ({ category, time, title, img, duration, location , 
           alt='webinar'
           className='rounded-[8px] object-cover w-full h-full'
         />
-        <div className='absolute 2xl:top-[10px] 2xl:left-[10px] xl:top-[10px] xl:left-[10px] top-[6px] left-[6px] '>
-          <p className='2xl:px-[12px] 2xl:py-[6px] px-5 py-2 text-[#010101] text-sm font-medium  leading-[18px]  bg-[#FFD300] rounded-[50px]'>
+        <div className='absolute 2xl:top-[10px] 2xl:left-[10px] xl:top-[10px] xl:left-[10px] top-[15px] left-[6px] '>
+          <p className='2xl:px-[12px] 2xl:py-[6px] px-5 py-1 text-white text-sm font-medium  leading-[18px]  border-2 border-[#FFD300] rounded-[50px]'>
             {' '}
             {category}
           </p>
@@ -49,7 +49,7 @@ const UpcommingMicrocards = ({ category, time, title, img, duration, location , 
         </div>
         <div className='mt-5 mb-5'>
           <Link to={`/micro-courses/${slug}`}>
-            <button className='max-w-[180px]  text-[#010101]  px-5 py-2 text-sm lg:text-base font-medium border border-[#FFD300] rounded-[50px] w-full cursor-pointer bg-[#FFD300] '>
+            <button className='  text-[#010101]  px-5 py-2 text-sm lg:text-base font-medium border border-[#FFD300] rounded-[50px] w-full cursor-pointer bg-[#FFD300] '>
               See Details
             </button>
           </Link>

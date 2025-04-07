@@ -9,7 +9,7 @@ const NeedHelp = () => {
           style={{
             backgroundImage: `url(${'https://i.ibb.co.com/bbJV794/group-1045-66f4e2ba50515.webp'})`
           }}
-          className='bg-no-repeat bg-center bg-cover w-[100%] h-[315px] flex justify-center items-center'
+          className='bg-no-repeat bg-center bg-cover w-[100%] h-[50vh] flex justify-center items-center'
         ></div>
 
         {/* Text Section */}

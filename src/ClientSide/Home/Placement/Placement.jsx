@@ -22,7 +22,7 @@ function Placement () {
           <div className='flex '>
           </div>
           <div className='space-y-5'>
-            <div className='md:flex md:justify-center'>
+            <div className='md:flex md:justify-center lg:justify-start'>
             <h1 className='popularCategoryHead mb-[35px]  text-white relative '>
               {' '}
               Our Students in Leading

@@ -74,7 +74,7 @@ function CustomSlider () {
   return (
     <>
       {/* mobile screen */}
-      <div className='w-full bg-black text-white pt-3 pb-[15px] lg:pt-10 lg:pb-16 block xl:hidden'>
+      <div className='w-full  text-white pt-3 pb-[15px] lg:pt-10 lg:pb-16 block xl:hidden'>
         <Slider {...mobileSettings} afterChange={handleAfterChangeMobile}>
           {slides.map((slide, index) => {
             const isMobileActive = index === mobileActiveSlide
@@ -84,7 +84,7 @@ function CustomSlider () {
                 className='overflow-hidden flex justify-center items-center md:px-5 lg:px-5'
               >
                 <div
-                  className={`flex flex-col bg-cover bg-no-repeat bg-center justify-center rounded-lg h-[40vh] md:h-[50vh] lg:h-[60vh] w-full py-2 px-8 sm:px-[30px] lg:px-16`}
+                  className={`flex flex-col bg-cover bg-no-repeat bg-center justify-center rounded-lg h-[50vh] md:h-[50vh] lg:h-[60vh] w-full py-2 px-8 sm:px-[30px] lg:px-16`}
                   style={{ backgroundImage: `url(${slide.image})` }}
                 >
                   {/* Only display content of the active slide */}
@@ -93,18 +93,18 @@ function CustomSlider () {
                       isMobileActive ? 'opacity-100' : 'opacity-0'
                     } transition-opacity ease-in-out duration-700`}
                   >
-                    <button className='py-2 px-5 font-lexend bg-[#FFD300] flex items-center gap-x-2   cursor-default text-black  text-sm font-medium rounded-full  my-4  '>
+                    {/* <button className='py-2 px-5 font-lexend border-2 border-[#FFD300] flex items-center gap-x-2   cursor-default text-white  text-sm font-medium rounded-full  my-4  '>
                      <FaHome/> Welcome to eduden
-                    </button>
+                    </button> */}
                     <h1 className='heroHead text-[#FFFFFF]   mb-3'>
                       {slide.title}
                     </h1>
                     <p className='w-[220px] sm:w-full HomeBannerPara text-[#FFFFFF]'>
                       {slide.paragraph}
                     </p>
-                    {/* <button className='homeLargeAppoinMent flex gap-x-2 py-2 mb-2 px-5 text-black font-medium mt-4 font-lexend bg-[#FFD300] '>
+                    <button className='homeLargeAppoinMent flex gap-x-2 py-2 mb-2 px-5 text-black font-medium mt-4 font-lexend bg-[#FFD300] '>
                       {slide.button} <span><GoArrowDownRight  className='text-xl' /></span>
-                    </button> */}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -135,20 +135,20 @@ function CustomSlider () {
                         isActive ? 'opacity-100' : 'opacity-0'
                       } transition-opacity ease-in-out duration-700`}
                     >
-                      <button className='py-3 px-10 font-lexend bg-[#FFD300] flex items-center gap-x-2 rounded-full heroSecSubHead my-10 cursor-default text-black'>
+                      <button className='py-1.5 px-5 font-lexend border-2 border-[#FFD300] flex items-center gap-x-2 rounded-full  my-10 cursor-default text-white'>
                         <span>
                           <IoHomeOutline />
                         </span>{' '}
-                        Welcome to eduden
+                        Welcome to eduden 
                       </button>
-                      <h1 className='heroHead max-w-screen-lg pb-2'>
+                      <h1 className='heroHead max-w-screen-lg pb-2  text-stroke'>
                         {slide.title}
                       </h1>
                       <p className='md:max-w-md lg:max-w-screen-sm HomeBannerPara text-[#FFFFFF] mt-5'>
                         {slide.paragraph}
                       </p>
                       <Link to="/about">
-                        <button className='homeLargeAppoinMent text-black font-lexend my-10 px-[16px] py-[5px] flex items-center justify-between bg-[#FFD300]   '>
+                        <button className='homeLargeAppoinMent text-black font-lexend my-10 px-16 py-2 flex items-center justify-between bg-[#FFD300]   '>
                           {slide.button}{' '}
                           <span className='text-2xl animate-pulse'>
                             <GoArrowDownRight />
@@ -163,26 +163,26 @@ function CustomSlider () {
                         isActive ? 'opacity-100' : 'opacity-0'
                       } transition-opacity ease-in-out duration-1000`}
                     >
-                      <div className='bg-[#FFD300] px-[30px] pt-[60px] pb-[20px] max-w-[46px] flex flex-col items-center space-y-[14px] rounded-full'>
+                      <div className='border-2 border-[#FFD300]    px-[30px] pt-[60px] pb-[20px] max-w-[46px] flex flex-col items-center space-y-[14px] rounded-full'>
                         {/* Text */}
-                        <span className='transform rotate-90 heroSecSubHead text-black mb-[30px] whitespace-nowrap'>
+                        <span className='transform rotate-90 heroSecSubHead text-white mb-[30px] whitespace-nowrap'>
                           follow now
                         </span>
 
                         {/* Arrow */}
-                        <span className='transform rotate-[-90] text-black'>
+                        <span className='transform rotate-[-90] text-white'>
                           <MdArrowDownward size={20} />
                         </span>
 
                         {/* Social Icons */}
                         <div className='flex flex-col space-y-[10px] items-center'>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                          <div className='bg-[#FFD300]  p-2 rounded-full text-black cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
                            <Link to="https://www.facebook.com/profile.php?id=61557983775555" target='_blank'> <FaFacebook size={20} /></Link>
                           </div>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                          <div className='bg-[#FFD300]  p-2 rounded-full text-black cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
                             <Link to="https://www.instagram.com/at_eduden/" target='_blank'> <FaInstagram size={20} /></Link>
                           </div>
-                          <div className='bg-black p-2 rounded-full text-white cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
+                          <div className='bg-[#FFD300]  p-2 rounded-full text-black cursor-pointer hover:scale-105 duration-500 ease-in-out hover:bg-white hover:text-black'>
                             <Link to="https://www.linkedin.com/company/edu-den/" target='_blank'> <LiaLinkedinIn size={20} /></Link>
                           </div>
                         </div>
