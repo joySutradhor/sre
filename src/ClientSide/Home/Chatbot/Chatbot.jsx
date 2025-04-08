@@ -1,5 +1,5 @@
 import ChatBot from 'react-simple-chatbot'
-import "./chatbot.css"
+import './chatbot.css'
 
 const CourseBot = () => {
   const steps = [
@@ -87,25 +87,38 @@ const CourseBot = () => {
     // Contact
     {
       id: 'contact',
-      message:
-        '📞 Please leave your name and email. Our team will contact you soon.',
-      trigger: 'get-name'
+      message: "You can reach our advisor at:\n📧 learn@eduden.io\n📞 +919239425164\nAvailable Mon–Fri, 9AM–6PM",
+      // trigger: 'contact-details'
     },
-    {
-      id: 'get-name',
-      user: true,
-      trigger: 'get-email'
-    },
-    {
-      id: 'get-email',
-      user: true,
-      trigger: 'contact-success'
-    },
-    {
-      id: 'contact-success',
-      message: '✅ Thank you! We’ll reach out to you shortly.',
-      trigger: 'anything-else'
-    },
+
+    // {
+    //   id: 'contact-details',
+    //   options: [
+    //     {
+    //       value: 'enroll',
+    //       label: 'Send Me the Link',
+    //       trigger: 'get-course-link'
+    //     },
+    //     { value: 'advisor', label: 'Talk to Advisor', trigger: 'contact' },
+    //     { value: 'back', label: 'Go Back', trigger: 'course-options' }
+    //   ]
+    // },
+
+    // {
+    //   id: 'get-name',
+    //   user: true,
+    //   trigger: 'get-email'
+    // },
+    // {
+    //   id: 'get-email',
+    //   user: true,
+    //   trigger: 'contact-success'
+    // },
+    // {
+    //   id: 'contact-success',
+    //   message: '✅ Thank you! We’ll reach out to you shortly.',
+    //   trigger: 'anything-else'
+    // },
 
     // FAQs
     {
@@ -164,10 +177,9 @@ const CourseBot = () => {
       opened={false}
       enableMobileAutoFocus={false}
       width='25%'
-    //   style={{background: "#000000" , }} 
-    //   headerComponent={{background: "#000000" , }} 
-    //   submitButtonStyle={{backgroundColor: "#FFD300" , marginBottom:"0px" }}
-
+      //   style={{background: "#000000" , }}
+      //   headerComponent={{background: "#000000" , }}
+      //   submitButtonStyle={{backgroundColor: "#FFD300" , marginBottom:"0px" }}
     />
   )
 }
