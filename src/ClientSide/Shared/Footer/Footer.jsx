@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { CiLinkedin } from 'react-icons/ci'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { MdOutlineArrowRight } from 'react-icons/md'
 import { RiYoutubeFill } from 'react-icons/ri'
 import { SlSocialFacebook } from 'react-icons/sl'
 import { Link } from 'react-router-dom'
-import Chatbot from '../../Home/Chatbot/Chatbot'
+// import Chatbot from '../../Home/Chatbot/Chatbot'
 
 const Footer = () => {
   const year = new Date().getFullYear()
@@ -334,7 +334,7 @@ const Footer = () => {
 
           <hr className='absolute inset-x-0 border-1 border-[#cccccc]' />
 
-          <div className='pt-[25px]   px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center'>
+          <div className='pt-[25px]   px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center relative'>
             <div className='flex justify-center items-center space-x-[40px]'>
               <p className='copyWritePara mb-5'>
                 Copyright © {year} eduden | Powered by{' '}
@@ -349,8 +349,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      {/* <Chatbot/> */}
+      <div className='fixed bottom-[8vh] right-[5vw] animate-bounce'>
+        <Link to="https://wa.me/919239425164" target='_blank'><FaWhatsapp className='text-5xl text-[#FFD300]'/></Link>
       </div>
-      <Chatbot/>
+      </div>
     </div>
   )
 }
