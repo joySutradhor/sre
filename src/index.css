@@ -46,6 +46,10 @@
     -webkit-text-fill-color: transparent;
   } */
 
+
+
+
+
   .custom-confirm-btn {
     @apply text-black  ; 
   }

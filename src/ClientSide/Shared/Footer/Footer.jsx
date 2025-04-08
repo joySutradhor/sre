@@ -6,6 +6,7 @@ import { MdOutlineArrowRight } from 'react-icons/md'
 import { RiYoutubeFill } from 'react-icons/ri'
 import { SlSocialFacebook } from 'react-icons/sl'
 import { Link } from 'react-router-dom'
+import Chatbot from '../../Home/Chatbot/Chatbot'
 
 const Footer = () => {
   const year = new Date().getFullYear()
@@ -349,6 +350,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <Chatbot/>
     </div>
   )
 }
