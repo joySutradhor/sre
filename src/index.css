@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: "Gucina";
-  src: url("/fonts/Gucina-Regular.woff") format("woff2");
+  font-family: 'Gucina';
+  src: url('/fonts/Gucina-Regular.woff') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,23 +22,20 @@
 /* lexend-regular - latin */
 @font-face {
   /* font-display: swap;  */
-  font-family: "Lexend";
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/lexend-v23-latin-regular.woff2") format("woff2"); 
+  src: url('/fonts/lexend-v23-latin-regular.woff2') format('woff2');
 }
 
-
-
 @layer components {
-
   html,
   body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Lexend";
-    background-color: #010101; 
+    font-family: 'Lexend';
+    background-color: #010101;
   }
 
   /* .text-stroke{
@@ -46,18 +43,13 @@
     -webkit-text-fill-color: transparent;
   } */
 
-
-
-
-
   .custom-confirm-btn {
-    @apply text-black  ; 
-  }
-  
-  .custom-ok-btn {
-    @apply text-black bg-[#FFD300] ; 
+    @apply text-black;
   }
 
+  .custom-ok-btn {
+    @apply text-black bg-[#FFD300];
+  }
 
   .sectionGap {
     @apply mt-[80px] px-[30px]
@@ -65,6 +57,10 @@
      lg:px-[60px] lg:mt-[80px]
      xl:px-[100px] xl:mt-[100px]
      2xl:px-[150px] 2xl:mt-[250px];
+  }
+
+  .sectionGapCourses {
+    @apply mt-[80px]  md:mt-[80px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[250px];
   }
 
   .sectionPadding {
@@ -652,7 +648,7 @@ text-[10px] leading-[15px]
   }
 
   .BorderGlobal {
-    @apply md:border-b-4 border-b-4 ;
+    @apply md:border-b-4 border-b-4;
   }
 
   .menuHead {

@@ -2,8 +2,10 @@
 import { useState } from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+import { LuDownload } from 'react-icons/lu'
 
 const FoundationCourse = ({ course }) => {
+  console.log(course.title, 'chekc')
   const [activeButton, setActiveButton] = useState('Admission')
   const [admission, setAdmission] = useState(false)
   const [formData, setFormData] = useState({
@@ -24,11 +26,10 @@ const FoundationCourse = ({ course }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
+  const handleSubmit = async e => {
+    e.preventDefault()
+    console.log('Submitting form data:', formData)
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log('Submitting form data:', formData);
-  
     Swal.fire({
       title: 'Are you sure?',
       text: "You won't be able to revert this!",
@@ -40,32 +41,26 @@ const FoundationCourse = ({ course }) => {
       customClass: {
         confirmButton: 'custom-confirm-btn'
       }
-    }).then(async (result) => {
+    }).then(async result => {
       if (result.isConfirmed) {
         const loadingAlert = Swal.fire({
           title: 'Submitting...',
           text: 'Please wait while we submit your form.',
           allowOutsideClick: false,
           didOpen: () => {
-            Swal.showLoading();
+            Swal.showLoading()
           }
-        });
-  
+        })
+
         try {
           const response = await axios.post(
             'https://eduden.mrshakil.com/api/enroll/',
             formData,
-            {
-              headers: {
-                
-                'Content-Type': 'multipart/form-data',
-              }
-            }
-          );
-          setAdmission(false);
-          console.log('Form submitted successfully:', response.data);
-  
-          loadingAlert.close();
+          )
+          setAdmission(false)
+          console.log('Form submitted successfully:', response.data)
+
+          loadingAlert.close()
           Swal.fire({
             title: 'Success!',
             text: 'Your form has been submitted successfully.',
@@ -74,24 +69,22 @@ const FoundationCourse = ({ course }) => {
             customClass: {
               confirmButton: 'custom-ok-btn'
             }
-          });
+          })
         } catch (error) {
-          console.error('Error submitting form message:', error);
-  
-          let errorMessage = 'Failed to submit the form.';
+          console.error('Error submitting form message:', error)
 
-  
-          loadingAlert.close();
+          let errorMessage = 'Failed to submit the form.'
+
+          loadingAlert.close()
           Swal.fire({
             title: 'Error!',
             text: errorMessage,
-            icon: 'error',
-          });
+            icon: 'error'
+          })
         }
       }
-    });
-  };
-  
+    })
+  }
 
   return (
     <div className='sectionGap bg-[#010101] grid  xl:grid-cols-2 gap-[80px]'>
@@ -136,17 +129,20 @@ const FoundationCourse = ({ course }) => {
                 : 'bg-[#1A1A1A] text-white'
             }`}
           >
-            Admission test
+            Admission Inquiry
           </button>
           <button
             onClick={() => handleToogleButton('Seminar')}
-            className={`px-[16px] py-[10px] rounded-[50px] CourseUi text-black ${
+            className={`px-[16px] py-[10px] rounded-[50px] CourseUi text-black flex gap-1 items-center ${
               activeButton === 'Seminar'
                 ? 'bg-[#FFD300] text-[#010101]'
                 : 'bg-[#1A1A1A] text-white'
             }`}
           >
-            Join free seminar
+            Download Brochure{' '}
+            <span>
+              <LuDownload />
+            </span>
           </button>
         </div>
       </div>
@@ -232,7 +228,7 @@ const FoundationCourse = ({ course }) => {
                   className='w-full p-2 mb-3 lg:mb-5  rounded bg-[#222] text-white'
                   required
                 >
-                  <option value='' className='text-white/80'>
+                  {/* <option value='' className='text-white/80'>
                     Select Course
                   </option>
                   <option value='Data Science and Machine Learning'>
@@ -254,7 +250,8 @@ const FoundationCourse = ({ course }) => {
                   </option>
                   <option value='DevOps and Continuous Integration'>
                     DevOps and Continuous Integration
-                  </option>
+                  </option> */}
+                  <option value={course?.title}>{course?.title}</option>
                 </select>
 
                 <textarea

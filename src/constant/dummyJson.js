@@ -520,7 +520,7 @@ const filterCourse = [
     para: "Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow! Ever wonder how Netflix knows exactly what you want to watch next? Or how your email filters out those very important spam messages? It’s all thanks to data science! In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
 
     category: 'Data Science and AI',
-    price: '$120',
+     off : "5%" ,
     title: 'Data Science and Machine Learning Course',
     rating: 5,
     image: 'assets/images/course-cat-4.jpg',
@@ -597,7 +597,7 @@ const filterCourse = [
 But this isn’t just another boring lecture series. Expect interactive activities, creative challenges, and even a few design "myths" busted along the way. ( As it says: You don’t need to be an artist to be a great designer! ) Get ready to shape the future—one design at a time. `,
 
     category: 'Graphics Design',
-    price: '$120',
+    off : "10%" ,
     title: 'Graphic Design Essentials: An Introductory Course',
     rating: 5,
     image: 'assets/images/course-cat-2.jpg',
@@ -678,7 +678,7 @@ But this isn’t just another boring lecture series. Expect interactive activiti
 From writing your first “Hello, World!” to create small programs that can actually do something, we’ll guide you every step of the way. By the end of this course, you’ll have the skills to solve real-world problems with Python and the confidence. `,
 
     category: 'Programming',
-    price: '$120',
+    off : "15%" ,
     title: 'Introduction to Python Programming',
     rating: 5,
     image: 'assets/images/course-cat-3.jpg',
@@ -756,7 +756,7 @@ From writing your first “Hello, World!” to create small programs that can ac
     para: "Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to find the Contact Us button? Well, we’re here to fix that! In this course, you’ll learn to design websites that not only look awesome but are also easy to navigate. So, buckle up and let's create some web magic!",
 
     category: 'UI/UX Design',
-    price: '$120',
+    off : "5%" ,
     title: 'UI/UX Design for Web Course',
     rating: 5,
     image: 'assets/images/course-cat-1.jpg',
@@ -837,7 +837,7 @@ Ready to hack the system (ethically, of course)!
 `,
 
     category: 'Ethical Hacking',
-    price: '$120',
+    off : "20%" ,
     title: 'Ethical Hacking and Penetration Testing',
     rating: 5,
     image: 'assets/images/course-cat-5.jpg',
@@ -918,7 +918,7 @@ From setting up your first network to troubleshooting like a pro, we'll cover th
 `,
 
     category: 'Cyber Security',
-    price: '$120',
+    off : "10%" ,
     title: 'Network Administration (CCNA)',
     rating: 5,
     image: 'assets/images/course-cat-6.jpg',
@@ -1000,7 +1000,7 @@ From setting up your first network to troubleshooting like a pro, we'll cover th
     para: 'Ready to turn your wild ideas into reality? Learn how to build stunning websites and unleash your inner tech genius. Whether you’re a complete newbie or you just want to level up, this course will teach you how to transform blank screens into beautiful, functional webpages. Let’s figure out how we can make the web a little cooler—one pixel at a time. Get ready to click, code, and conquer!',
 
     category: 'Web Development',
-    price: '$120',
+    off : "15%" ,
     title: 'Mastering Web Development',
     rating: 5,
     image: 'assets/images/course-cat-7.jpg',
@@ -1079,7 +1079,7 @@ From setting up your first network to troubleshooting like a pro, we'll cover th
     para: 'Welcome to the world of DevOps. In this course, you’ll learn how to build, test, and deploy software faster and more reliably with Continuous Integration (CI) and Continuous Delivery (CD).Get ready to embrace the DevOps mindset and stop worrying about broken builds, deployment disasters, and downtime.',
 
     category: 'Programming',
-    price: '$120',
+     off : "5%" ,
     title: 'DevOps and Continuous Integration',
     rating: 5,
     image: 'assets/images/course-cat-8.jpg',

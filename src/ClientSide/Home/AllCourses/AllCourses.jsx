@@ -4,7 +4,7 @@ import categories from '../../../constant/stateDummyData'
 import useFilterCategory from '../../../hooks/useFilterCategory'
 import Course from './Course'
 
-const AllCourses = () => {
+const AllCourses = ({sectionGap}) => {
   const [categoriesList, setCategoriesList] = useState({ ...categories })
   const initialCategories = {
     'Show All': true,
@@ -35,7 +35,7 @@ const AllCourses = () => {
     setCategoriesList(updateCategory)
   }
   return (
-    <div className='sectionGap text-[#FFFFFF] '>
+    <div className={`${sectionGap} text-white`}>
       <div>
         <h1 className='testimonialSub mb-[20px]  flex items-center md:justify-center text-[#FFD300]'>
           <span>

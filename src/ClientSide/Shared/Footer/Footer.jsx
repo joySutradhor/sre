@@ -350,7 +350,7 @@ const Footer = () => {
           </div>
         </div>
       {/* <Chatbot/> */}
-      <div className='fixed bottom-[8vh] right-[5vw] animate-bounce'>
+      <div className='fixed bottom-[8vh] right-[5vw] animate-pulse z-50'>
         <Link to="https://wa.me/919239425164" target='_blank'><FaWhatsapp className='text-5xl text-[#FFD300]'/></Link>
       </div>
       </div>

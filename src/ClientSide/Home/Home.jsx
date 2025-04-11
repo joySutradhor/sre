@@ -69,7 +69,7 @@ const Home = () => {
       <Placement/>
       {/* <PopularCategories></PopularCategories> */}
       {/* <TrendingCourses></TrendingCourses> */}
-      <AllCourses></AllCourses>
+      <AllCourses sectionGap="sectionGap"></AllCourses>
       {/* <Video></Video> */}
       <OurCollaboration></OurCollaboration>
       {/* <JoinOurClan></JoinOurClan> */}
