@@ -1,13 +1,15 @@
-import AllCourses from '../../ClientSide/Home/AllCourses/AllCourses'
+
 
 // export default SearchCourses
+
+import AllCoursesPage from "../../ClientSide/Home/AllCourses/AllCoursesPage"
 
 /* eslint-disable no-irregular-whitespace */
 const SearchCourses = () => {
   return (
     <section>
-      <AllCourses sectionGap='sectionGapCourses' />
-      <div className='group sectionGapCourses'>
+      <AllCoursesPage sectionGap='sectionGapCourses' />
+      {/* <div className='group sectionGapCourses'>
         <div className='text-white'>
           <h1 className='popularCategoryHead mb-[20px] md:mb-[45px] md:text-center relative block lg:hidden'>
             Upcoming{' '}
@@ -32,7 +34,7 @@ const SearchCourses = () => {
             fast-moving world.
           </p>
         </div>
-      </div>
+      </div> */}
       {/* <div className=' flex justify-between items-center  mt-[50px] mb-[30px] md:mb-[70px]'>
         <div>
           <p className='text-white text-[9px] md:text-[14px]'>

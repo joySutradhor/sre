@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BiMessageDetail } from 'react-icons/bi'
 import { IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom'
@@ -9,6 +9,7 @@ const Faq = () => {
   const toggleAccordion = index => {
     setActiveIndex(index === activeIndex ? null : index)
   }
+
 
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] '>

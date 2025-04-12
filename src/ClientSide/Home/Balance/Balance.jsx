@@ -1,6 +1,9 @@
+
 import { FaLocationDot } from 'react-icons/fa6'
 
 const Balance = () => {
+
+
   return (
     <div className='sectionGap grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-[100px]'>
       <div className=' md:h-[400px] lg:h-[600px]  rounded-[8px]   relative flex justify-center items-center'>

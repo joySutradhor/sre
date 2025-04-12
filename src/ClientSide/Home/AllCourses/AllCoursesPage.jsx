@@ -1,11 +1,10 @@
-import {  useState } from 'react'
+import { useState } from 'react'
 import { HiOutlineMinusSmall } from 'react-icons/hi2'
 import categories from '../../../constant/stateDummyData'
 import useFilterCategory from '../../../hooks/useFilterCategory'
 import Course from './Course'
-import AllcourseHeader from '../../../components/AllcourseHeader/AllcourseHeader'
 
-const AllCourses = ({sectionGap}) => {
+const AllCoursesPage = ({ sectionGap }) => {
   const [categoriesList, setCategoriesList] = useState({ ...categories })
   const initialCategories = {
     'Show All': true,
@@ -35,13 +34,23 @@ const AllCourses = ({sectionGap}) => {
     }
     setCategoriesList(updateCategory)
   }
-
-
- 
-
   return (
     <div className={`${sectionGap} text-white`}>
-      <AllcourseHeader header="Popular Categories" title='All' underline='Courses' />
+      <div>
+        {/* <h1 className='testimonialSub mb-[20px]  flex items-center md:justify-center text-[#FFD300]'>
+          <span>
+            <HiOutlineMinusSmall />{' '}
+          </span>
+          {header}{' '}
+          <span>
+            <HiOutlineMinusSmall />{' '}
+          </span>
+        </h1> */}
+        <h1 className='popularCategoryHead mb-[35px] md:text-center '>
+          Popular{' '}
+          <span className='BorderGlobal  border-[#FFD300]'>Categories</span>
+        </h1>
+      </div>
 
       <div className='hidden lg:block flex  items-center flex-row lg:gap-x-[20px] lg:space-x-1 gap-x-[5px] space-x-4 space-y-4 text-white group lg:mb-[50px]'>
         <button
@@ -127,7 +136,6 @@ const AllCourses = ({sectionGap}) => {
         >
           Programming
         </button>
-  
       </div>
       <div className='mt-[35px]'>
         <Course currentCategory={currentCategory} />
@@ -136,4 +144,4 @@ const AllCourses = ({sectionGap}) => {
   )
 }
 
-export default AllCourses
+export default AllCoursesPage

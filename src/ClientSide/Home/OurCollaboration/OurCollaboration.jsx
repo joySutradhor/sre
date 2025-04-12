@@ -10,9 +10,13 @@ import phython from '../../../../public/assets/images/web logo/phython.png'
 // import react from '../../../../public/assets/images/web logo/react.png'
 import Marquee from 'react-fast-marquee'
 
+
 const OurCollaboration = () => {
+
+   
+
   return (
-    <div className='text-[#FFFFFF] sectionGap group'>
+    <div className='text-[#FFFFFF] sectionGap group '>
       <h1 className='testimonialSub mb-[20px] md:mb-[25px]  flex items-center md:justify-center text-[#FFD300]'>
         <span>
           <HiOutlineMinusSmall />{' '}

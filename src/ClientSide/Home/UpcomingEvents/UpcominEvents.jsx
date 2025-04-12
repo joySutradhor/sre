@@ -1,3 +1,4 @@
+
 import { upcommingEvents } from '../../../constant/dummyJson'
 import UpcommingMicrocards from './UpcommingMicrocards'
 
@@ -5,6 +6,8 @@ import UpcommingMicrocards from './UpcommingMicrocards'
 
 
 const UpcominEvents = () => {
+
+
   return (
     <div className='text-[#FFFFFF]  sectionGap mt-[50px] md:mt-0 group'>
       <div>

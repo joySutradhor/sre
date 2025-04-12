@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { HiOutlineMinusSmall } from 'react-icons/hi2'
 import accenture from '../../../../public/assets/images/student/accenture.png'
 import amazon from '../../../../public/assets/images/student/amazon.png'
@@ -15,6 +15,8 @@ import Marquee from 'react-fast-marquee'
 
 function Placement () {
   // bg-[#FFFFFF0D]
+ 
+
   return (
     <section className='sectionGap'>
       <div className='grid lg:grid-cols-2 gap-[10vw] items-center relative group '>

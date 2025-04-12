@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
 import './Testimonial.css'
 
+
 const Testimonial = () => {
   const is2XL = useMediaQuery({ minWidth: 1536 })
   const isXl = useMediaQuery({ minWidth: 1366 })
@@ -36,6 +37,9 @@ const Testimonial = () => {
     slidesToShow: slidesToShow
     // slidesToScroll: slidesToScroll,
   }
+
+
+
   return (
     <div className='section'>
       <div className='relative'>
