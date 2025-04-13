@@ -11,6 +11,11 @@ const categories = {
 	"DevOps": false,
 	"Linux": false,
 	"IOT": false,
+	"Blockchain": false,
+	"Big Data": false,
+	"Machine Learning": false,
+	"Generative AI": false,
+	"Data Science": false,
 };
 
 export default categories;

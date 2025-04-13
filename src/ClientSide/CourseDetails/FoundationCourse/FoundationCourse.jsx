@@ -142,10 +142,10 @@ const FoundationCourse = ({ course }) => {
           </div>
         )}
 
-        <div className='flex flex-row gap-[16px]'>
+        <div className='lg:flex space-y-5 lg:space-y-0 flex-row gap-[16px]'>
           <button
             onClick={() => handleToogleButton('Admission')}
-            className={`px-[16px] py-[10px] lg:py-3 lg:px-6  2xl:py-3 2xl:px-14 rounded-[50px] text-lg CourseUi text-black ${
+            className={`px-4 py-2 lg:py-3 lg:px-6  2xl:py-3 2xl:px-14 rounded-[50px] text-lg CourseUi text-black ${
               activeButton === 'Admission'
                 ? 'bg-[#FFD300] text-black'
                 : 'bg-[#1A1A1A] text-white'
@@ -155,7 +155,7 @@ const FoundationCourse = ({ course }) => {
           </button>
           <button
             onClick={() => handleToogleButton('Seminar')}
-            className={`px-[16px] py-[10px] rounded-[50px] lg:py-3 lg:px-6  2xl:py-3 2xl:px-14  text-lg CourseUi text-black flex gap-2 items-center ${
+            className={`px-4 py-2 rounded-[50px] lg:py-3 lg:px-6  2xl:py-3 2xl:px-14  text-lg CourseUi text-black flex gap-2 items-center ${
               activeButton === 'Seminar'
                 ? 'bg-[#FFD300] text-[#010101]'
                 : 'bg-[#1A1A1A] text-white'

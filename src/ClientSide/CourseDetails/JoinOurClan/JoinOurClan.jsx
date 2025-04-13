@@ -13,7 +13,7 @@ const JoinOurClan = ({ course }) => {
         <p className="joinClanSubPara text-white/[.8]">{course.overView}</p>
       </div>
       <div className="bg-[#181717] px-[50px] py-[50px]  2xl:px-[80px] 2xl:py-[100px] xl:px-[50px] xl:py-[50px] rounded-[14px] text-white ">
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[80px] lg:gap-[30px] xl:gap-[80px] 2xl:gap-[100px]">
+        <div className="grid lg:grid-cols-[45%_1%_45%] justify-between gap-y-10 lg:gap-y-20 items-center">
           <div className="text-center">
             <div className="flex flex-row gap-[30px] justify-center items-center">
               <div>
@@ -27,9 +27,11 @@ const JoinOurClan = ({ course }) => {
               </div>
               {/* Dotted divider */}
 
-              <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div>
+              {/* <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div> */}
             </div>
           </div>
+          {/* border dotted */}
+          <div className="h-full w-[1px] border-l border-1 border-white border-dotted"></div>
           <div className="text-center">
             <div className="flex flex-row gap-[30px] justify-center items-center">
               <div>
@@ -41,10 +43,6 @@ const JoinOurClan = ({ course }) => {
                 </h3>
                 <p className="menuPara">{course.features[1]?.description2}</p>
               </div>
-              {/* Dotted divider */}
-              {/* {(index + 1) % 2 !== 0 && index !== features.length - 1 && (
-                  <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div>
-                )} */}
             </div>
           </div>
           <div className="text-center">
@@ -60,9 +58,11 @@ const JoinOurClan = ({ course }) => {
               </div>
               {/* Dotted divider */}
 
-              <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div>
+              {/* <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div> */}
             </div>
           </div>
+          {/* border dotted */}
+          <div className="h-full w-[1px] border-l border-1 border-white border-dotted"></div>
           <div className="text-center">
             <div className="flex flex-row gap-[30px] justify-center items-center">
               <div>

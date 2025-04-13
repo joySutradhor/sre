@@ -57,15 +57,17 @@ function MicroCoursesCurriculum ({ course }) {
         ))}
       </div>
 
-      {/* Toggle Button */}
-      <div className='text-center mt-[76px]'>
-        <button
-          onClick={handleToggleView}
-          className='border border-[#FFD300] text-[14px] leading-[18px] font-medium font-lexend text-[#FFD300] hover:bg-[#FFD300] hover:text-black transition-all duration-300 px-[46px] py-[16px] rounded-[50px]'
-        >
-          {itemsToShow === 8 ? 'View All' : 'View Less'}
-        </button>
-      </div>
+      {course.curriculum.length > 8 && (
+        <div className='text-center mt-[76px]'>
+          <button
+            onClick={handleToggleView}
+            className='border border-[#FFD300] text-[14px] leading-[18px] font-medium font-lexend text-[#FFD300] hover:bg-[#FFD300] hover:text-black transition-all duration-300 px-[46px] py-[16px] rounded-[50px]'
+          >
+            {itemsToShow === 8 ? 'View All' : 'View Less'}
+          </button>
+        </div>
+      )}
+
     </div>
   )
 }

@@ -1,14 +1,22 @@
 import {
   FaApple,
   FaAws,
+  FaBrain,
   FaBug,
+  FaBullhorn,
+  FaChartBar,
   FaChartLine,
   FaClipboardList,
   FaCloud,
   FaCode,
+  FaCodeBranch,
   FaCogs,
+  FaComments,
+  FaCube,
   FaDatabase,
   FaDocker,
+  FaEnvelope,
+  FaEthereum,
   FaFacebook,
   FaFileAlt,
   FaFileSignature,
@@ -22,6 +30,7 @@ import {
   FaJsSquare,
   FaKey,
   FaLaptopCode,
+  FaLayerGroup,
   FaLink,
   FaLinux,
   FaMailBulk,
@@ -29,20 +38,25 @@ import {
   FaMicroscope,
   FaMicrosoft,
   FaMobileAlt,
+  FaMoneyCheckAlt,
   FaNetworkWired,
   FaNodeJs,
+  FaProjectDiagram,
   FaPython,
   FaReact,
   FaRedhat,
+  FaRobot,
   FaSearch,
   FaServer,
   FaShieldAlt,
   FaSitemap,
+  FaStream,
   FaTemperatureHigh,
   FaTerminal,
   FaTools,
   FaUserShield,
   FaUserTie,
+  FaWallet,
   FaWifi
 } from 'react-icons/fa'
 import {
@@ -2188,7 +2202,9 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       'Students who complete all assignments, projects, and pass the final exam with a minimum 80% will receive a certification of completion.',
 
     Access:
-      'With the purchase of the course, you gain lifetime access to all the course material and can review it whenever you need to refresh your knowledge.'
+      'With the purchase of the course, you gain lifetime access to all the course material and can review it whenever you need to refresh your knowledge.',
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 21,
@@ -2258,7 +2274,10 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       'Students who complete all assignments, projects, and pass the final exam with a minimum of 80% will receive a certification of completion.',
 
     Access:
-      'Upon enrollment, you will have lifetime access to all the course material and can revisit it at any time to refresh your knowledge.'
+      'Upon enrollment, you will have lifetime access to all the course material and can revisit it at any time to refresh your knowledge.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 22,
@@ -2336,11 +2355,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic1,
 
-    Certificate:
-      'Students who complete all modules, assignments, and projects with a passing score of 80% or above will receive a Certification of Completion.',
-
-    Access:
-      'Upon enrolling, you’ll get lifetime access to all course materials and projects, allowing you to revisit and upskill anytime you need.'
+    Certificate: 
+    'Students who complete all modules, assignments, and projects with a passing score of 80% or above will receive a Certification of Completion.',
+  
+  Access: 
+    'Upon enrolling, you’ll get lifetime access to all course materials and projects, allowing you to revisit and upskill anytime you need.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  
   },
   {
     id: 23,
@@ -2418,11 +2441,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic1,
 
-    Certificate:
-      'Students who complete all modules, hands-on projects, and the final capstone project will receive an industry-recognized certification of completion.',
-
-    Access:
-      'Once enrolled, you’ll get lifetime access to all training resources, recordings, and course materials through our learning platform.'
+    Certificate: 
+    'Students who complete all modules, hands-on projects, and the final capstone project will receive an industry-recognized certification of completion.',
+  
+  Access: 
+    'Once enrolled, you’ll get lifetime access to all training resources, recordings, and course materials through our learning platform.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  
   },
   {
     id: 24,
@@ -2495,11 +2522,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic2,
 
-    Certificate:
-      'Students who complete all training modules, hands-on assignments, and mock campaigns will receive a digital certificate of completion from Eduden.',
-
-    Access:
-      'You’ll have full access to session recordings, templates, resources, and assignments for lifetime through our learning dashboard.'
+    Certificate: 
+    'Students who complete all training modules, hands-on assignments, and mock campaigns will receive a digital certificate of completion from Eduden.',
+  
+  Access: 
+    'You’ll have full access to session recordings, templates, resources, and assignments for lifetime through our learning dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  
   },
   {
     id: 25,
@@ -2571,11 +2602,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic2,
 
-    Certificate:
-      'You’ll receive a digital certificate of completion from Eduden after completing all modules and submitting the final SEO site audit project.',
-
-    Access:
-      'Lifetime access to class recordings, downloadable SEO templates, audit sheets, and tool tutorials via our Eduden learning dashboard.'
+    Certificate: 
+    'You’ll receive a digital certificate of completion from Eduden after completing all modules and submitting the final SEO site audit project.',
+  
+  Access: 
+    'Lifetime access to class recordings, downloadable SEO templates, audit sheets, and tool tutorials via our Eduden learning dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  
   },
   {
     id: 26,
@@ -2656,11 +2691,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic2,
 
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+    Certificate: 
+  'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
 
-    Access:
-      'Lifetime access to recorded sessions, templates, marketing tools, and downloadable resources through the Eduden dashboard.'
+Access: 
+  'Lifetime access to recorded sessions, templates, marketing tools, and downloadable resources through the Eduden dashboard.',
+
+interview: 
+  'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+
   },
   {
     id: 27,
@@ -2738,11 +2777,15 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic2,
 
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  
   },
   {
     id: 28,
@@ -2821,11 +2864,14 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
 
     img: upCmnPic3,
 
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 29,
@@ -2837,15 +2883,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Networking Advanced – Switching Mastery (CCNP/CCIE Based)',
     rating: 4.8,
     image: 'assets/images/course-cat-8.jpg',
-  
+
     crsDetails: `Designed for intermediate to advanced professionals, this course provides the knowledge and practical skills needed to configure, troubleshoot, and optimize enterprise switching infrastructure. Covering Layer 2 and Layer 3 topics aligned with Cisco's CCNP and CCIE certifications, you will master the critical aspects of switching in real-world networks.`,
-  
+
     overView: `To give learners the practical and theoretical knowledge required to configure, troubleshoot, and optimize enterprise switching infrastructure — from access to distribution layers, covering all critical Layer 2 and Layer 3 switching topics aligned with Cisco CCNP & CCIE EI certifications. You’ll build skills that directly map to real-world job roles and Cisco’s most elite certifications.`,
-  
+
     join: [
       {
         id: 1,
-        title: 'CCNA-certified professionals or those with solid networking fundamentals'
+        title:
+          'CCNA-certified professionals or those with solid networking fundamentals'
       },
       {
         id: 2,
@@ -2853,33 +2900,38 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         id: 3,
-        title: 'Candidates preparing for CCNP ENCOR or CCIE Enterprise Infrastructure'
+        title:
+          'Candidates preparing for CCNP ENCOR or CCIE Enterprise Infrastructure'
       },
       {
         id: 4,
         title: 'Professionals managing corporate or campus networks'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs and practical tasks focusing on Layer 2 and Layer 3 switching configurations.'
+        description1:
+          'Hands-on labs and practical tasks focusing on Layer 2 and Layer 3 switching configurations.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Assess your knowledge on advanced switching topics, VLANs, and network security.'
+        description2:
+          'Assess your knowledge on advanced switching topics, VLANs, and network security.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Interactive sessions with instructors covering complex switching scenarios and troubleshooting techniques.'
+        description3:
+          'Interactive sessions with instructors covering complex switching scenarios and troubleshooting techniques.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on real-world network switching configurations, including VLANs, EtherChannel, and advanced security.'
+        description4:
+          'Work on real-world network switching configurations, including VLANs, EtherChannel, and advanced security.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaNetworkWired },
       { cid: 2, icon: FaTools },
@@ -2887,7 +2939,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaShieldAlt },
       { cid: 5, icon: FaTerminal }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Switching Fundamentals Review' },
       { cid: 2, c: 'VLANs & Trunking' },
@@ -2897,12 +2949,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Advanced Switching Security' },
       { cid: 7, c: 'High Availability & Campus Design' }
     ],
-  
+
     img: upCmnPic2,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 30,
@@ -2914,11 +2971,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Cloud Computing with AWS – Fundamentals (30 Days Hands-On)',
     rating: 4.7,
     image: 'assets/images/course-cat-8.jpg',
-  
+
     crsDetails: `This course is designed for beginners who want to understand the fundamentals of cloud computing and how AWS delivers its cloud services. Through hands-on practice and guided instruction, you will learn how to create and manage cloud infrastructure using services like EC2, S3, IAM, and more.`,
-  
+
     overView: `To help learners understand what cloud computing is, how AWS delivers cloud services, and how to create and manage real cloud infrastructure — all from scratch. You’ll learn everything from theory to hands-on practice: launching servers, configuring storage, working with AWS services like EC2, S3, IAM, and more — all in a guided, no-fluff format.`,
-  
+
     join: [
       {
         id: 1,
@@ -2934,29 +2991,34 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         id: 4,
-        title: 'Freelancers & tech entrepreneurs wanting to deploy cloud projects'
+        title:
+          'Freelancers & tech entrepreneurs wanting to deploy cloud projects'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs to deploy real cloud infrastructure using AWS services like EC2, S3, and RDS.'
+        description1:
+          'Hands-on labs to deploy real cloud infrastructure using AWS services like EC2, S3, and RDS.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Test your knowledge on cloud computing concepts, AWS services, and best practices.'
+        description2:
+          'Test your knowledge on cloud computing concepts, AWS services, and best practices.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Interactive sessions with AWS professionals to guide you through the setup and configuration of AWS services.'
+        description3:
+          'Interactive sessions with AWS professionals to guide you through the setup and configuration of AWS services.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on deploying cloud projects such as websites and databases on AWS.'
+        description4:
+          'Work on deploying cloud projects such as websites and databases on AWS.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaCloud },
       { cid: 2, icon: FaAws },
@@ -2964,7 +3026,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaServer },
       { cid: 5, icon: FaDatabase }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Introduction to Cloud Computing & AWS' },
       { cid: 2, c: 'Getting Started with AWS' },
@@ -2973,12 +3035,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'High Availability & Serverless Concepts (Intro)' },
       { cid: 6, c: 'Final Project + Interview Prep' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 31,
@@ -2990,15 +3057,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Cloud Computing Architect with AWS – 90 Days Career Track',
     rating: 4.8,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `This comprehensive course is designed to help you become an AWS Cloud Architect. You will learn how to design, deploy, and manage scalable, secure, and cost-efficient cloud architectures using AWS services. The course aligns with AWS Solutions Architect Associate & Professional certifications.`,
-  
+
     overView: `To train students, professionals, and tech entrepreneurs to design enterprise-grade cloud architectures using Amazon Web Services, covering compute, storage, databases, networking, high availability, fault tolerance, DevOps integration, and cost optimization. By the end of this course, you will be able to design and document full-scale AWS solutions, prepare for top AWS certifications, and apply for cloud architect, DevOps engineer, or infrastructure lead roles.`,
-  
+
     join: [
       {
         id: 1,
-        title: 'IT professionals with 1+ year of experience in tech, DevOps, or cloud'
+        title:
+          'IT professionals with 1+ year of experience in tech, DevOps, or cloud'
       },
       {
         id: 2,
@@ -3013,26 +3081,30 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
         title: 'Startups/founders building scalable cloud-native products'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs and projects that simulate real-world AWS architecture and cloud infrastructure.'
+        description1:
+          'Hands-on labs and projects that simulate real-world AWS architecture and cloud infrastructure.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Test your knowledge with quizzes covering each module’s key concepts.'
+        description2:
+          'Test your knowledge with quizzes covering each module’s key concepts.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Live training sessions with experienced AWS professionals to clarify concepts and troubleshoot.'
+        description3:
+          'Live training sessions with experienced AWS professionals to clarify concepts and troubleshoot.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on end-to-end AWS architecture projects, including cost-optimized, highly available, and secure solutions.'
+        description4:
+          'Work on end-to-end AWS architecture projects, including cost-optimized, highly available, and secure solutions.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaCloud },
       { cid: 2, icon: FaAws },
@@ -3040,7 +3112,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaServer },
       { cid: 5, icon: FaDatabase }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'AWS Architecture Foundations' },
       { cid: 2, c: 'Compute, Load Balancing & Auto Scaling' },
@@ -3049,12 +3121,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'Monitoring, Cost Optimization & Automation' },
       { cid: 6, c: 'Final Project + Certification/Interview Prep' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 32,
@@ -3066,11 +3143,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Cloud Computing with Azure – 45 Days Fundamentals + Projects',
     rating: 4.7,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `This course provides a thorough introduction to Microsoft Azure, covering fundamental cloud concepts and services. You will gain hands-on experience in deploying, managing, and securing cloud applications and services, preparing you for the Microsoft Azure Fundamentals (AZ-900) certification.`,
-  
+
     overView: `To equip learners with the knowledge and hands-on skills to confidently use Azure cloud services, including VMs, storage, networking, databases, and identity management — following Microsoft's cloud computing best practices. Whether you're planning to build your own cloud project, pursue certification, or land a cloud support/admin/dev job, this course sets you up right.`,
-  
+
     join: [
       {
         id: 1,
@@ -3089,26 +3166,30 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
         title: 'Anyone switching from on-prem IT to cloud-based roles'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs and projects to get familiar with Azure services.'
+        description1:
+          'Hands-on labs and projects to get familiar with Azure services.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Quiz after each module to test your understanding of cloud concepts.'
+        description2:
+          'Quiz after each module to test your understanding of cloud concepts.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Interactive sessions with Azure experts to help you master the platform.'
+        description3:
+          'Interactive sessions with Azure experts to help you master the platform.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on real-world cloud projects such as deploying applications, configuring networks, and more.'
+        description4:
+          'Work on real-world cloud projects such as deploying applications, configuring networks, and more.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaCloud },
       { cid: 2, icon: FaMicrosoft },
@@ -3116,7 +3197,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaDatabase },
       { cid: 5, icon: FaNetworkWired }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Introduction to Cloud & Azure Architecture' },
       { cid: 2, c: 'Compute Services – Virtual Machines & Containers' },
@@ -3125,12 +3206,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'Identity, Access & Monitoring' },
       { cid: 6, c: 'Final Project + AZ-900 Prep' }
     ],
-  
+
     img: upCmnPic1,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 33,
@@ -3142,11 +3227,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'CloudOps Pro – DevOps + Cloud Engineering Training (AWS + Azure)',
     rating: 4.8,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `This program provides learners with comprehensive DevOps and cloud engineering skills, covering the essentials of infrastructure provisioning, containerization, automation, and deploying production-ready systems on AWS and Azure. With hands-on projects and practical experience, you'll be ready for DevOps, SRE, Cloud Engineer, and Platform Engineer roles.`,
-  
+
     overView: `This course is designed to equip you with end-to-end DevOps and cloud engineering skills. You'll learn how to provision cloud infrastructure, containerize applications, automate CI/CD pipelines, and deploy systems on both AWS and Azure. Whether you're transitioning into a DevOps role or upgrading your cloud skills, this course prepares you for high-demand positions in the industry.`,
-  
+
     join: [
       {
         id: 1,
@@ -3165,11 +3250,12 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
         title: 'Tech graduates preparing for high-demand DevOps jobs'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs and projects to practice DevOps automation and cloud provisioning.'
+        description1:
+          'Hands-on labs and projects to practice DevOps automation and cloud provisioning.'
       },
       {
         title2: 'Quizzes',
@@ -3177,21 +3263,23 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         title3: 'Live Sessions',
-        description3: 'Live training sessions with instructors to address doubts and clarify concepts.'
+        description3:
+          'Live training sessions with instructors to address doubts and clarify concepts.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on real-world DevOps and cloud engineering projects to demonstrate your skills.'
+        description4:
+          'Work on real-world DevOps and cloud engineering projects to demonstrate your skills.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaAws },
       { cid: 2, icon: FaDocker },
       { cid: 3, icon: FaGit },
-      { cid: 4, icon: FaMicrosoft  },
+      { cid: 4, icon: FaMicrosoft }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'DevOps Fundamentals + Linux Mastery' },
       { cid: 2, c: 'AWS Cloud Services for DevOps' },
@@ -3201,12 +3289,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'DevOps on Azure (Pipelines, Boards, Repos)' },
       { cid: 7, c: 'Monitoring, Logging, & Security' }
     ],
-  
+
     img: upCmnPic1,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate from Eduden, recognized in the DevOps and cloud engineering domains, upon successful completion of all modules and projects.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on labs, and downloadable resources via the Eduden dashboard.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 34,
@@ -3218,11 +3310,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'DevOps for Beginners – Foundation Track',
     rating: 4.7,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `This course is designed to introduce you to the world of DevOps, providing you with the foundational tools and understanding to move into core DevOps roles. You'll learn essential tools like Linux, Git, GitHub, and Bash scripting, and grasp the DevOps mindset and workflows. The course prepares you for real-world DevOps tasks, with hands-on projects and practical skills.`,
-  
+
     overView: `In this foundational DevOps course, you'll learn the core concepts, tools, and methodologies that form the backbone of the DevOps ecosystem. From understanding the DevOps lifecycle to mastering essential tools like Linux, Git, and Bash scripting, you'll gain the confidence and skills to move forward into more advanced tools like Docker, Jenkins, AWS, and Kubernetes.`,
-  
+
     join: [
       {
         id: 1,
@@ -3238,29 +3330,34 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         id: 4,
-        title: 'Anyone curious about automation, pipelines, and modern IT workflows'
+        title:
+          'Anyone curious about automation, pipelines, and modern IT workflows'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs and exercises to practice DevOps essentials.'
+        description1:
+          'Hands-on labs and exercises to practice DevOps essentials.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Test your understanding of core DevOps concepts after each module.'
+        description2:
+          'Test your understanding of core DevOps concepts after each module.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Interactive sessions with instructors to clarify concepts and address questions.'
+        description3:
+          'Interactive sessions with instructors to clarify concepts and address questions.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on practical projects that demonstrate your newly acquired skills.'
+        description4:
+          'Work on practical projects that demonstrate your newly acquired skills.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaLinux },
       { cid: 2, icon: FaGit },
@@ -3268,7 +3365,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: SiGnubash },
       { cid: 5, icon: FaJenkins }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'What is DevOps?' },
       { cid: 2, c: 'Linux Essentials for DevOps' },
@@ -3276,12 +3373,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, c: 'Shell Scripting for Automation' },
       { cid: 5, c: 'DevOps Toolchain Overview' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate from Eduden, validating your foundational knowledge and hands-on experience in DevOps basics.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, hands-on projects, and downloadable resources via the Eduden platform.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 35,
@@ -3293,11 +3395,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'DevOps Mastery – 90 Days Advanced Career Track',
     rating: 4.8,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `This advanced DevOps course takes learners deep into industry-standard practices, including CI/CD, containerization, Kubernetes, Jenkins, Terraform, and more. You'll gain hands-on experience automating pipelines, managing infrastructure, and deploying applications in cloud environments like AWS, Azure, and GCP. This course prepares you for roles such as DevOps Engineer, Cloud DevOps Specialist, or Site Reliability Engineer (SRE).`,
-  
+
     overView: `Designed for learners with foundational DevOps knowledge, this course covers advanced concepts like infrastructure automation, container orchestration with Kubernetes, cloud deployment, and monitoring. The practical approach ensures you're not just learning tools, but becoming a production-ready DevOps pro capable of managing real-world DevOps workflows and cloud environments.`,
-  
+
     join: [
       {
         id: 1,
@@ -3313,36 +3415,40 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         id: 4,
-        title: 'Anyone preparing for DevOps job roles, interviews or certifications'
+        title:
+          'Anyone preparing for DevOps job roles, interviews or certifications'
       }
     ],
-  
+
     features: [
       {
         title1: 'Assignments',
-        description1: 'Hands-on labs to practice automation, deployment, and cloud-based infrastructure management.'
+        description1:
+          'Hands-on labs to practice automation, deployment, and cloud-based infrastructure management.'
       },
       {
         title2: 'Quizzes',
-        description2: 'Test your knowledge and skills with quizzes after each module.'
+        description2:
+          'Test your knowledge and skills with quizzes after each module.'
       },
       {
         title3: 'Live Sessions',
-        description3: 'Interactive instructor-led sessions for problem-solving and in-depth understanding.'
+        description3:
+          'Interactive instructor-led sessions for problem-solving and in-depth understanding.'
       },
       {
         title4: 'Projects',
-        description4: 'Work on real-world projects that demonstrate your advanced DevOps skills.'
+        description4:
+          'Work on real-world projects that demonstrate your advanced DevOps skills.'
       }
     ],
-  
+
     tools: [
       { cid: 1, icon: FaDocker },
       { cid: 2, icon: FaGithub },
-      { cid: 3, icon: FaAws },
-
+      { cid: 3, icon: FaAws }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'DevOps Pipeline Architecture Deep Dive' },
       { cid: 2, c: 'Docker & Containers – Pro Level' },
@@ -3353,12 +3459,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 7, c: 'Cloud Platforms (AWS Focus + Azure Intro)' },
       { cid: 8, c: 'Monitoring, Logging & Security' }
     ],
-  
+
     img: upCmnPic1,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'A digital certificate from Eduden, recognizing your advanced skills in DevOps tools, cloud automation, and real-world DevOps practices, ready for production-level tasks.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to course materials, recorded sessions, hands-on projects, and updates on industry trends via the Eduden platform.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 36,
@@ -3370,11 +3480,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Linux Essentials – RHCE-Based Fundamentals',
     rating: 4.7,
     image: 'assets/images/course-cat-3.jpg',
-  
+
     crsDetails: `A foundational course aligned with RHCSA (EX200) and RHCE (EX294), designed to equip learners with essential Linux skills for system administration, DevOps, and cloud roles. From terminal navigation to user management and networking, you’ll gain hands-on experience in real-world Linux environments.`,
-  
+
     overView: `Perfect for beginners, this course provides a comprehensive dive into Linux essentials. Learn terminal commands, manage users and services, configure basic networking, and get introduced to shell scripting—all through hands-on labs that prepare you for Red Hat certification and a Linux-based career path.`,
-  
+
     join: [
       {
         id: 1,
@@ -3393,26 +3503,31 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
         title: 'Professionals preparing for RHCSA or RHCE'
       }
     ],
-  
+
     features: [
       {
-        title1: 'Hands-On Labs',
-        description1: 'Lab sessions that mirror real Linux environments, boosting your command-line skills.'
+        title1: 'Assignments',
+        description1:
+          'Practice essential Linux commands and system tasks through guided assignments tailored to RHCE fundamentals.'
       },
       {
-        title2: 'Quizzes & Practice',
-        description2: 'Assess your Linux fundamentals after each module.'
+        title2: 'Quizzes',
+        description2:
+          'Reinforce your understanding of Linux concepts and system operations with end-of-module quizzes.'
       },
       {
-        title3: 'Live Mentorship',
-        description3: 'Ask questions and get clarifications in live and interactive sessions.'
+        title3: 'Live Sessions',
+        description3:
+          'Join interactive mentorship sessions to discuss RHCE topics, troubleshoot issues, and clarify technical concepts.'
       },
       {
-        title4: 'Mini Projects',
-        description4: 'Work on Linux-based setup tasks and final configuration challenges.'
+        title4: 'Projects',
+        description4:
+          'Build and configure real-world Linux environments through practical capstone projects aligned with RHCE standards.'
       }
     ],
-  
+    
+
     tools: [
       { cid: 1, icon: FaLinux },
       { cid: 2, icon: FaTerminal },
@@ -3420,7 +3535,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaNetworkWired },
       { cid: 5, icon: FaUserShield }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Introduction to Linux' },
       { cid: 2, c: 'Command Line Mastery' },
@@ -3429,12 +3544,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'Networking & Firewalls (RHCSA Scope)' },
       { cid: 6, c: 'Shell Scripting Basics + Final Project' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'Earn a certificate aligned with RHCSA/RHCE fundamentals from Eduden, validating your Linux system administration skills and readiness for advanced IT and DevOps learning paths.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to course content, practical labs, and recorded mentor sessions via the Eduden platform.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 37,
@@ -3446,11 +3566,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Linux Pro – Advanced Server Admin & Automation (RHCE Focused)',
     rating: 4.8,
     image: 'assets/images/course-cat-3.jpg',
-  
+
     crsDetails: `A comprehensive RHCE-focused course tailored for advanced Linux users and professionals. Learn to configure, secure, automate, and manage Linux servers in production environments. Includes deep dives into process management, LVM, services, and automation with Bash and Ansible.`,
-  
+
     overView: `This hands-on course is for those ready to move beyond the basics. You’ll simulate real infrastructure, automate system tasks, secure networks, and prepare for RHCE certification. Ideal for system admins and DevOps engineers seeking mastery in Linux-based server environments.`,
-  
+
     join: [
       {
         id: 1,
@@ -3466,29 +3586,35 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       },
       {
         id: 4,
-        title: 'Professionals aiming for RHCE, Ansible, or hybrid automation jobs'
+        title:
+          'Professionals aiming for RHCE, Ansible, or hybrid automation jobs'
       }
     ],
-  
+
     features: [
       {
-        title1: 'Practical Projects',
-        description1: 'Simulate real-world server management and automation environments.'
+        title1: 'Assignments',
+        description1:
+          'Complete deep-dive tasks focused on system management, user permissions, service configurations, and networking.'
       },
       {
-        title2: 'Advanced Labs',
-        description2: 'Focused on systemctl, LVM, firewalld, and SELinux for production readiness.'
+        title2: 'Quizzes',
+        description2:
+          'Test your grasp of RHCE-level topics like systemd, SELinux, and firewalld with challenging module-end quizzes.'
       },
       {
-        title3: 'Scripting & Automation',
-        description3: 'Master bash scripting and get introduced to Ansible automation.'
+        title3: 'Live Sessions',
+        description3:
+          'Attend expert-led mentorship sessions to review advanced Linux concepts, troubleshoot labs, and discuss real-world use cases.'
       },
       {
-        title4: 'Certification-Aligned',
-        description4: 'Built to prepare you for RHCE (EX294) and real-world sysadmin roles.'
+        title4: 'Projects',
+        description4:
+          'Work on real-time automation and server administration projects using bash scripting and Ansible to solidify your skills.'
       }
     ],
-  
+    
+
     tools: [
       { cid: 1, icon: FaLinux },
       { cid: 2, icon: FaServer },
@@ -3496,7 +3622,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaTools },
       { cid: 5, icon: SiAnsible }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'System Management & Process Control' },
       { cid: 2, c: 'Advanced Users, Groups & Permissions' },
@@ -3506,12 +3632,17 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'System Services & Server Configuration' },
       { cid: 7, c: 'Introduction to Ansible for RHCE' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'Earn an advanced Linux system administration certificate aligned with RHCE (EX294) and Ansible practices, showcasing your readiness for high-responsibility sysadmin or automation roles.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to course materials, interactive lab environments, and recorded mentorship sessions via Eduden’s learning portal.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 38,
@@ -3523,11 +3654,11 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'IoT Foundations – 30 Days Hands-On Learning Program',
     rating: 4.7,
     image: 'assets/images/course-cat-4.jpg',
-  
+
     crsDetails: `Get started with the Internet of Things by exploring smart device communication, microcontrollers, sensors, and cloud connectivity. This beginner-friendly course walks you through hands-on projects with Arduino and ESP boards, preparing you for real-world IoT solutions.`,
-  
+
     overView: `Whether you're a student, maker, or aspiring robotics engineer, this course gives you the foundational skills to build smart systems using microcontrollers, sensors, and cloud-based tools. Ideal for breaking into IoT, automation, or embedded systems.`,
-  
+
     join: [
       {
         id: 1,
@@ -3546,26 +3677,31 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
         title: 'Professionals switching to IoT or automation domains'
       }
     ],
-  
+
     features: [
       {
-        title1: 'Zero Prerequisites',
-        description1: 'No prior coding or hardware knowledge needed — learn by doing.'
+        title1: 'Assignments',
+        description1:
+          'Complete hands-on tasks like connecting sensors, setting up microcontrollers, and configuring networks for IoT solutions.'
       },
       {
-        title2: 'Microcontrollers & Sensors',
-        description2: 'Work with Arduino, ESP boards, motion sensors, and actuators.'
+        title2: 'Quizzes',
+        description2:
+          'Test your understanding of IoT concepts such as cloud communication, networking protocols, and sensor integration after each module.'
       },
       {
-        title3: 'Cloud & Networking',
-        description3: 'Understand how IoT devices send data over Wi-Fi using MQTT/HTTP.'
+        title3: 'Live Sessions',
+        description3:
+          'Engage in live, interactive sessions with experts to discuss IoT concepts, troubleshoot hardware issues, and enhance your projects.'
       },
       {
-        title4: 'Build a Full IoT Project',
-        description4: 'End-to-end hands-on project: sensor > cloud > mobile dashboard.'
+        title4: 'Projects',
+        description4:
+          'Work on real-world IoT projects, building a complete system that connects sensors to the cloud and visualizes data on mobile dashboards.'
       }
     ],
-  
+    
+
     tools: [
       { cid: 1, icon: FaMicrochip },
       { cid: 2, icon: FaWifi },
@@ -3573,7 +3709,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaNetworkWired },
       { cid: 5, icon: FaTemperatureHigh }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Introduction to IoT & Ecosystem Overview' },
       { cid: 2, c: 'Microcontrollers & Programming (Arduino/ESP)' },
@@ -3582,12 +3718,16 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'IoT & the Cloud' },
       { cid: 6, c: 'Final Project + Real-World Applications' }
     ],
-  
+
     img: upCmnPic2,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'Earn a foundational IoT certificate demonstrating your ability to design, program, and connect smart devices from the ground up.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to training materials, cloud dashboards, and recorded sessions via Eduden’s hybrid learning portal.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 39,
@@ -3599,37 +3739,50 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'Diploma in Full Stack Programming – 9 Months Career Track',
     rating: 4.9,
     image: 'assets/images/course-cat-5.jpg',
-  
+
     crsDetails: `A complete job-ready full stack web development program for absolute beginners to become industry-ready. Learn to build, deploy, and maintain modern web apps using React, Next.js, Django, and real-world databases.`,
-  
+
     overView: `Designed for students, working professionals, and entrepreneurs, this 9-month hybrid diploma covers everything from web basics to advanced deployment. You’ll graduate with a solid portfolio, job prep, and the confidence to take on real tech roles.`,
-  
+
     join: [
       { id: 1, title: 'Students (12th pass or graduates from any stream)' },
       { id: 2, title: 'Working professionals looking to switch careers' },
-      { id: 3, title: 'Freelancers and entrepreneurs wanting to build real tech products' },
-      { id: 4, title: 'Anyone passionate about building web apps, even without coding background' }
-    ],
-  
-    features: [
       {
-        title1: 'Frontend to Backend Mastery',
-        description1: 'Learn React, Next.js, Django, PostgreSQL, and MongoDB through live coding and hands-on practice.'
+        id: 3,
+        title:
+          'Freelancers and entrepreneurs wanting to build real tech products'
       },
       {
-        title2: '10+ Real Projects',
-        description2: 'Each module ends with a full project — blog UIs, APIs, ecommerce, dashboards, and more.'
-      },
-      {
-        title3: 'Career-Focused Training',
-        description3: 'Resume workshops, mock interviews, portfolio building, and job placement assistance.'
-      },
-      {
-        title4: 'Hybrid Learning Model',
-        description4: 'Attend live sessions online or in-person with flexible doubt-solving and weekend labs.'
+        id: 4,
+        title:
+          'Anyone passionate about building web apps, even without coding background'
       }
     ],
-  
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Learn full stack programming with hands-on assignments that cover React, Next.js, Django, PostgreSQL, and MongoDB.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Reinforce your understanding of full stack concepts with quizzes after each module to test your knowledge.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Participate in live coding sessions where you can ask questions, discuss concepts, and get real-time feedback.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Work on 10+ real-world projects, including building blogs, APIs, ecommerce platforms, and more, to demonstrate your skills.'
+      }
+    ]
+    ,
+
     tools: [
       { cid: 1, icon: FaReact },
       { cid: 2, icon: FaPython },
@@ -3637,21 +3790,29 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaNodeJs },
       { cid: 5, icon: FaGitAlt }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'Programming & Web Fundamentals (1 Month)' },
       { cid: 2, c: 'React.js – Frontend Development (2 Months)' },
       { cid: 3, c: 'Next.js – Server-Side Frontend (1.5 Months)' },
       { cid: 4, c: 'Django – Backend API Development (2 Months)' },
       { cid: 5, c: 'PostgreSQL + MongoDB – Database Design (1 Month)' },
-      { cid: 6, c: 'Full Stack Integration, DevOps & Final Capstone (1.5 Months)' }
+      {
+        cid: 6,
+        c: 'Full Stack Integration, DevOps & Final Capstone (1.5 Months)'
+      }
     ],
-  
+
     img: upCmnPic2,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'Diploma in Full Stack Web Development – recognized by Eduden and hiring partners. Validates 500+ hours of coding and deployment experience.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to recorded sessions, projects, mentorship channels, and source code repositories.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
   {
     id: 40,
@@ -3663,37 +3824,45 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title: 'MERN Stack Developer – 6 Months Hands-On Training',
     rating: 4.8,
     image: 'assets/images/course-cat-3.jpg',
-  
+
     crsDetails: `Master full stack web development with JavaScript from scratch. Build dynamic apps using React, Node, Express, and MongoDB, and learn how to integrate, secure, and deploy your own full-stack projects.`,
-  
+
     overView: `This hands-on 6-month program is ideal for beginners and those with basic frontend experience who want to transition into full stack MERN development. Learn by building projects from day one and become job-ready with real deployment skills.`,
-  
+
     join: [
       { id: 1, title: 'Students (12th pass or graduates)' },
       { id: 2, title: 'Working professionals looking to switch to tech' },
       { id: 3, title: 'Frontend developers looking to go full stack' },
-      { id: 4, title: 'Entrepreneurs & freelancers wanting to build & launch real apps' }
-    ],
-  
-    features: [
       {
-        title1: 'JavaScript Mastery',
-        description1: 'Understand the language powering the entire stack — from browser to server.'
-      },
-      {
-        title2: 'React to MongoDB Integration',
-        description2: 'Build, test, and deploy full stack apps using modern MERN architecture.'
-      },
-      {
-        title3: 'Project-Based Learning',
-        description3: 'Work on 8 hands-on projects like product catalogs, APIs, dashboards, and booking systems.'
-      },
-      {
-        title4: 'Career Launch Support',
-        description4: 'Resume building, GitHub portfolio setup, and technical mock interviews.'
+        id: 4,
+        title: 'Entrepreneurs & freelancers wanting to build & launch real apps'
       }
     ],
-  
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Complete hands-on assignments to master the MERN stack, including MongoDB, Express, React, and Node.js.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your knowledge of MERN stack concepts after each module to ensure strong understanding of key technologies.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Engage in live, interactive coding sessions where you can ask questions, collaborate with peers, and get expert feedback.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build 8 practical projects, such as product catalogs, APIs, dashboards, and booking systems, to apply your skills in real-world scenarios.'
+      }
+    ]
+    ,
+
     tools: [
       { cid: 1, icon: FaReact },
       { cid: 2, icon: FaNodeJs },
@@ -3701,7 +3870,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, icon: FaJsSquare },
       { cid: 5, icon: FaGithub }
     ],
-  
+
     curriculum: [
       { cid: 1, c: 'JavaScript & Web Fundamentals (3 Weeks)' },
       { cid: 2, c: 'React – Frontend Development (6 Weeks)' },
@@ -3710,25 +3879,857 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'MERN Stack Integration (5 Weeks)' },
       { cid: 6, c: 'Deployment, Hosting & DevOps Basics (2 Weeks)' }
     ],
-  
+
     img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
-    Certificate: 'Certificate of Completion – MERN Stack Developer (recognized by Eduden and hiring partners). Demonstrates full stack proficiency in React, Node, Express, and MongoDB.',
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
   
-    Access: 'Lifetime access to all course recordings, project code, GitHub repositories, and learning resources.'
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 41,
+    lecture: '65+',
+    duration: '60 Days',
+    projects: 6,
+    category: 'Programming',
+    off: '12%',
+    title: 'Web3 & dApp Development – Full Stack Blockchain in 60 Days',
+    rating: 3.7,
+    image: 'assets/images/course-cat-4.jpg',
+
+    crsDetails: `Master the essentials of decentralized application development with this hands-on 60-day Web3 program. From Ethereum fundamentals and Solidity smart contracts to frontend dApp integration and NFT marketplaces, this course will make you proficient in building, deploying, and securing blockchain applications.`,
+
+    overView: `To equip learners with the skills and tools to build decentralized applications using Ethereum smart contracts and connect them to web interfaces with modern Web3 libraries. Students will also explore NFT creation, smart contract deployment, and dApp monetization.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Frontend or backend developers (React/JS/Python preferred)'
+      },
+      { id: 2, title: 'Blockchain & crypto-curious learners' },
+      { id: 3, title: 'Startup founders building Web3 MVPs' },
+      { id: 4, title: 'Freelancers aiming to enter the NFT and DeFi world' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Practice writing smart contracts, integrating wallets, and interacting with the Ethereum blockchain.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your understanding of Web3 concepts, Solidity, dApp architecture, and blockchain workflows.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Join expert-led sessions to discuss smart contract design, frontend integration, and real-world Web3 challenges.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build and deploy complete dApps including NFT minting platforms, custom tokens, and DeFi features.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaEthereum },
+      { cid: 2, icon: FaJsSquare },
+      { cid: 3, icon: FaGithub },
+      { cid: 4, icon: FaDatabase }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Web3 Fundamentals & Blockchain Basics' },
+      { cid: 2, c: 'Smart Contracts & Solidity Programming' },
+      { cid: 3, c: 'Smart Contract Deployment with Hardhat' },
+      { cid: 4, c: 'Frontend Integration with web3.js & ethers.js' },
+      { cid: 5, c: 'NFTs, Tokens & DeFi Basics' },
+      { cid: 6, c: 'IPFS, Gas Optimization & Security' },
+      { cid: 7, c: 'Final Project + dApp Deployment' }
+    ],
+
+    img: upCmnPic1,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 42,
+    lecture: '80+',
+    duration: '90 Days',
+    projects: 8,
+    category: 'Cyber Security',
+    off: '15%',
+    title: 'Cybersecurity Advanced – Red Team/Blue Team Career Track',
+    rating: 4.9,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `This intensive 90-day hybrid cybersecurity program equips learners with both offensive (Red Team) and defensive (Blue Team) skills. Explore advanced hacking techniques, real-world network/web app exploits, threat detection with SIEMs, and complete SOC simulations. Ideal for learners targeting high-demand roles in ethical hacking, penetration testing, and cyber defense.`,
+
+    overView: `To provide learners with a deep, hands-on understanding of offensive and defensive security — including network penetration testing, web app exploits, SIEM-based defense, and incident response. You'll be able to simulate attacks, build defense mechanisms, and respond like a pro in real-world scenarios.`,
+
+    join: [
+      { id: 1, title: 'Ethical hacking/basic cybersecurity course graduates' },
+      { id: 2, title: 'IT professionals (Linux/Networking/Security roles)' },
+      {
+        id: 3,
+        title: 'Cybersecurity students preparing for advanced certifications'
+      },
+      { id: 4, title: 'Individuals aiming for Red Team / Blue Team job roles' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on attack and defense scenarios using virtual labs, tools, and real-world attack chains.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Assess knowledge on CVEs, MITRE ATT&CK framework, log analysis, and incident workflows.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Engage in Red vs Blue drills, threat hunting walkthroughs, and adversary emulation sessions.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Simulate domain takeovers, SOC monitoring, malware response, and end-to-end kill chain exercises.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaLinux },
+      { cid: 2, icon: FaSearch },
+      { cid: 3, icon: FaNetworkWired },
+      { cid: 4, icon: FaShieldAlt }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Red Team – Advanced Reconnaissance & OSINT' },
+      { cid: 2, c: 'Red Team – Vulnerability Analysis & Exploitation' },
+      { cid: 3, c: 'Red Team – Web Application Hacking' },
+      { cid: 4, c: 'Red Team – Active Directory & Post-Exploitation' },
+      { cid: 5, c: 'Blue Team – Log Analysis & Threat Detection' },
+      { cid: 6, c: 'Blue Team – Incident Response & Threat Hunting' },
+      { cid: 7, c: 'Blue Team – Network Security Monitoring' },
+      { cid: 8, c: 'Blue Team Labs & SOC Simulation' }
+    ],
+
+    img: upCmnPic2,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 43,
+    lecture: '60+',
+    duration: '60 Days',
+    projects: 7,
+    category: 'Digital Marketing',
+    off: '10%',
+    title: 'AI-Powered Digital Marketing – Hands-On in 60 Days',
+    rating: 4.8,
+    image: 'assets/images/course-cat-6.jpg',
+
+    crsDetails: `This beginner-to-intermediate digital marketing course blends the latest in performance marketing with the power of AI. Learn to launch high-performing campaigns, create AI-generated content, optimize ads and SEO, automate workflows, and build a job-ready portfolio. Perfect for freelancers, content creators, startup marketers, and students aiming to fast-track their digital journey.`,
+
+    overView: `To equip learners with the latest skills in performance marketing and automation, using AI-powered tools to create content, optimize ads, plan campaigns, analyze performance, and scale results faster than traditional methods. You’ll walk away with live campaign experience, a real marketing portfolio, and the confidence to run campaigns that convert — whether for your clients, startup, or side hustle.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Students, freelancers & job seekers exploring digital marketing'
+      },
+      { id: 2, title: 'Small business owners & content creators' },
+      { id: 3, title: 'Traditional marketers upgrading to automation' },
+      { id: 4, title: 'Influencers and startup founders scaling their brand' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Create ad copy, email funnels, landing pages, and full campaigns using AI tools.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Assess understanding of SEO, ad strategy, email workflows, and AI integrations.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Weekly strategy workshops, ad campaign walkthroughs, and tool mastery sprints.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Launch real ads, build automation, generate SEO content, and complete a capstone campaign.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaRobot },
+      { cid: 2, icon: FaBullhorn },
+      { cid: 3, icon: FaEnvelope },
+      { cid: 4, icon: FaChartBar }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Digital Marketing Fundamentals + AI Integration' },
+      { cid: 2, c: 'AI Content Creation & SEO' },
+      { cid: 3, c: 'Meta & Google Ads with AI-Powered Copywriting' },
+      { cid: 4, c: 'AI Design & Video Tools' },
+      { cid: 5, c: 'Email Marketing & Automation Workflows' },
+      { cid: 6, c: 'Analytics, Reporting & Automation' },
+      { cid: 7, c: 'Capstone Project & Portfolio Building' }
+    ],
+
+    img: upCmnPic3,
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 44,
+    lecture: '50+',
+    duration: '45 Days',
+    projects: 6,
+    category: 'Blockchain',
+    off: '10%',
+    title: 'Blockchain Essentials – Learn & Build Decentralized Systems',
+    rating: 4.7,
+    image: 'assets/images/course-cat-8.jpg',
+
+    crsDetails: `This beginner-to-intermediate blockchain course provides a solid foundation in decentralized systems and Ethereum smart contracts. Dive into cryptographic fundamentals, explore the EVM, and build dApps using Solidity and web3.js. Perfect for developers, tech enthusiasts, and aspiring Web3 entrepreneurs looking to break into the blockchain space.`,
+
+    overView: `To help learners understand the core concepts of blockchain technology, the Ethereum ecosystem, and how to build decentralized applications (dApps) using Solidity and smart contracts. By the end of this course, you’ll build and deploy your own smart contract, interact with the blockchain using web3.js or ethers.js, and have a solid foundation in the decentralized future.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Developers, computer science students, or tech enthusiasts'
+      },
+      {
+        id: 2,
+        title: 'Beginners with interest in crypto, NFTs, Web3, or DeFi'
+      },
+      { id: 3, title: 'Entrepreneurs looking to build Web3 startups' },
+      {
+        id: 4,
+        title: 'Freelancers and engineers entering the blockchain space'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Code smart contracts, simulate transactions, and integrate dApps with a frontend.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test understanding of cryptographic principles, Solidity syntax, and Web3 logic.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Mentorship on Solidity, smart contract security, and dApp walkthroughs.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Deploy smart contracts, integrate MetaMask, and build real Web3 applications.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaCode },
+      { cid: 2, icon: FaCube },
+      { cid: 3, icon: FaWallet },
+      { cid: 4, icon: FaProjectDiagram }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Blockchain Fundamentals & Cryptography Basics' },
+      { cid: 2, c: 'Ethereum & Smart Contract Basics' },
+      { cid: 3, c: 'Solidity Programming & dApp Development' },
+      { cid: 4, c: 'Web3 Integration & Blockchain Frontend' },
+      { cid: 5, c: 'Real-World Blockchain Use Cases & Projects' },
+      { cid: 6, c: 'Final Project + Certification Prep' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 45,
+    lecture: '80+',
+    duration: '90 Days',
+    projects: 9,
+    category: 'Big Data',
+    off: '10%',
+    title: 'Big Data Engineering – Hadoop, Spark, Kafka Career Track',
+    rating: 4.8,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `A comprehensive 90-day program covering the full Big Data Engineering stack. Learn to manage massive datasets using Hadoop, Spark, Kafka, Airflow, and more. Build batch and real-time data pipelines, orchestrate workflows, and deploy cloud-based solutions. Ideal for aspiring Data Engineers and DataOps professionals.`,
+
+    overView: `To give learners the knowledge, tools, and real-world experience to work with large-scale datasets, build ETL pipelines, process real-time data streams, and prepare for roles like Big Data Engineer, Data Pipeline Developer, or DataOps Specialist. You'll go from foundational data concepts to building real pipelines with Hadoop, Spark, Kafka, and Airflow — all with hands-on projects, cloud integration, and GitHub-ready portfolio building.`,
+
+    join: [
+      { id: 1, title: 'Beginners with basic Python or SQL knowledge' },
+      { id: 2, title: 'Computer science students or recent graduates' },
+      { id: 3, title: 'Developers and system engineers transitioning to data' },
+      {
+        id: 4,
+        title:
+          'Professionals aiming for roles in data engineering, analytics, or ML ops'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Build ETL workflows, stream data from Kafka, and manage tasks with Airflow.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Concept checks on Hadoop, Spark internals, real-time streaming, and orchestration.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Walkthroughs of distributed processing, cluster management, and real-world pipeline building.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Deploy end-to-end data pipelines from ingestion to transformation and cloud deployment.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaServer },
+      { cid: 2, icon: FaCloud },
+      { cid: 3, icon: FaDatabase },
+      { cid: 4, icon: FaStream }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Big Data Foundations & Ecosystem Overview' },
+      { cid: 2, c: 'Hadoop & HDFS' },
+      { cid: 3, c: 'Apache Hive, Pig & MapReduce' },
+      { cid: 4, c: 'Apache Spark – Batch & Real-Time Processing' },
+      { cid: 5, c: 'Apache Kafka – Real-Time Data Streaming' },
+      { cid: 6, c: 'Orchestration with Apache Airflow' },
+      { cid: 7, c: 'NoSQL & File Formats for Big Data' },
+      { cid: 8, c: 'Cloud-Based Big Data Tools (AWS Focus)' },
+      { cid: 9, c: 'Final Capstone Project' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 46,
+    lecture: '75+',
+    duration: '90 Days',
+    projects: 8,
+    category: 'Machine Learning',
+    off: '10%',
+    title: 'AI & Machine Learning with Python – 90 Days Job-Ready Career Track',
+    rating: 4.9,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `Master AI and Machine Learning using Python over 90 days. Ideal for freshers, developers, or career switchers aiming to become AI Engineers or Data Scientists. Build ML models, visualize data, and deploy AI solutions — with a portfolio of real-world projects to back your skills.`,
+
+    overView: `To help learners build a strong foundation in AI & ML using Python, understand how to apply machine learning to real problems, and gain practical experience with data preprocessing, model building, evaluation, and deployment. You'll build a job-ready portfolio while learning the tools and algorithms used by AI engineers worldwide.`,
+
+    join: [
+      { id: 1, title: 'Students and freshers with basic Python knowledge' },
+      { id: 2, title: 'Working professionals switching to AI/ML' },
+      { id: 3, title: 'Developers looking to enter AI product teams' },
+      { id: 4, title: 'Entrepreneurs building data-driven products' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Solve classification and regression problems, clean real datasets, and visualize insights.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Concept checks on ML theory, Python libraries, statistics, and neural networks.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Model walkthroughs, data science project reviews, and mentoring for job readiness.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build models like fraud detectors, recommendation systems, and image classifiers.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaPython },
+      { cid: 2, icon: FaChartBar },
+      { cid: 3, icon: FaBrain },
+      { cid: 4, icon: FaCodeBranch }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Python for AI & Data Science' },
+      { cid: 2, c: 'Statistics & Math for Machine Learning' },
+      { cid: 3, c: 'Data Preprocessing & Feature Engineering' },
+      { cid: 4, c: 'Supervised Machine Learning' },
+      { cid: 5, c: 'Unsupervised Learning & Clustering' },
+      { cid: 6, c: 'Model Optimization & Evaluation' },
+      { cid: 7, c: 'Intro to Deep Learning & Neural Networks' },
+      { cid: 8, c: 'ML Model Deployment (Optional Add-On)' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 47,
+    lecture: '50+',
+    duration: '45 Days',
+    projects: 6,
+    category: 'Generative AI',
+    off: '15%',
+    title: 'Generative AI & Prompt Engineering – 45 Days Hands-On Course',
+    rating: 4.8,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `Master the future of AI by learning how to talk to it. In just 45 days, you'll gain hands-on experience with GPT-4, Claude, Gemini, and other LLMs. Learn prompt engineering, build AI tools and chatbots, automate workflows, and design GenAI-powered content – no coding required.`,
+
+    overView: `To help learners understand how to interact with, customize, and build tools using large language models (LLMs). The focus is on practical prompt design, chaining prompts, building chatbots, and using GenAI tools to create value — whether you're coding, designing, selling, or solving business problems.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Anyone curious about ChatGPT, AI tools, or building with LLMs'
+      },
+      {
+        id: 2,
+        title: 'Students and professionals (no coding experience required)'
+      },
+      { id: 3, title: 'Freelancers and content creators' },
+      { id: 4, title: 'Developers, marketers, analysts, educators' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Design prompts, build workflows, and explore AI-powered automation tasks.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Quick assessments on prompt design, LLM behavior, and GenAI concepts.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'AI tool walkthroughs, live builds, and hands-on GenAI integration workshops.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Create prompt-based tools, chatbots, and automation workflows for real-world tasks.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaRobot },
+      { cid: 2, icon: FaNetworkWired },
+      { cid: 3, icon: FaCode },
+      { cid: 4, icon: FaLayerGroup }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Foundations of Generative AI & LLMs' },
+      { cid: 2, c: 'Prompt Engineering 101' },
+      { cid: 3, c: 'Using LLMs for Productivity & Content' },
+      { cid: 4, c: 'Building with OpenAI API & LangChain' },
+      { cid: 5, c: 'Integrating GenAI into Real Workflows' },
+      { cid: 6, c: 'Final Projects & Real-World Use Cases' }
+    ],
+
+    img: upCmnPic2,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 48,
+    lecture: '70+',
+    duration: '60 Days',
+    projects: 8,
+    category: 'Generative AI',
+    off: '20%',
+    title:
+      'Deep Learning & Neural Networks with TensorFlow & Keras – 60 Days Hands-On Training',
+    rating: 4.9,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `Learn how to build powerful AI models that think like a human brain. In 60 days, master neural networks, TensorFlow, and Keras to solve real-world problems in image processing, NLP, and time series forecasting — all through hands-on learning.`,
+
+    overView: `To provide a solid foundation in neural network architectures, deep learning workflows, and real-world AI applications using TensorFlow and Keras — all taught with hands-on projects, not just theory.`,
+
+    join: [
+      { id: 1, title: 'Learners with basic ML or Python experience' },
+      { id: 2, title: 'Data science and ML graduates ready for next level' },
+      { id: 3, title: 'Developers exploring computer vision or NLP' },
+      { id: 4, title: 'Professionals aiming for AI Engineer roles or research' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Train neural networks, tweak hyperparameters, and visualize layers using TensorFlow/Keras.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Concept checks on backpropagation, optimizers, and CNN/RNN mechanisms.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Deep learning builds, architecture walkthroughs, and real-time model debugging.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Image classification, sentiment analysis, sequence forecasting, and final capstone builds.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaBrain },
+      { cid: 2, icon: FaPython },
+      { cid: 3, icon: FaChartLine },
+      { cid: 4, icon: FaProjectDiagram }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Deep Learning' },
+      { cid: 2, c: 'Feedforward Neural Networks (FNNs)' },
+      { cid: 3, c: 'TensorFlow & Keras Fundamentals' },
+      { cid: 4, c: 'Convolutional Neural Networks (CNNs)' },
+      { cid: 5, c: 'Recurrent Neural Networks (RNNs) + LSTM/GRU' },
+      { cid: 6, c: 'Transfer Learning + Fine-Tuning' },
+      { cid: 7, c: 'Final Capstone Project' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 49,
+    lecture: '55+',
+    duration: '45 Days',
+    projects: 6,
+    category: 'Generative AI',
+    off: '15%',
+    title:
+      'Applied AI in Healthcare, Finance & Marketing – 45 Days Industry-Focused Course',
+    rating: 4.8,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `Master the practical side of Artificial Intelligence by solving real-world problems in healthcare diagnostics, financial fraud detection, and AI-powered marketing. This course focuses on industry-specific use cases and hands-on projects that demonstrate how AI is transforming key sectors.`,
+
+    overView: `To help learners understand how AI is transforming the world’s biggest industries and give them the tools to build intelligent solutions across domains like healthcare, fintech, and digital marketing.`,
+
+    join: [
+      { id: 1, title: 'Professionals in healthcare, marketing, finance' },
+      { id: 2, title: 'ML/DS students who want domain-specific expertise' },
+      { id: 3, title: 'Business owners & consultants exploring AI automation' },
+      { id: 4, title: 'Entrepreneurs building AI-based SaaS products' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Domain-based problem-solving using industry datasets and real KPIs.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Assessments to reinforce AI concepts in healthcare, finance, and marketing.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Industry case studies, project walkthroughs, and tool usage demos.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Predictive healthcare models, fintech fraud detectors, AI-powered marketing tools.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaRobot },
+      { cid: 2, icon: FaMoneyCheckAlt },
+      { cid: 3, icon: FaChartBar },
+      { cid: 4, icon: FaTools }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'AI in Healthcare' },
+      { cid: 2, c: 'AI in Finance (FinTech)' },
+      { cid: 3, c: 'AI in Digital Marketing' },
+      { cid: 4, c: 'Building & Presenting Business Projects' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 50,
+    lecture: '60+',
+    duration: '60 Days',
+    projects: 6,
+    category: 'Generative AI',
+    off: '10%',
+    title:
+      'Natural Language Processing (NLP) & LLMs with Hugging Face – 60 Days Hands-On Course',
+    rating: 4.9,
+    image: 'assets/images/course-cat-5.jpg',
+
+    crsDetails: `Learn how to teach AI to read, write, and understand human language by mastering NLP models, transformers, and building intelligent AI assistants using Hugging Face, OpenAI, and other advanced NLP tools.`,
+
+    overView: `This course will equip learners with practical experience in processing and generating human language using traditional NLP techniques and modern LLMs like BERT, GPT, and T5 to create chatbots, text summarizers, and classifiers.`,
+
+    join: [
+      { id: 1, title: 'AI/ML students or professionals' },
+      { id: 2, title: 'Python developers exploring text/AI' },
+      { id: 3, title: 'Data scientists breaking into NLP' },
+      { id: 4, title: 'Tech entrepreneurs building smart tools' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on projects focused on real-world NLP applications.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Tests to reinforce NLP concepts and transformer model understanding.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Detailed discussions on state-of-the-art techniques and industry trends.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build advanced models like chatbots, classifiers, and sentiment analyzers.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaRobot },
+      { cid: 2, icon: FaComments },
+      { cid: 3, icon: FaBrain },
+      { cid: 4, icon: FaTools }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Fundamentals of NLP' },
+      { cid: 2, c: 'NLP with spaCy & NLTK' },
+      { cid: 3, c: 'Deep Learning for NLP' },
+      { cid: 4, c: 'Transformers & Hugging Face' },
+      { cid: 5, c: 'Working with LLMs & ChatGPT APIs' },
+      { cid: 6, c: 'Final Capstone Project' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 51,
+    lecture: '60+',
+    duration: '60 Days',
+    projects: 6,
+    category: 'Data Science',
+    off: '10%',
+    title:
+      'Data Science & Analytics with Python + Power BI – 60 Days Career Track',
+    rating: 4.8,
+    image: 'assets/images/course-cat-6.jpg',
+
+    crsDetails: `This course is built for beginners, analysts, business students, and working professionals who want to enter the world of data-driven decision making. You'll learn how to collect, clean, analyze, and visualize data using Python and Power BI, and translate your insights into powerful business actions.
+No prior coding or analytics background? No problem. This course is beginner-friendly and focused on practical applications — not just theory.`,
+
+    overView: `To help learners build confidence and capability in working with structured and unstructured data, performing exploratory data analysis (EDA), creating dashboards, and extracting insights that drive business decisions.`,
+
+    join: [
+      { id: 1, title: 'Students, business grads, and freshers' },
+      {
+        id: 2,
+        title: 'Aspiring data analysts or business intelligence professionals'
+      },
+      {
+        id: 3,
+        title: 'Non-tech working professionals transitioning into data roles'
+      },
+      {
+        id: 4,
+        title: 'Freelancers, marketers, and managers seeking data literacy'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1: 'Practical hands-on exercises using Python and Power BI.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Assessments to reinforce data analysis and visualization concepts.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive discussions on key concepts and real-life business cases.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build real business dashboards and data analysis projects.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaChartBar },
+      { cid: 2, icon: FaPython },
+      { cid: 3, icon: FaDatabase },
+      { cid: 4, icon: FaLaptopCode }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Data Science & Analytics' },
+      { cid: 2, c: 'Python for Data Analytics' },
+      { cid: 3, c: 'Data Visualization with Python' },
+      { cid: 4, c: 'SQL for Analysts (Structured Query Language)' },
+      { cid: 5, c: 'Power BI Dashboards & DAX' },
+      { cid: 6, c: 'Final Project + Reporting' }
+    ],
+
+    img: upCmnPic1,
+
+    Certificate: 
+    'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+  
+  Access: 
+    'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+  
+  interview: 
+    'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 ]
 
 const filterMicroCourses = [

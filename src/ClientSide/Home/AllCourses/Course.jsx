@@ -15,6 +15,7 @@ const Course = ({ currentCategory }) => {
       return category;
     }
   });
+  console.log(filteredCat)
   //   grid grid-cols-[repeat(auto-fit,minmax(385px,1fr))]
   return (
     <div className="">

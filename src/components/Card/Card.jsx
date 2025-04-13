@@ -138,8 +138,8 @@ const Card = ({
           </div>
           <div className='px-[14px] md:px-[25px] mt-10 md:mt-[68px]'>
             <div>
-              <div className='lg:flex items-center justify-between gap-[10px] sm:gap-[30px] '>
-                <button className='bg-[#FAB70A] text-[14px] py-2 px-5 font-medium text-black rounded-[50px] mb-2 lg:mb-auto'>
+              <div className='lg:flex items-center justify-between  '>
+                <button className='bg-[#FAB70A] text-[14px] py-3 px-4 font-bold text-black rounded-[50px] mb-2 lg:mb-auto'>
                   {category}
                 </button>
                 <div className='flex items-center gap-[4px] sm:gap-[8px]'>
@@ -165,8 +165,8 @@ const Card = ({
         {/* Content shown on hover */}
         <div className='h-full px-[14px] md:px-[25px]  pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out'>
           <div>
-            <div className='md:flex items-center gap-[10px] sm:gap-[30px]'>
-              <p className='w-[170px] h-[36px] flex justify-center items-center bg-[#010101]  text-[14px]  leading-[16px] font-bold text-white rounded-[50px] mb-2 md:mb-auto'>
+            <div className='md:flex items-center justify-between'>
+              <p className='py-1 px-4 flex justify-center items-center bg-[#010101] text-sm  text-white rounded-[50px] mb-2 md:mb-auto'>
                 {category}
               </p>
               <div className='flex items-center gap-[4px] sm:gap-[8px]'>
@@ -206,7 +206,7 @@ const Card = ({
                       `/courseDetails/${encodeURIComponent(title.trim())}`
                     )
                   }
-                  className='md:px-[18px] md:py-2 py-2 px-3 bg-[#010101]  text-white rounded-[50px] text-nowrap cursor-pointer hover:scale-105 text-[14px] md:text-[20px]'
+                  className='py-3 px-4 bg-[#010101]  text-white rounded-[50px] text-nowrap cursor-pointer hover:scale-105 text-[14px] '
                 >
                   Enroll Now
                 </button>
@@ -229,7 +229,7 @@ const Card = ({
               <div>
                 <button
                   onClick={() => handleInquiry(title)}
-                  className='px-4 py-2 md:px-[25px] md:py-[13px]  rounded-[50px] bg-[#010101]  text-white text-[16px] font-gucina font-bold '
+                  className='px-4 py-3   rounded-[50px] bg-[#010101]  text-white   text-[14px] '
                 >
                   inquiry
                 </button>
