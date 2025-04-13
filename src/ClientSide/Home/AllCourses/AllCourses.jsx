@@ -46,7 +46,7 @@ const AllCourses = ({ sectionGap }) => {
         underline='Courses'
       />
 
-      <div className=' flex flex-wrap  items-center flex-row lg:gap-x-[20px] lg:space-x-1 gap-x-[5px] space-x-4 gap-y-2 lg:gap-y-0 lg:space-y-4 text-white group lg:mb-[50px]'>
+      <div className=' flex flex-wrap  items-center flex-row lg:gap-x-[20px] lg:space-x-1  gap-y-2 lg:gap-y-0 lg:space-y-4 text-white group lg:mb-[50px]'>
         <button
           onClick={() => handleCategories('Show All')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"

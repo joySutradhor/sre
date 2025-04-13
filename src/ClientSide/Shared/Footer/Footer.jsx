@@ -91,7 +91,7 @@ const Footer = () => {
             <div className='text-white'>
               <h2 className='footerMenuTextTitle'>Learning platform</h2>
 
-              <Link to="https://www.w3schools.com/" target="_blank">
+              <Link to='https://www.w3schools.com/' target='_blank'>
                 <p className='footerMenuText  flex flex-row items-center gap-x-[10px] pb-2'>
                   <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
                     <RiYoutubeFill size={10} className='footerSocailIcon' />
@@ -100,7 +100,7 @@ const Footer = () => {
                 </p>
               </Link>
 
-              <Link to="https://www.w3schools.com/" target="_blank">
+              <Link to='https://www.w3schools.com/' target='_blank'>
                 <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
                   <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
                     <FaFacebookF size={10} className='footerSocailIcon' />
@@ -108,7 +108,7 @@ const Footer = () => {
                   Facebook
                 </p>
               </Link>
-              <Link to="https://www.w3schools.com/" target="_blank">
+              <Link to='https://www.w3schools.com/' target='_blank'>
                 <p className='footerMenuText flex flex-row items-center gap-x-[10px] pb-2'>
                   <div className='bg-[#FFD300] text-[#030303] w-[20px] h-[20px] rounded-full flex justify-center items-center'>
                     <FaInstagram size={10} className='footerSocailIcon' />
@@ -349,10 +349,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      {/* <Chatbot/> */}
-      <div className='fixed bottom-[8vh] right-[5vw] animate-pulse z-50'>
-        <Link to="https://wa.me/919239425164" target='_blank'><FaWhatsapp className='text-5xl text-[#FFD300]'/></Link>
-      </div>
+        {/* <Chatbot/> */}
+        <div className='fixed bottom-[8vh] right-[5vw] animate-pulse z-50 bg-white p-2 rounded-full'>
+          <Link to='https://wa.me/919239425164' target='_blank'>
+            <FaWhatsapp className='text-5xl ' />
+          </Link>
+        </div>
       </div>
     </div>
   )

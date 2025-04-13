@@ -608,14 +608,14 @@ const filterCourse = [
     off: '5%',
     title: 'Graphic Designing and Visual Communication',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: '/assets/courses/front.jpg',
     details: {
       students: 29,
       duration: '12.5 hours'
     },
     crsDetails: `Ever looked at a cool poster, a slick logo, or an Instagram ad and thought, “I wish I could make that”? Well, now you can — and you’ll get paid for it too. This course is your launchpad into the design world, where we’ll teach you how to create scroll-stopping visuals, smart brand identities, and designs that speak louder than words.
   From the basics of color psychology to mastering Adobe Illustrator and diving into Photoshop essentials, we’ve packed this course with everything you need to become a designer people want to hire. Whether you want to freelance, build your own brand, or get into creative roles — we’ll show you how to design with purpose and confidence.`,
-    img: upCmnPic2,
+    img: '/assets/courses/front.jpg',
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',

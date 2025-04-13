@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 import { LuDownload } from 'react-icons/lu'
 
 const FoundationCourse = ({ course }) => {
-  console.log(course.title, 'chekc')
+  console.log(course.img , 'chekc')
   const [activeButton, setActiveButton] = useState('Admission')
   const [admission, setAdmission] = useState(false)
   const [formData, setFormData] = useState({
@@ -173,7 +173,7 @@ const FoundationCourse = ({ course }) => {
       <div className='md:h-[496px] h-[168px] order-1'>
         <img
           className='w-full h-full rounded-[16px] object-cover'
-          src='/enroll.jpg'
+          src={course?.img}
           alt=''
         />
       </div>
