@@ -55,7 +55,7 @@ const FoundationCourse = ({ course }) => {
         try {
           const response = await axios.post(
             'https://eduden.mrshakil.com/api/enroll/',
-            formData,
+            formData
           )
           setAdmission(false)
           console.log('Form submitted successfully:', response.data)
@@ -116,14 +116,36 @@ const FoundationCourse = ({ course }) => {
             </p>
           </div>
         </div>
-        <p className='text-[#FFFFFFCC] joinClanSubPara pb-[30px]'>
-          {course.para}
+        <p className='text-[#FFFFFFCC] joinClanSubPara pb-[30px] py-3'>
+          {course.crsDetails}
         </p>
+
+        {course?.eligibility?.length > 0 && (
+          <div className='border border-white rounded-xl  text-white p-5 lg:p-10 mb-16'>
+            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>Eligibility</h2>
+            <ul className='space-y-3'>
+              {course.eligibility.map((item, index) => (
+                <li key={index} className='text-base'>• {item.title}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {course?.join?.length > 0 && (
+          <div className='border border-white rounded-xl  text-white p-5 lg:p-10 mb-16'>
+            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>Who Can Join</h2>
+            <ul className='space-y-3'>
+              {course?.join.map((item, index) => (
+                <li key={index} className='text-base'>• {item.title}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className='flex flex-row gap-[16px]'>
           <button
             onClick={() => handleToogleButton('Admission')}
-            className={`px-[16px] py-[10px] md:px-[25px] md:py-[6px] rounded-[50px] CourseUi text-black ${
+            className={`px-[16px] py-[10px] lg:py-3 lg:px-6  2xl:py-3 2xl:px-14 rounded-[50px] text-lg CourseUi text-black ${
               activeButton === 'Admission'
                 ? 'bg-[#FFD300] text-black'
                 : 'bg-[#1A1A1A] text-white'
@@ -133,7 +155,7 @@ const FoundationCourse = ({ course }) => {
           </button>
           <button
             onClick={() => handleToogleButton('Seminar')}
-            className={`px-[16px] py-[10px] rounded-[50px] CourseUi text-black flex gap-1 items-center ${
+            className={`px-[16px] py-[10px] rounded-[50px] lg:py-3 lg:px-6  2xl:py-3 2xl:px-14  text-lg CourseUi text-black flex gap-2 items-center ${
               activeButton === 'Seminar'
                 ? 'bg-[#FFD300] text-[#010101]'
                 : 'bg-[#1A1A1A] text-white'

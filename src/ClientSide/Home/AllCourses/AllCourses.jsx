@@ -1,23 +1,24 @@
-import {  useState } from 'react'
+import { useState } from 'react'
 import { HiOutlineMinusSmall } from 'react-icons/hi2'
 import categories from '../../../constant/stateDummyData'
 import useFilterCategory from '../../../hooks/useFilterCategory'
 import Course from './Course'
 import AllcourseHeader from '../../../components/AllcourseHeader/AllcourseHeader'
 
-const AllCourses = ({sectionGap}) => {
+const AllCourses = ({ sectionGap }) => {
   const [categoriesList, setCategoriesList] = useState({ ...categories })
-  const initialCategories = {
-    'Show All': true,
-    'Cyber Security': false,
-    'Graphics Design': false,
-    'UI/UX Design': false,
-    'Web Development': false,
-    'Mobile App Development': false,
-    Programming: false,
-    'Ethical Hacking': false,
-    'Data Science and AI': false
-  }
+
+  // const initialCategories = {
+  //   'Show All': true,
+  //   'Cyber Security': false,
+  //   'Graphics Design': false,
+  //   'UI/UX Design': false,
+  //   'Networking': false,
+  //   'Mobile App Development': false,
+  //   Programming: false,
+  //   'Ethical Hacking': false,
+  //   'Cloud Computing': false
+  // }
   const { category: currentCategory } = useFilterCategory(categoriesList)
   const handleCategories = category => {
     if (category === currentCategory) {
@@ -25,6 +26,7 @@ const AllCourses = ({sectionGap}) => {
       return
     }
     const updateCategory = { ...categoriesList }
+    console.log(updateCategory)
 
     for (let cat in updateCategory) {
       if (cat === category) {
@@ -36,12 +38,13 @@ const AllCourses = ({sectionGap}) => {
     setCategoriesList(updateCategory)
   }
 
-
- 
-
   return (
     <div className={`${sectionGap} text-white`}>
-      <AllcourseHeader header="Popular Categories" title='All' underline='Courses' />
+      <AllcourseHeader
+        header='Popular Categories'
+        title='All'
+        underline='Courses'
+      />
 
       <div className='hidden lg:block flex  items-center flex-row lg:gap-x-[20px] lg:space-x-1 gap-x-[5px] space-x-4 space-y-4 text-white group lg:mb-[50px]'>
         <button
@@ -55,16 +58,27 @@ const AllCourses = ({sectionGap}) => {
         </button>
 
         <button
-          onClick={() => handleCategories('Data Science and AI')}
+          onClick={() => handleCategories('Graphics Design')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Data Science and AI']
+            categoriesList['Graphics Design']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Data Science and AI
+          Graphics Design
         </button>
+
+        <button
+          onClick={() => handleCategories('Programming')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['Programming'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          Programming
+        </button>
+
         <button
           onClick={() => handleCategories('Cyber Security')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300]  hover:text-[#010101]"
@@ -76,58 +90,79 @@ const AllCourses = ({sectionGap}) => {
         >
           Cyber Security
         </button>
+
         <button
-          onClick={() => handleCategories('Graphics Design')}
+          onClick={() => handleCategories('Application Development')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Graphics Design']
+            categoriesList['Application Development']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Graphics Design
+          Application Development
         </button>
         <button
-          onClick={() => handleCategories('UI/UX Design')}
+          onClick={() => handleCategories('Digital Marketing')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['UI/UX Design'] ? 'bg-[#FFD300] text-[#010101]' : ''
-          }`}
-        >
-          UI/UX Design
-        </button>
-        <button
-          onClick={() => handleCategories('Web Development')}
-          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
-          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Web Development']
+            categoriesList['Digital Marketing']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Web Development
+          Digital Marketing
         </button>
+
         <button
-          onClick={() => handleCategories('Mobile App Development')}
+          onClick={() => handleCategories('Networking')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Mobile App Development']
+            categoriesList['Networking'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          Networking
+        </button>
+
+        <button
+          onClick={() => handleCategories('Cloud Computing')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['Cloud Computing']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Mobile App Development
+          Cloud Computing
         </button>
+
         <button
-          onClick={() => handleCategories('Programming')}
+          onClick={() => handleCategories('DevOps')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Programming'] ? 'bg-[#FFD300] text-[#010101]' : ''
+            categoriesList['DevOps'] ? 'bg-[#FFD300] text-[#010101]' : ''
           }`}
         >
-          Programming
+          DevOps
         </button>
-  
+        <button
+          onClick={() => handleCategories('Linux')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['Linux'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          Linux
+        </button>
+        <button
+          onClick={() => handleCategories('IOT')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['IOT'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          IOT
+        </button>
       </div>
       <div className='mt-[35px]'>
         <Course currentCategory={currentCategory} />

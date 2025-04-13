@@ -1,13 +1,16 @@
 const categories = {
 	"Show All": true,
 	"Graphics Design": false,
-	"UI/UX Design": false,
-	"Web Development": false,
-	"Mobile App Development": false,
-	Programming: false,
+	"Digital Marketing": false,
+	"Networking": false,
+	"Application Development": false,
+	"Programming": false,
 	"Ethical Hacking": false,
 	"Cyber Security": false,
-	"Data Science and AI": false,
+	"Cloud Computing": false,
+	"DevOps": false,
+	"Linux": false,
+	"IOT": false,
 };
 
 export default categories;

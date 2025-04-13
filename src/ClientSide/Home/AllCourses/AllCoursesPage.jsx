@@ -64,16 +64,27 @@ const AllCoursesPage = ({ sectionGap }) => {
         </button>
 
         <button
-          onClick={() => handleCategories('Data Science and AI')}
+          onClick={() => handleCategories('Graphics Design')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Data Science and AI']
+            categoriesList['Graphics Design']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Data Science and AI
+          Graphics Design
         </button>
+
+        <button
+          onClick={() => handleCategories('Programming')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['Programming'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          Programming
+        </button>
+
         <button
           onClick={() => handleCategories('Cyber Security')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300]  hover:text-[#010101]"
@@ -85,57 +96,81 @@ const AllCoursesPage = ({ sectionGap }) => {
         >
           Cyber Security
         </button>
+
         <button
-          onClick={() => handleCategories('Graphics Design')}
+          onClick={() => handleCategories('Application Development')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Graphics Design']
+            categoriesList['Application Development']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Graphics Design
+          Application Development
         </button>
         <button
-          onClick={() => handleCategories('UI/UX Design')}
+          onClick={() => handleCategories('Digital Marketing')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['UI/UX Design'] ? 'bg-[#FFD300] text-[#010101]' : ''
+            categoriesList['Digital Marketing'] ? 'bg-[#FFD300] text-[#010101]' : ''
           }`}
         >
-          UI/UX Design
+          Digital Marketing
         </button>
+
         <button
-          onClick={() => handleCategories('Web Development')}
+          onClick={() => handleCategories('Networking')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Web Development']
+            categoriesList['Networking']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Web Development
+          Networking
         </button>
+
         <button
-          onClick={() => handleCategories('Mobile App Development')}
+          onClick={() => handleCategories('Cloud Computing')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Mobile App Development']
+            categoriesList['Cloud Computing']
               ? 'bg-[#FFD300] text-[#010101]'
               : ''
           }`}
         >
-          Mobile App Development
+          Cloud Computing
         </button>
+
+
         <button
-          onClick={() => handleCategories('Programming')}
+          onClick={() => handleCategories('DevOps')}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
           className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
-            categoriesList['Programming'] ? 'bg-[#FFD300] text-[#010101]' : ''
+            categoriesList['DevOps'] ? 'bg-[#FFD300] text-[#010101]' : ''
           }`}
         >
-          Programming
+          DevOps
         </button>
+        <button
+          onClick={() => handleCategories('Linux')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['Linux'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          Linux
+        </button>
+        <button
+          onClick={() => handleCategories('IOT')}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#FFD300] hover:text-[#010101]"
+          className={`allCoursesBtn  hover:bg-[#FFD300] hover:text-[#010101] ${
+            categoriesList['IOT'] ? 'bg-[#FFD300] text-[#010101]' : ''
+          }`}
+        >
+          IOT
+        </button>
+  
       </div>
       <div className='mt-[35px]'>
         <Course currentCategory={currentCategory} />

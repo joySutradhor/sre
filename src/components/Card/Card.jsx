@@ -12,7 +12,6 @@ import axios from 'axios'
 const Card = ({
   category,
   title,
-  price,
   image,
   description,
   crsDetails,
@@ -113,13 +112,13 @@ const Card = ({
   return (
     <>
       <div
-        className={`cursor-pointer w-full h-full bg-white rounded-[20px] flex flex-col gap-1  justify-between group  hover:bg-gradient-to-b from-[#FFD300]  to-[#FAB70A]  flex-grow-0 flex-shrink-0 transition-colors ease-in-out duration-500  box-borders ${
-          slider && 'h-full '
+        className={` cursor-pointer w-full h-full bg-white rounded-[20px] flex flex-col gap-1  justify-between group  hover:bg-gradient-to-b from-[#FFD300]  to-[#FAB70A]  flex-grow-0 flex-shrink-0 transition-colors ease-in-out duration-500  box-borders  ${
+          slider && 'h-full  '
         }`}
         // onClick={() => navigate("/courseDetails")}
       >
         {/* Content shown when not hovered */}
-        <div className='group-hover:hidden block transition-opacity duration-500 ease-in-out'>
+        <div className='group-hover:hidden block transition-opacity duration-500 ease-in-out  '>
           <div className='relative bg-black'>
             <img
               src={image}
@@ -156,15 +155,15 @@ const Card = ({
               <h3 className='font-gucina text-[20px] md:text-[30px] text-[#010101] font-bold'>
                 {title}
               </h3>
-              <p className='joinClanSubPara text-black mt-[6px] md:mt-[15px] font-lexend'>
-                {description}
+              <p className='joinClanSubPara text-black mt-[6px] md:mt-[15px] font-lexend line-clamp-3'>
+                {crsDetails}
               </p>
             </div>
           </div>
         </div>
 
         {/* Content shown on hover */}
-        <div className='px-[14px] md:px-[25px]  pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out'>
+        <div className='h-full px-[14px] md:px-[25px]  pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out'>
           <div>
             <div className='md:flex items-center gap-[10px] sm:gap-[30px]'>
               <p className='w-[170px] h-[36px] flex justify-center items-center bg-[#010101]  text-[14px]  leading-[16px] font-bold text-white rounded-[50px] mb-2 md:mb-auto'>

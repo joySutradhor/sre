@@ -6,10 +6,12 @@ import { useState } from 'react'
 const CurriculumTest = ({ course }) => {
   const [itemsToShow, setItemsToShow] = useState(8)
 
+  console.log(course)
+
   // Toggle between "View All" and "View Less"
   const handleToggleView = () => {
     if (itemsToShow === 8) {
-      setItemsToShow(course.curriculum.length) // Show all items
+      setItemsToShow(course.curriculum.length) 
     } else {
       setItemsToShow(8) // Show limited items
     }
@@ -25,20 +27,17 @@ const CurriculumTest = ({ course }) => {
         <p className='text-[#FFFFFF]/[.80] text-[18px] leading-[27px] font-normal pb-[10px]'>
           {course.title}
         </p>
-        <div className='flex justify-center gap-[36px]'>
-          <div className='flex items-center gap-[14px]'>
-            <img src='/xd.png' alt='' className='h-[30px] w-[30px]' />
-            <p className='text-[#FFFFFF] text-[18px] leading-[27px] font-normal font-lexend'>
-              Adobe XD
-            </p>
-          </div>
-          <div className='flex items-center gap-[14px]'>
-            <img src='/figma.png' alt='' className='h-[30px] w-[30px]' />
-            <p className='text-white text-[18px] leading-[27px] font-normal font-lexend'>
-              Figma
-            </p>
-          </div>
-        </div>
+
+        <div className='flex justify-center items-center w-full gap-x-5 mt-5'>
+        {course?.tools.map(tool => {
+          const Icon = tool.icon
+          return (
+            <div key={tool.cid} className='bg-white py-1 px-4 rounded'>
+              <Icon className='text-5xl text-black mt-1' />{' '}
+            </div>
+          )
+        })}
+      </div>
       </div>
 
       {/* Grid Section */}

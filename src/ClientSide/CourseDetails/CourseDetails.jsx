@@ -15,32 +15,36 @@ const CourseDetails = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
+  const cleanTitle = decodeURIComponent(title).trim().toLowerCase();
   const course = filterCourse.find(
-    (course) => course.title === decodeURIComponent(title)
+    (course) => course?.title.trim().toLowerCase() === cleanTitle
   );
 
-  useEffect(() => {
-    const handleCopy = e => e.preventDefault()
-    const handleCut = e => e.preventDefault()
-    const handlePaste = e => e.preventDefault()
-    const handleContextMenu = e => e.preventDefault()
-    // const handleSelectStart = e => e.preventDefault()
+  console.log(title == course?.title)
+  console.log(course?.title , "checked")
+  console.log(course , "checked")
 
-    document.addEventListener('copy', handleCopy)
-    document.addEventListener('cut', handleCut)
-    document.addEventListener('paste', handlePaste)
-    document.addEventListener('contextmenu', handleContextMenu)
-    // document.addEventListener('selectstart', handleSelectStart)
+  // useEffect(() => {
+  //   const handleCopy = e => e.preventDefault()
+  //   const handleCut = e => e.preventDefault()
+  //   const handlePaste = e => e.preventDefault()
+  //   const handleContextMenu = e => e.preventDefault()
+  //   // const handleSelectStart = e => e.preventDefault()
 
-    return () => {
-      document.removeEventListener('copy', handleCopy)
-      document.removeEventListener('cut', handleCut)
-      document.removeEventListener('paste', handlePaste)
-      document.removeEventListener('contextmenu', handleContextMenu)
-      // document.removeEventListener('selectstart', handleSelectStart)
-    }
-  }, [])
+  //   document.addEventListener('copy', handleCopy)
+  //   document.addEventListener('cut', handleCut)
+  //   document.addEventListener('paste', handlePaste)
+  //   document.addEventListener('contextmenu', handleContextMenu)
+  //   // document.addEventListener('selectstart', handleSelectStart)
+
+  //   return () => {
+  //     document.removeEventListener('copy', handleCopy)
+  //     document.removeEventListener('cut', handleCut)
+  //     document.removeEventListener('paste', handlePaste)
+  //     document.removeEventListener('contextmenu', handleContextMenu)
+  //     // document.removeEventListener('selectstart', handleSelectStart)
+  //   }
+  // }, [])
 
   return (
     <div>
