@@ -3,9 +3,10 @@ import { useState } from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import { LuDownload } from 'react-icons/lu'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const FoundationCourse = ({ course }) => {
-  console.log(course.img , 'chekc')
+  console.log(course.img, 'chekc')
   const [activeButton, setActiveButton] = useState('Admission')
   const [admission, setAdmission] = useState(false)
   const [formData, setFormData] = useState({
@@ -87,7 +88,7 @@ const FoundationCourse = ({ course }) => {
   }
 
   return (
-    <div className='sectionGap bg-[#010101] grid  xl:grid-cols-2 gap-[80px]'>
+    <div className='sectionGap bg-[#010101] grid  xl:grid-cols-2 gap-[80px] items-center '>
       <div className='order-2 xl:order-1'>
         <h1 className='text-[#FFFFFF] popularCategoryHead pb-[16px]'>
           {course.title}
@@ -122,10 +123,14 @@ const FoundationCourse = ({ course }) => {
 
         {course?.eligibility?.length > 0 && (
           <div className='border border-white rounded-xl  text-white p-5 lg:p-10 mb-16'>
-            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>Eligibility</h2>
+            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>
+              Eligibility
+            </h2>
             <ul className='space-y-3'>
               {course.eligibility.map((item, index) => (
-                <li key={index} className='text-base'>• {item.title}</li>
+                <li key={index} className='text-base'>
+                  • {item.title}
+                </li>
               ))}
             </ul>
           </div>
@@ -133,10 +138,14 @@ const FoundationCourse = ({ course }) => {
 
         {course?.join?.length > 0 && (
           <div className='border border-white rounded-xl  text-white p-5 lg:p-10 mb-16'>
-            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>Who Can Join</h2>
+            <h2 className='text-2xl font-bold mb-5 text-[#FFD300]'>
+              Who Can Join
+            </h2>
             <ul className='space-y-3'>
               {course?.join.map((item, index) => (
-                <li key={index} className='text-base'>• {item.title}</li>
+                <li key={index} className='text-base'>
+                  • {item.title}
+                </li>
               ))}
             </ul>
           </div>
@@ -170,12 +179,13 @@ const FoundationCourse = ({ course }) => {
       </div>
 
       {/* picture */}
-      <div className='md:h-[496px] h-[168px] order-1'>
-        <img
-          className='w-full h-full rounded-[16px] object-cover'
+      <div className='  order-1'>
+        <LazyLoadImage
+          className='w-full h-[280px] md:h-[90vh] rounded-[16px] object-center object-cover'
           src={course?.img}
-          alt=''
-        />
+          alt={course?.title}
+        ></LazyLoadImage>
+
       </div>
 
       {/* Admission Form */}

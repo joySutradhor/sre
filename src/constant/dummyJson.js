@@ -167,7 +167,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
     price: '$20',
     title: 'UI/UX Design for Web and Mobile for Kids',
     rating: 5,
-    image: 'url-to-image3',
+    image: 'https://ik.imagekit.io/0lnr4mwox/UI%20UX.webp?updatedAt=1744658821854',
     hoverBgColor: 'bg-green-500',
     description:
       "We're your one-stop destination for unlocking your potential and conquering the digital.",
@@ -608,14 +608,14 @@ const filterCourse = [
     off: '5%',
     title: 'Graphic Designing and Visual Communication',
     rating: 5,
-    image: '/assets/courses/front.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Graphic%20Design2.webp?updatedAt=1744658807772',
     details: {
       students: 29,
       duration: '12.5 hours'
     },
     crsDetails: `Ever looked at a cool poster, a slick logo, or an Instagram ad and thought, “I wish I could make that”? Well, now you can — and you’ll get paid for it too. This course is your launchpad into the design world, where we’ll teach you how to create scroll-stopping visuals, smart brand identities, and designs that speak louder than words.
   From the basics of color psychology to mastering Adobe Illustrator and diving into Photoshop essentials, we’ve packed this course with everything you need to become a designer people want to hire. Whether you want to freelance, build your own brand, or get into creative roles — we’ll show you how to design with purpose and confidence.`,
-    img: '/assets/courses/front.jpg',
+    img: 'https://ik.imagekit.io/0lnr4mwox/Graphic%20Desgin.webp?updatedAt=1744658807870',
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -636,7 +636,7 @@ const filterCourse = [
     off: '10%',
     title: 'UI/UX Design – Industry-Ready Hands-On Course',
     rating: 4,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/UI%20UX.webp?updatedAt=1744658821854',
 
     crsDetails: `Ever used an app and thought, “Why is this so confusing?” — or even better, “I can design this better”? That’s exactly where this course comes in. UI/UX isn’t just about making things look pretty — it’s about solving problems, designing smart user journeys, and building interfaces that feel like second nature.
 In 90 days, you’ll go from having no design experience to creating real-world projects, building case studies, and presenting your work like a pro. Whether you're aiming for a design job, planning to freelance, or want to design your own app someday — this course is built to make you industry ready.`,
@@ -682,7 +682,7 @@ In 90 days, you’ll go from having no design experience to creating real-world 
     overView:
       'This course is a complete journey into user interface and user experience design made practical, hands-on, and beginner-friendly. You will learn how to research, wireframe, design, prototype, and test interfaces across mobile apps and websites.  We’ll train you on tools like Figma, Adobe XD, Whimsical, and Notion, and guide you through real-life design challenges that simulate startup or freelance projects. Each module is project-driven, focused on design thinking, usability, aesthetics, and interaction. By the end, you will have a portfolio that screams “hire me”, and the confidence to walk into interviews or pitch to freelance clients like a pro.',
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/UIUX2.webp?updatedAt=1744658821933",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -770,7 +770,7 @@ In 90 days, you’ll go from having no design experience to creating real-world 
     off: '15%',
     title: 'Shell Scripting – 30 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Shell%20Scripting.webp?updatedAt=1744658820281',
 
     crsDetails: `Welcome to Eduden’s Shell Scripting course — a 30-day hands-on training program built for anyone who wants to master the Linux terminal, write powerful Bash scripts, and automate real tasks like a pro.
 Whether you're in cybersecurity, DevOps, IT support, or just tired of typing the same commands every day, this course teaches you how to write clean, reusable, and efficient scripts that actually get things done.
@@ -853,9 +853,9 @@ Looking for the best shell scripting course in Kolkata, India or online across W
 
     category: 'Programming',
     off: '15%',
-    title: 'Shell Scripting – 30 Days Hands-On Training',
+    title: 'Python for Offensive PenTest – 45 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/pythonforoffensive.webp?updatedAt=1744658816133',
 
     crsDetails: `Welcome to Eduden’s Python for Offensive PenTest course — a hands-on training experience where you’ll use Python not just to automate tasks, but to build your own pentesting tools, write exploits, craft payloads, and even simulate red team actions.
 This is not your average Python course. This is where you turn scripts into real power — designed specifically for ethical hackers, bug bounty hunters, red teamers, and cybersecurity students looking to level up.
@@ -917,7 +917,7 @@ If you're searching for the best Python hacking course in India to learn how to 
       { cid: 6, c: ' Automation & Post Exploitation' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/python%20for%20Offensive%20.webp?updatedAt=1744658815457",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -937,7 +937,7 @@ If you're searching for the best Python hacking course in India to learn how to 
     off: '15%',
     title: 'Web Development Basics – 45 Days Hands-On Course',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Web%20Development%20Basics.webp?updatedAt=1744658822410',
 
     crsDetails: `Welcome to Eduden’s Web Development Basics course — a fully hands-on, zero-to-hero style program that teaches you how to build modern, responsive websites using HTML, CSS, and JavaScript.
 Whether you’re planning to start freelancing, launch your own project, or take your first step toward becoming a full-stack developer, this course gives you the skills, tools, and confidence to bring your ideas to life on the web.
@@ -1002,7 +1002,7 @@ If you’re looking for the best beginner web development course in Kolkata, Wes
       { cid: 6, c: ' Automation & Post Exploitation' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/Web%20Development%20Basics2.webp?updatedAt=1744658823581",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1109,7 +1109,7 @@ If you're looking for the best WordPress and WooCommerce training in Kolkata, We
     off: '15%',
     title: 'JavaScript, React & Next.js Mastery – 90 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/JavaScript,%20React%20&%20Next.js%20Mastery.webp?updatedAt=1744658809181',
 
     crsDetails: `Welcome to Eduden’s JavaScript, React & Next.js Mastery, a 90-day immersive hands-on program built for aspiring web developers, tech entrepreneurs, and designers who want to bring ideas to life with real code.
 Start by mastering modern JavaScript, then dive into React (the world’s most popular frontend library), and finally build production-ready, SEO-optimized apps with Next.js — used by companies like Netflix, Twitch, and TikTok.`,
@@ -1176,7 +1176,7 @@ Start by mastering modern JavaScript, then dive into React (the world’s most p
       { cid: 7, c: 'Portfolio, Freelance & Monetization' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/JavaScript,%20React%20&%20Next.js%20Mastery1.webp?updatedAt=1744658811220",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1196,7 +1196,7 @@ Start by mastering modern JavaScript, then dive into React (the world’s most p
     off: '15%',
     title: ' Backend Development with Django – 60 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Backend%20Development%20with%20Django2%20_%2060%20Days%20Hands-On%20Training.webp?updatedAt=1744658790375',
 
     crsDetails: `Frontend is fun — but backend is where the magic happens.
 In this 60-day backend development course with Django by Eduden, you'll learn how to build dynamic web apps, create APIs, manage databases, handle user authentication, and launch secure backends — all with the power of Python and Django.
@@ -1263,7 +1263,7 @@ Looking for the best Django backend training in Kolkata, West Bengal, or anywher
       { cid: 6, c: 'Deployment & Project Launch' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/Backend%20Development%20with%20Django%20_%2060%20Days%20Hands-On%20Training.webp?updatedAt=1744658789649",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1283,7 +1283,7 @@ Looking for the best Django backend training in Kolkata, West Bengal, or anywher
     off: '15%',
     title: 'Backend Development with Node.js – 60 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/nodejs.webp?updatedAt=1744658814047',
 
     crsDetails: `Think JavaScript is just for the browser?
   Think again. It runs the backend too.
@@ -1354,7 +1354,7 @@ Looking for the best Django backend training in Kolkata, West Bengal, or anywher
       { cid: 6, c: 'Deployment & Final Project' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/nodejs1.webp?updatedAt=1744658813603",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1375,7 +1375,7 @@ Looking for the best Django backend training in Kolkata, West Bengal, or anywher
     title:
       'Database Mastery: SQL + NoSQL (MongoDB & MariaDB) – 45 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/dbms1.webp?updatedAt=1744658800320',
 
     crsDetails: `From relational databases to NoSQL document stores — this is the only database course you need.
   In Eduden’s Database Mastery program, you’ll go deep into SQL fundamentals, relational design, ER modeling, and advanced queries — while also getting hands-on with MongoDB and MariaDB, two of the most widely-used real-world database systems today.
@@ -1533,7 +1533,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 8, c: ' Reporting & Career Path' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/ethical%20hacking%202.webp?updatedAt=1744658805657",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1553,7 +1553,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '15%',
     title: 'Digital Forensics – 90 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-6.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/digital%20Forensics.webp?updatedAt=1744658803008',
 
     crsDetails: `In today’s world, every click leaves a trace — and someone needs to know how to find it.
   Welcome to Eduden’s Digital Forensics course, where you’ll learn how to uncover hidden data, trace cybercrimes, and recover digital evidence — all using industry-standard tools and real-world lab simulations.
@@ -1617,7 +1617,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Reporting & Chain of Custody' }
     ],
 
-    img: upCmnPic3,
+    img: "https://ik.imagekit.io/0lnr4mwox/digital%20forensics1.webp?updatedAt=1744658802751",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -1637,7 +1637,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '15%',
     title: 'Start Bug Bounty Hunting – 50 Days Hands-On Training',
     rating: 5,
-    image: 'assets/images/course-cat-7.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/bug%20bounty%202.webp?updatedAt=1744658790037',
 
     crsDetails: `Tired of watching others post screenshots of their HackerOne payouts? Ready to stop lurking and start earning? This course is your no-nonsense gateway into the world of bug bounty hunting — built for beginners, packed with tools, and taught by real bug hunters.
   At Eduden, we don’t believe in textbook security. We believe in breaking things (legally), finding vulnerabilities, and helping companies fix them — while building your skills and your wallet. If you’re looking for the best bug bounty course in India with 100% hands-on training, your search ends here.`,
@@ -1687,7 +1687,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Reporting, PoCs & Career Building' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/bug%20bounty%20hunting.webp?updatedAt=1744658790233",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -1707,7 +1707,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: 'N/A',
     title: 'Network Penetration Testing – 45 Days Hands-On Course',
     rating: 5,
-    image: 'assets/images/course-cat-1.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/npt2.webp?updatedAt=1744658813702',
 
     crsDetails: `This is not for the faint of firewalls. Welcome to Eduden’s most advanced cybersecurity course yet — built for ethical hackers, security professionals, and penetration testers who are ready to move beyond tools and into custom scripting, real-world exploitation, and network-level post-exploitation. Inspired by OSCE-style training, this program focuses on network pentesting with Python and Bash, and digs deep into exploit development, evasion, lateral movement, and report writing — all within real-world simulated environments. If you're looking for the best advanced penetration testing course in Kolkata, and you’ve already done your CEH, eJPT, or have real-world hacking experience — this course was made for you.`,
 
@@ -1755,7 +1755,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Reporting & Documentation' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/npt.webp?updatedAt=1744658813946",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -1795,7 +1795,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '18%', // Random discount between 5% and 20%
     title: 'SOC Analyst – 60 Days Hands-On Training',
     rating: 4.3, // Random rating between 4 and 5
-    image: 'assets/images/course-cat-2.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/SOC%20analyst.webp?updatedAt=1744658819727',
 
     crsDetails: `Welcome to the frontline of cyber defense. Eduden’s SOC Analyst course is your fast-track entry into the world of real-time cyber threat monitoring, alert analysis, and incident response. Built for those who want to land their first cybersecurity job or pivot into the booming Security Operations Center (SOC) industry, this course teaches you how to detect, analyze, and respond to live cyber threats. From SIEM tools like Splunk and ELK Stack to log correlation, threat hunting, and alert triage — this is a job-ready SOC analyst certification course in India that goes beyond theory. You’ll monitor real logs, investigate real attacks, and simulate daily SOC activities with professional tools and blue team workflows. If you're looking for the best SOC analyst training in Kolkata or anywhere in India, you're right where you need to be.`,
 
@@ -1842,7 +1842,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Reporting, Documentation & Career Prep' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/soc3.webp?updatedAt=1744658820220",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -1882,7 +1882,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '12%', // Random discount between 5% and 20%
     title: 'Cloud Security – 60 Days Hands-On Training',
     rating: 4.5, // Random rating between 4 and 5
-    image: 'assets/images/course-cat-3.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/cloud%20secutiy.webp?updatedAt=1744658794164',
 
     crsDetails: `Clouds aren’t just in the sky — they’re running the world. From startups to banks, every modern company is on the cloud — and someone has to secure it. That’s where you come in. This Cloud Security course by Eduden is your hands-on entry into the fast-growing field of cloud infrastructure protection. Whether you're aiming to work with AWS, Microsoft Azure, or Google Cloud, this course covers the core security services, common misconfigurations, compliance standards, and attack-defense techniques used in modern cloud environments. If you're searching for the best cloud security course in India, especially in Kolkata or West Bengal, you’re in the right place.`,
 
@@ -1930,7 +1930,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 7, c: 'Compliance & Reporting' }
     ],
 
-    img: upCmnPic3,
+    img: "https://ik.imagekit.io/0lnr4mwox/cloud%20security%202.webp?updatedAt=1744658793898",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -1970,7 +1970,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title:
       'Android Application Penetration Testing – Basics (30 Days Hands-On Course)',
     rating: 4.6, // Random rating between 4 and 5
-    image: 'assets/images/course-cat-2.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/android%20application%20penetration%20testing%201.webp?updatedAt=1744658785732',
 
     crsDetails: `Ever wondered how hackers break into mobile apps — and how to stop them? This 30-day beginner-friendly Android Application Penetration Testing course by Eduden is your entry into the world of mobile app security and ethical hacking. You’ll learn how Android apps can be reverse-engineered, how data leaks happen, and how insecure coding practices can open the door to attacks. If you're looking for the best beginner Android hacking course in India, especially in Kolkata or West Bengal, this course is made for you. No advanced coding or reverse engineering required — we start simple, and keep it hands-on from day one.`,
 
@@ -2019,7 +2019,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 5, c: 'Final Assessment & Reporting Basics' }
     ],
 
-    img: upCmnPic3,
+    img: "https://ik.imagekit.io/0lnr4mwox/android%20application%20penetration%20testing.webp?updatedAt=1744658786077",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate.',
@@ -2056,7 +2056,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     title:
       'Android Application Penetration Testing – Advanced (45 Days Hands-On Course)',
     rating: 4.8, // Random rating between 4 and 5
-    image: 'assets/images/course-cat-2.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/android%20application%20security.webp?updatedAt=1744658785739',
 
     crsDetails: `Ready to go deeper? This is where it gets real. If you’ve already completed our Android Pentesting Basics course, this Advanced Android Application Penetration Testing program is your next leap into mobile hacking mastery. You’ll learn how to bypass security mechanisms, manipulate apps at runtime, and build custom mobile exploits using powerful tools like Frida, Objection, Xposed, and more. This course is designed to push your skills beyond APK analysis — into the world of dynamic analysis, code injection, and real-time runtime attacks. If you’re serious about becoming a professional mobile app pentester, or want to enter Android bug bounty programs, this is the best advanced Android hacking course in India to get you there.`,
 
@@ -2103,7 +2103,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Final Project & Career Prep' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/android%20security%202.webp?updatedAt=1744658785797",
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 90% mark will earn a course certificate.',
@@ -2143,7 +2143,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '15%', // Random discount between 5% and 20%
     title: 'Flutter App Development – 60 Days Hands-On Training',
     rating: 4.7, // Random rating between 4 and 5
-    image: 'assets/images/course-cat-3.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/flutter%20developer.webp?updatedAt=1744658805499',
 
     crsDetails: `This 60-day hybrid course (Online or Offline at Eduden, Kolkata) is perfect for beginners to intermediate learners. You will be trained to develop cross-platform mobile applications using Flutter, covering everything from UI design and state management to working with APIs and Firebase. By the end of the course, you'll be equipped with the skills to build, deploy, and publish your own mobile apps on Android, iOS, and Web platforms.`,
 
@@ -2288,7 +2288,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '15%', // you can randomize this later if needed
     title: 'iOS App Development with Swift – 60 Days Hands-On Training',
     rating: 4.9, // high rating for premium iOS course
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/swift1.webp?updatedAt=1744658820529',
 
     crsDetails: `This 60-day hybrid training (Online & Offline at Eduden, Kolkata) equips you with hands-on experience in building beautiful, responsive, and fully functional iOS apps using Swift and Xcode. You'll go from writing your first line of Swift code to publishing an app on the App Store. Ideal for beginners or developers exploring Apple’s ecosystem.`,
 
@@ -2353,7 +2353,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 4, c: 'Advanced Features + Final Project' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/swift%20developer.webp?updatedAt=1744658820469",
 
     Certificate: 
     'Students who complete all modules, assignments, and projects with a passing score of 80% or above will receive a Certification of Completion.',
@@ -2460,7 +2460,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '10%',
     title: 'Digital Marketing Basics – 30 Days Hands-On Training',
     rating: 4.6,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%202.webp?updatedAt=1744658803876',
 
     crsDetails: `This 30-day hybrid course (Online & Offline at Eduden, Kolkata) introduces you to the core of digital marketing. Learn how to rank websites, grow social media, run ads, and send campaigns. Ideal for students, freelancers, creators, or startup founders ready to market any product, brand, or idea in the digital world.`,
 
@@ -2520,7 +2520,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Analytics, Reporting & Strategy' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%201.webp?updatedAt=1744658803059",
 
     Certificate: 
     'Students who complete all training modules, hands-on assignments, and mock campaigns will receive a digital certificate of completion from Eduden.',
@@ -2541,7 +2541,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '10%',
     title: 'SEO Mastery – 30 Days Hands-On Training',
     rating: 4.7,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/SEO1.webp?updatedAt=1744658818092',
 
     crsDetails: `A hybrid 30-day course (Online & Offline at Eduden, Kolkata) focused on ethical, high-impact SEO strategies. Learn how Google ranks content, and how to optimize websites for visibility, traffic, and conversions. Ideal for aspiring SEO experts, marketers, bloggers, and small business owners.`,
 
@@ -2600,7 +2600,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 6, c: 'Reporting, Trends & Strategy' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/SEO3.webp?updatedAt=1744658818408",
 
     Certificate: 
     'You’ll receive a digital certificate of completion from Eduden after completing all modules and submitting the final SEO site audit project.',
@@ -2621,7 +2621,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     off: '15%',
     title: 'Advanced Digital Marketing + SEO – 90 Days Hands-On Training',
     rating: 4.9,
-    image: 'assets/images/course-cat-6.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%20Advanced1.webp?updatedAt=1744658804330',
 
     crsDetails: `A comprehensive 90-day hybrid course (Online & Offline at Eduden, Kolkata) designed to transform you into a digital marketing strategist. Learn advanced techniques to rank, scale, convert, and track ROI across multiple channels, preparing you for real-world campaigns, freelance work, and job opportunities in SEO or digital marketing.`,
 
@@ -2689,7 +2689,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       { cid: 7, c: 'Analytics, Reporting & Real-World Campaigns' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%20Advanced.webp?updatedAt=1744658803844",
 
     Certificate: 
   'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -2710,7 +2710,7 @@ interview:
     off: '10%',
     title: 'Networking Zero – Foundation Course (Based on CCNA Syllabus)',
     rating: 4.8,
-    image: 'assets/images/course-cat-7.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/ccna1.webp?updatedAt=1744658790171',
 
     crsDetails: `A comprehensive 90-day hybrid course (Online & Offline at Eduden, Kolkata) designed to provide a strong foundation in computer networking. Aligned with the CCNA syllabus, this course will teach students to configure, troubleshoot, and design networks, covering everything from routers and IP addresses to VLANs and network security.`,
 
@@ -2796,7 +2796,7 @@ interview:
     off: '15%',
     title: 'Networking Advanced – Routing Mastery (CCNP + CCIE Syllabus Based)',
     rating: 4.9,
-    image: 'assets/images/course-cat-8.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/CCNP%20Routing.webp?updatedAt=1744658791174',
 
     crsDetails: `A hybrid course designed for intermediate to advanced professionals, this program dives into advanced routing concepts, preparing you for the CCNP ENCOR and CCIE Routing & Services certifications. Learn enterprise-level routing protocols such as EIGRP, OSPF, BGP, and more through practical, real-world configurations.`,
 
@@ -2862,7 +2862,7 @@ interview:
       { cid: 7, c: 'Bonus Module: Exam & Interview Prep (Optional Add-On)' }
     ],
 
-    img: upCmnPic3,
+    img: "https://ik.imagekit.io/0lnr4mwox/CCNP%20Routing.webp?updatedAt=1744658791174",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -2882,7 +2882,7 @@ interview:
     off: '15%',
     title: 'Networking Advanced – Switching Mastery (CCNP/CCIE Based)',
     rating: 4.8,
-    image: 'assets/images/course-cat-8.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/CCNP%20switching.webp?updatedAt=1744658792913',
 
     crsDetails: `Designed for intermediate to advanced professionals, this course provides the knowledge and practical skills needed to configure, troubleshoot, and optimize enterprise switching infrastructure. Covering Layer 2 and Layer 3 topics aligned with Cisco's CCNP and CCIE certifications, you will master the critical aspects of switching in real-world networks.`,
 
@@ -2950,7 +2950,7 @@ interview:
       { cid: 7, c: 'High Availability & Campus Design' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/CCNP%20switching.webp?updatedAt=1744658792913",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -2970,7 +2970,7 @@ interview:
     off: '10%',
     title: 'Cloud Computing with AWS – Fundamentals (30 Days Hands-On)',
     rating: 4.7,
-    image: 'assets/images/course-cat-8.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-1.webp?updatedAt=1744658795334',
 
     crsDetails: `This course is designed for beginners who want to understand the fundamentals of cloud computing and how AWS delivers its cloud services. Through hands-on practice and guided instruction, you will learn how to create and manage cloud infrastructure using services like EC2, S3, IAM, and more.`,
 
@@ -3036,7 +3036,7 @@ interview:
       { cid: 6, c: 'Final Project + Interview Prep' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-2.webp?updatedAt=1744658795503",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3056,7 +3056,7 @@ interview:
     off: '10%',
     title: 'Cloud Computing Architect with AWS – 90 Days Career Track',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-Architect-with-AWS-2.webp?updatedAt=1744658795559',
 
     crsDetails: `This comprehensive course is designed to help you become an AWS Cloud Architect. You will learn how to design, deploy, and manage scalable, secure, and cost-efficient cloud architectures using AWS services. The course aligns with AWS Solutions Architect Associate & Professional certifications.`,
 
@@ -3122,7 +3122,7 @@ interview:
       { cid: 6, c: 'Final Project + Certification/Interview Prep' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-Architect-with-AWS-1.webp?updatedAt=1744658793599",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3142,7 +3142,7 @@ interview:
     off: '10%',
     title: 'Cloud Computing with Azure – 45 Days Fundamentals + Projects',
     rating: 4.7,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-Azure-2.webp?updatedAt=1744658796609',
 
     crsDetails: `This course provides a thorough introduction to Microsoft Azure, covering fundamental cloud concepts and services. You will gain hands-on experience in deploying, managing, and securing cloud applications and services, preparing you for the Microsoft Azure Fundamentals (AZ-900) certification.`,
 
@@ -3207,7 +3207,7 @@ interview:
       { cid: 6, c: 'Final Project + AZ-900 Prep' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-Azure-1.webp?updatedAt=1744658796211",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -3226,7 +3226,7 @@ interview:
     off: '15%',
     title: 'CloudOps Pro – DevOps + Cloud Engineering Training (AWS + Azure)',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/CloudOps-Pro-_-DevOps-+-Cloud-Engineering-Training-(AWS-+-Azure)-2.webp?updatedAt=1744658798238',
 
     crsDetails: `This program provides learners with comprehensive DevOps and cloud engineering skills, covering the essentials of infrastructure provisioning, containerization, automation, and deploying production-ready systems on AWS and Azure. With hands-on projects and practical experience, you'll be ready for DevOps, SRE, Cloud Engineer, and Platform Engineer roles.`,
 
@@ -3290,7 +3290,7 @@ interview:
       { cid: 7, c: 'Monitoring, Logging, & Security' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/CloudOps-Pro-_-DevOps-+-Cloud-Engineering-Training-(AWS-+-Azure)-1.webp?updatedAt=1744658798008",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -3309,7 +3309,7 @@ interview:
     off: '10%',
     title: 'DevOps for Beginners – Foundation Track',
     rating: 4.7,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/devops-2.webp?updatedAt=1744658801353',
 
     crsDetails: `This course is designed to introduce you to the world of DevOps, providing you with the foundational tools and understanding to move into core DevOps roles. You'll learn essential tools like Linux, Git, GitHub, and Bash scripting, and grasp the DevOps mindset and workflows. The course prepares you for real-world DevOps tasks, with hands-on projects and practical skills.`,
 
@@ -3374,7 +3374,7 @@ interview:
       { cid: 5, c: 'DevOps Toolchain Overview' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/devops-1.webp?updatedAt=1744658800107",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3394,7 +3394,7 @@ interview:
     off: '15%',
     title: 'DevOps Mastery – 90 Days Advanced Career Track',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/DEVOPS-ADVANCE-2.webp?updatedAt=1744658802267',
 
     crsDetails: `This advanced DevOps course takes learners deep into industry-standard practices, including CI/CD, containerization, Kubernetes, Jenkins, Terraform, and more. You'll gain hands-on experience automating pipelines, managing infrastructure, and deploying applications in cloud environments like AWS, Azure, and GCP. This course prepares you for roles such as DevOps Engineer, Cloud DevOps Specialist, or Site Reliability Engineer (SRE).`,
 
@@ -3460,7 +3460,7 @@ interview:
       { cid: 8, c: 'Monitoring, Logging & Security' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/DEVOPS-ADVANCE-1.webp?updatedAt=1744658801375",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -3479,7 +3479,7 @@ interview:
     off: '10%',
     title: 'Linux Essentials – RHCE-Based Fundamentals',
     rating: 4.7,
-    image: 'assets/images/course-cat-3.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/RHCE-1.webp?updatedAt=1744658817346',
 
     crsDetails: `A foundational course aligned with RHCSA (EX200) and RHCE (EX294), designed to equip learners with essential Linux skills for system administration, DevOps, and cloud roles. From terminal navigation to user management and networking, you’ll gain hands-on experience in real-world Linux environments.`,
 
@@ -3545,7 +3545,7 @@ interview:
       { cid: 6, c: 'Shell Scripting Basics + Final Project' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/RHCE-2.webp?updatedAt=1744658817953",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3565,7 +3565,7 @@ interview:
     off: '15%',
     title: 'Linux Pro – Advanced Server Admin & Automation (RHCE Focused)',
     rating: 4.8,
-    image: 'assets/images/course-cat-3.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/adv%202.webp?updatedAt=1744658785688',
 
     crsDetails: `A comprehensive RHCE-focused course tailored for advanced Linux users and professionals. Learn to configure, secure, automate, and manage Linux servers in production environments. Includes deep dives into process management, LVM, services, and automation with Bash and Ansible.`,
 
@@ -3633,7 +3633,7 @@ interview:
       { cid: 7, c: 'Introduction to Ansible for RHCE' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/adv%201.webp?updatedAt=1744658786078",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3653,7 +3653,7 @@ interview:
     off: '10%',
     title: 'IoT Foundations – 30 Days Hands-On Learning Program',
     rating: 4.7,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/IoT-Foundations-1.webp?updatedAt=1744658808761',
 
     crsDetails: `Get started with the Internet of Things by exploring smart device communication, microcontrollers, sensors, and cloud connectivity. This beginner-friendly course walks you through hands-on projects with Arduino and ESP boards, preparing you for real-world IoT solutions.`,
 
@@ -3719,7 +3719,7 @@ interview:
       { cid: 6, c: 'Final Project + Real-World Applications' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/iot%201.webp?updatedAt=1744658808823",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -3738,7 +3738,7 @@ interview:
     off: '15%',
     title: 'Diploma in Full Stack Programming – 9 Months Career Track',
     rating: 4.9,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/fullstack1.webp?updatedAt=1744658807249',
 
     crsDetails: `A complete job-ready full stack web development program for absolute beginners to become industry-ready. Learn to build, deploy, and maintain modern web apps using React, Next.js, Django, and real-world databases.`,
 
@@ -3823,7 +3823,7 @@ interview:
     off: '10%',
     title: 'MERN Stack Developer – 6 Months Hands-On Training',
     rating: 4.8,
-    image: 'assets/images/course-cat-3.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/mern.webp?updatedAt=1744658812080',
 
     crsDetails: `Master full stack web development with JavaScript from scratch. Build dynamic apps using React, Node, Express, and MongoDB, and learn how to integrate, secure, and deploy your own full-stack projects.`,
 
@@ -3880,7 +3880,7 @@ interview:
       { cid: 6, c: 'Deployment, Hosting & DevOps Basics (2 Weeks)' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/mern1.webp?updatedAt=1744658812054",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -3900,7 +3900,7 @@ interview:
     off: '12%',
     title: 'Web3 & dApp Development – Full Stack Blockchain in 60 Days',
     rating: 3.7,
-    image: 'assets/images/course-cat-4.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/web3.webp?updatedAt=1744658823795',
 
     crsDetails: `Master the essentials of decentralized application development with this hands-on 60-day Web3 program. From Ethereum fundamentals and Solidity smart contracts to frontend dApp integration and NFT marketplaces, this course will make you proficient in building, deploying, and securing blockchain applications.`,
 
@@ -3956,7 +3956,7 @@ interview:
       { cid: 7, c: 'Final Project + dApp Deployment' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/web31.webp?updatedAt=1744658823697",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -3975,7 +3975,7 @@ interview:
     off: '15%',
     title: 'Cybersecurity Advanced – Red Team/Blue Team Career Track',
     rating: 4.9,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/redteamblueteam.webp?updatedAt=1744658817569',
 
     crsDetails: `This intensive 90-day hybrid cybersecurity program equips learners with both offensive (Red Team) and defensive (Blue Team) skills. Explore advanced hacking techniques, real-world network/web app exploits, threat detection with SIEMs, and complete SOC simulations. Ideal for learners targeting high-demand roles in ethical hacking, penetration testing, and cyber defense.`,
 
@@ -4032,7 +4032,7 @@ interview:
       { cid: 8, c: 'Blue Team Labs & SOC Simulation' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/red%20teaming%20blue%20teaming%201.webp?updatedAt=1744658816455",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4052,7 +4052,7 @@ interview:
     off: '10%',
     title: 'AI-Powered Digital Marketing – Hands-On in 60 Days',
     rating: 4.8,
-    image: 'assets/images/course-cat-6.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%20with%20AI.webp?updatedAt=1744658804205',
 
     crsDetails: `This beginner-to-intermediate digital marketing course blends the latest in performance marketing with the power of AI. Learn to launch high-performing campaigns, create AI-generated content, optimize ads and SEO, automate workflows, and build a job-ready portfolio. Perfect for freelancers, content creators, startup marketers, and students aiming to fast-track their digital journey.`,
 
@@ -4108,7 +4108,7 @@ interview:
       { cid: 7, c: 'Capstone Project & Portfolio Building' }
     ],
 
-    img: upCmnPic3,
+    img: "https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%20with%20AI2.webp?updatedAt=1744658805347",
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
   
@@ -4127,7 +4127,7 @@ interview:
     off: '10%',
     title: 'Blockchain Essentials – Learn & Build Decentralized Systems',
     rating: 4.7,
-    image: 'assets/images/course-cat-8.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-2.webp?updatedAt=1744658790657',
 
     crsDetails: `This beginner-to-intermediate blockchain course provides a solid foundation in decentralized systems and Ethereum smart contracts. Dive into cryptographic fundamentals, explore the EVM, and build dApps using Solidity and web3.js. Perfect for developers, tech enthusiasts, and aspiring Web3 entrepreneurs looking to break into the blockchain space.`,
 
@@ -4188,7 +4188,7 @@ interview:
       { cid: 6, c: 'Final Project + Certification Prep' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-1.webp?updatedAt=1744658790310",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4208,7 +4208,7 @@ interview:
     off: '10%',
     title: 'Big Data Engineering – Hadoop, Spark, Kafka Career Track',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/big-data-1.webp?updatedAt=1744658789924',
 
     crsDetails: `A comprehensive 90-day program covering the full Big Data Engineering stack. Learn to manage massive datasets using Hadoop, Spark, Kafka, Airflow, and more. Build batch and real-time data pipelines, orchestrate workflows, and deploy cloud-based solutions. Ideal for aspiring Data Engineers and DataOps professionals.`,
 
@@ -4267,7 +4267,7 @@ interview:
       { cid: 9, c: 'Final Capstone Project' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/big-data-2.webp?updatedAt=1744658789912",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4287,7 +4287,7 @@ interview:
     off: '10%',
     title: 'AI & Machine Learning with Python – 90 Days Job-Ready Career Track',
     rating: 4.9,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python-2.webp?updatedAt=1744658786039',
 
     crsDetails: `Master AI and Machine Learning using Python over 90 days. Ideal for freshers, developers, or career switchers aiming to become AI Engineers or Data Scientists. Build ML models, visualize data, and deploy AI solutions — with a portfolio of real-world projects to back your skills.`,
 
@@ -4341,7 +4341,7 @@ interview:
       { cid: 8, c: 'ML Model Deployment (Optional Add-On)' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python1.webp?updatedAt=1744658785726",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4361,7 +4361,7 @@ interview:
     off: '15%',
     title: 'Generative AI & Prompt Engineering – 45 Days Hands-On Course',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-1.webp?updatedAt=1744658807801',
 
     crsDetails: `Master the future of AI by learning how to talk to it. In just 45 days, you'll gain hands-on experience with GPT-4, Claude, Gemini, and other LLMs. Learn prompt engineering, build AI tools and chatbots, automate workflows, and design GenAI-powered content – no coding required.`,
 
@@ -4419,7 +4419,7 @@ interview:
       { cid: 6, c: 'Final Projects & Real-World Use Cases' }
     ],
 
-    img: upCmnPic2,
+    img: "https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-2.webp?updatedAt=1744658808387",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4514,7 +4514,7 @@ interview:
     title:
       'Applied AI in Healthcare, Finance & Marketing – 45 Days Industry-Focused Course',
     rating: 4.8,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Applied-AI-1.webp?updatedAt=1744658785989',
 
     crsDetails: `Master the practical side of Artificial Intelligence by solving real-world problems in healthcare diagnostics, financial fraud detection, and AI-powered marketing. This course focuses on industry-specific use cases and hands-on projects that demonstrate how AI is transforming key sectors.`,
 
@@ -4564,7 +4564,7 @@ interview:
       { cid: 4, c: 'Building & Presenting Business Projects' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Applied-AI-2.webp?updatedAt=1744658785757",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4585,7 +4585,7 @@ interview:
     title:
       'Natural Language Processing (NLP) & LLMs with Hugging Face – 60 Days Hands-On Course',
     rating: 4.9,
-    image: 'assets/images/course-cat-5.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/Natural-Language-Processing-(NLP)-&-LLMs-with-Hugging-Face.webp?updatedAt=1744658812657',
 
     crsDetails: `Learn how to teach AI to read, write, and understand human language by mastering NLP models, transformers, and building intelligent AI assistants using Hugging Face, OpenAI, and other advanced NLP tools.`,
 
@@ -4637,7 +4637,7 @@ interview:
       { cid: 6, c: 'Final Capstone Project' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/Natural-Language-Processing-(NLP)-&-LLMs-with-Hugging-Face-2.webp?updatedAt=1744658811761",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
@@ -4658,7 +4658,7 @@ interview:
     title:
       'Data Science & Analytics with Python + Power BI – 60 Days Career Track',
     rating: 4.8,
-    image: 'assets/images/course-cat-6.jpg',
+    image: 'https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(2).webp?updatedAt=1744658798729',
 
     crsDetails: `This course is built for beginners, analysts, business students, and working professionals who want to enter the world of data-driven decision making. You'll learn how to collect, clean, analyze, and visualize data using Python and Power BI, and translate your insights into powerful business actions.
 No prior coding or analytics background? No problem. This course is beginner-friendly and focused on practical applications — not just theory.`,
@@ -4719,7 +4719,7 @@ No prior coding or analytics background? No problem. This course is beginner-fri
       { cid: 6, c: 'Final Project + Reporting' }
     ],
 
-    img: upCmnPic1,
+    img: "https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(1).webp?updatedAt=1744658798175",
 
     Certificate: 
     'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',

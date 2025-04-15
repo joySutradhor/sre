@@ -7,6 +7,7 @@ import TitleContainer from '../../ClientSide/Shared/TitleContainer/TitleContaine
 import CardFotter from '../WhatsNew/CardFotter'
 import Swal from 'sweetalert2'
 import axios from 'axios'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 /* eslint-disable react/prop-types */
 const Card = ({
@@ -120,10 +121,16 @@ const Card = ({
         {/* Content shown when not hovered */}
         <div className='group-hover:hidden block transition-opacity duration-500 ease-in-out  '>
           <div className='relative bg-black'>
+            <LazyLoadImage
+            
+            src={image}
+            alt={title}
+            className='w-full rounded-t-[20px] h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover '
+            >
+
+            </LazyLoadImage>
             <img
-              src={image}
-              alt='picture'
-              className='w-full rounded-t-[20px] max-h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover '
+              
             />
             <div className='w-[80px] h-[80px] md:w-[102px] md:h-[102px] rounded-full bg-[#FAB70A] absolute bottom-0 flex items-center justify-center right-[35px] translate-y-1/2    '>
               <div className='flex flex-col w-full justify-center items-center '>
